@@ -3,10 +3,19 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+import routes from './routes.js'
+import VueRouter from 'vue-router'
+import VModal from 'vue-js-modal'
 
 require('./bootstrap');
 
 window.Vue = require('vue');
+
+Vue.use(VueRouter)
+const router = new VueRouter({
+    routes: routes
+})
+Vue.use(VModal)
 
 /**
  * The following block of code may be used to automatically register your
@@ -28,5 +37,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  */
 
 const app = new Vue({
+    router,
     el: '#app',
 });
