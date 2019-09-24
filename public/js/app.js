@@ -37413,7 +37413,7 @@ var staticRenderFns = [
             {
               staticClass:
                 "sidebar-brand d-flex align-items-center justify-content-center",
-              attrs: { href: "index.html" }
+              attrs: { href: "" }
             },
             [
               _c("div", { staticClass: "sidebar-brand-icon rotate-n-15" }, [
@@ -37429,15 +37429,11 @@ var staticRenderFns = [
           _c("hr", { staticClass: "sidebar-divider my-0" }),
           _vm._v(" "),
           _c("li", { staticClass: "nav-item active" }, [
-            _c(
-              "a",
-              { staticClass: "nav-link", attrs: { href: "index.html" } },
-              [
-                _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
-                _vm._v(" "),
-                _c("span", [_vm._v("Tentang Jobhun")])
-              ]
-            )
+            _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+              _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
+              _vm._v(" "),
+              _c("span", [_vm._v("Tentang Jobhun")])
+            ])
           ]),
           _vm._v(" "),
           _c("hr", { staticClass: "sidebar-divider" }),
@@ -37567,15 +37563,11 @@ var staticRenderFns = [
           _c("hr", { staticClass: "sidebar-divider" }),
           _vm._v(" "),
           _c("li", { staticClass: "nav-item active" }, [
-            _c(
-              "a",
-              { staticClass: "nav-link", attrs: { href: "index.html" } },
-              [
-                _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
-                _vm._v(" "),
-                _c("span", [_vm._v("Pasang LoKer")])
-              ]
-            )
+            _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+              _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
+              _vm._v(" "),
+              _c("span", [_vm._v("Pasang LoKer")])
+            ])
           ]),
           _vm._v(" "),
           _c("hr", { staticClass: "sidebar-divider d-none d-md-block" }),
@@ -50555,14 +50547,15 @@ __webpack_require__.r(__webpack_exports__);
 /*!****************************************************!*\
   !*** ./resources/js/components/partial/topbar.vue ***!
   \****************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _topbar_vue_vue_type_template_id_6587abf7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./topbar.vue?vue&type=template&id=6587abf7& */ "./resources/js/components/partial/topbar.vue?vue&type=template&id=6587abf7&");
 /* harmony import */ var _topbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./topbar.vue?vue&type=script&lang=js& */ "./resources/js/components/partial/topbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _topbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _topbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -50592,7 +50585,7 @@ component.options.__file = "resources/js/components/partial/topbar.vue"
 /*!*****************************************************************************!*\
   !*** ./resources/js/components/partial/topbar.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50627,7 +50620,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
