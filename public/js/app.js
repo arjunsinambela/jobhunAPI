@@ -37442,10 +37442,6 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("hr", { staticClass: "sidebar-divider" }),
           _vm._v(" "),
-          _c("div", { staticClass: "sidebar-heading" }, [
-            _vm._v("\n            Interface\n        ")
-          ]),
-          _vm._v(" "),
           _c("li", { staticClass: "nav-item" }, [
             _c(
               "a",
@@ -37481,35 +37477,28 @@ var staticRenderFns = [
                   "div",
                   { staticClass: "bg-white py-2 collapse-inner rounded" },
                   [
-                    _c("h6", { staticClass: "collapse-header" }, [
-                      _vm._v("Custom Components:")
-                    ]),
-                    _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "buttons.html" }
-                      },
-                      [_vm._v("Buttons")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Career Hub")]
                     ),
                     _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "cards.html" }
-                      },
-                      [_vm._v("Cards")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Academy")]
                     ),
                     _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "cards.html" }
-                      },
-                      [_vm._v("Cards2")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Media Partner")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Talent Pool")]
                     )
                   ]
                 )
@@ -37552,44 +37541,22 @@ var staticRenderFns = [
                   "div",
                   { staticClass: "bg-white py-2 collapse-inner rounded" },
                   [
-                    _c("h6", { staticClass: "collapse-header" }, [
-                      _vm._v("Custom Utilities:")
-                    ]),
-                    _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "utilities-color.html" }
-                      },
-                      [_vm._v("Colors")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Internship")]
                     ),
                     _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "utilities-border.html" }
-                      },
-                      [_vm._v("Borders")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Talks")]
                     ),
                     _vm._v(" "),
                     _c(
                       "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "utilities-animation.html" }
-                      },
-                      [_vm._v("Animations")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "a",
-                      {
-                        staticClass: "collapse-item",
-                        attrs: { href: "utilities-other.html" }
-                      },
-                      [_vm._v("Other")]
+                      { staticClass: "collapse-item", attrs: { href: "" } },
+                      [_vm._v("Jobhun Visit")]
                     )
                   ]
                 )
@@ -37598,10 +37565,6 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("hr", { staticClass: "sidebar-divider" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "sidebar-heading" }, [
-            _vm._v("\n            Addons\n        ")
-          ]),
           _vm._v(" "),
           _c("li", { staticClass: "nav-item active" }, [
             _c(

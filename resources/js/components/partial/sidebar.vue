@@ -20,11 +20,9 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-
-            <div class="sidebar-heading">
+            <!-- <div class="sidebar-heading">
                 Interface
-            </div>
+            </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -35,10 +33,11 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
-                        <a class="collapse-item" href="cards.html">Cards2</a>
+                        <!-- <h6 class="collapse-header">Custom Components:</h6> -->
+                        <a class="collapse-item" href="">Jobhun Career Hub</a>
+                        <a class="collapse-item" href="">Jobhun Academy</a>
+                        <a class="collapse-item" href="">Media Partner</a>
+                        <a class="collapse-item" href="">Jobhun Talent Pool</a>
                     </div>
                 </div>
             </li>
@@ -53,11 +52,12 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                        <!-- <h6 class="collapse-header">Custom Utilities:</h6> -->
+                        <a class="collapse-item" href="">Jobhun Internship</a>
+
+                        <a class="collapse-item" href="">Jobhun Talks</a>
+
+                        <a class="collapse-item" href="">Jobhun Visit</a>
                     </div>
                 </div>
             </li>
@@ -66,9 +66,9 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">
+            <!-- <div class="sidebar-heading">
                 Addons
-            </div>
+            </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
 
@@ -79,7 +79,7 @@
             </li>
 
             <!-- Nav Item - Charts -->
-            
+
             <!-- Nav Item - Tables -->
 
             <!-- Divider -->
