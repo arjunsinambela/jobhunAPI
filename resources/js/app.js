@@ -32,5 +32,5 @@ Vue.component('topbar-component', require('./components/partial/topbar.vue').def
  */
 
 const app = new Vue({
-    el: '#app',
+    el: '#app'
 });

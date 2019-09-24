@@ -19,7 +19,7 @@
   <link href="asset/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
-
+<div id="app">
 <body id="page-top">
 
   <!-- Page Wrapper -->
@@ -482,7 +482,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
   <script src="js/app.js"></script>
 
