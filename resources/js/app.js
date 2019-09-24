@@ -24,6 +24,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 // Partial
 Vue.component('topbar-component', require('./components/partial/topbar.vue').default);
+Vue.component('sidebar-component', require('./components/partial/sidebar.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
