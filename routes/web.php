@@ -11,14 +11,6 @@
 |
 */
 
-$router->get('/calculator', function () use ($router) {
-    return view('tes');
-});
-
 $router->get('/', function () use ($router) {
-    return view('index');
-});
-
-$router->get('/crud', function () use ($router) {
-    return view('crud');
+    return $router->app->version();
 });
