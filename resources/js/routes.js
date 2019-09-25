@@ -13,7 +13,18 @@ let routes=[
   path: '/jobhunAcademy',
   name: 'jobhunAcademy',
   component: require('./components/content/layanan/jobhunAcademy').default
+},
+{
+  path: '/jobhunMediaPatner',
+  name: 'jobhunMediaPatner',
+  component: require('./components/content/layanan/jobhunMediaPatner').default
+},
+{
+  path: '/jobhunTalentPool',
+  name: 'jobhunTalentPool',
+  component: require('./components/content/layanan/jobhunTalentPool').default
 }
+
 ];
 export default routes
 
