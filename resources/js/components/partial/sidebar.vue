@@ -75,9 +75,12 @@
             <!-- Nav Item - Pages Collapse Menu -->
 
             <li class="nav-item active">
-                <a class="nav-link" href="">
+                <router-link to="pasangLoker">
+                    <a class="nav-link" href="">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Pasang LoKer</span></a>
+                </router-link>
+                
             </li>
 
             <!-- Nav Item - Charts -->

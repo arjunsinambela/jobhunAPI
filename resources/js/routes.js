@@ -41,6 +41,12 @@ let routes=[
   component: require('./components/content/program/jobhunVisit').default
 },
 
+//pasangLoker
+{
+  path: 'pasangLoker',
+  name: 'pasangLoker',
+  component: require('./components/content/pasangLoker').default
+}
 ];
 export default routes
 
