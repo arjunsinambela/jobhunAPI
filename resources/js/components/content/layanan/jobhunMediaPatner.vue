@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>jobhun academy</p>
+        <p>jobhun media caree</p>
     </div>
 </template>
 

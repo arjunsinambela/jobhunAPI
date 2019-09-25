@@ -2,7 +2,7 @@ let routes=[
 {
   path: '/',
   name: '',
-  component: require('./components//content/Content.vue').default
+  component: require('./components/content/Content.vue').default
 },
 {
   path: '/jobhunCareerHub',
@@ -13,7 +13,18 @@ let routes=[
   path: '/jobhunAcademy',
   name: 'jobhunAcademy',
   component: require('./components/content/layanan/jobhunAcademy').default
+},
+{
+  path: '/jobhunMediaPatner',
+  name: 'jobhunMediaPatner',
+  component: require('./components/content/layanan/jobhunMediaPatner').default
+},
+{
+  path: '/jobhunTalentPool',
+  name: 'jobhunTalentPool',
+  component: require('./components/content/layanan/jobhunTalentPool').default
 }
+
 ];
 export default routes
 
