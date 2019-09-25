@@ -37686,17 +37686,10 @@ var staticRenderFns = [
         attrs: { href: "" }
       },
       [
-        _c("div", { staticClass: "sidebar-brand-icon rotate-n-15" }, [
-          _c("img", {
-            staticStyle: { width: "80px", height: "80px" },
-            attrs: {
-              src:
-                "https://jobhun.id/wp-content/uploads/2018/11/cropped-logo-jobhun-3.png",
-              alt: "",
-              srcset: ""
-            }
-          })
-        ])
+        _c("img", {
+          staticStyle: { width: "100px", height: "50px" },
+          attrs: { src: "asset/img/jobhun_putih.png", alt: "", srcset: "" }
+        })
       ]
     )
   },
