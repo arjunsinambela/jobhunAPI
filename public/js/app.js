@@ -54321,7 +54321,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [{
   path: '/',
   name: '',
-  component: __webpack_require__(/*! ./components//content/Content.vue */ "./resources/js/components/content/Content.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/Content.vue */ "./resources/js/components/content/Content.vue")["default"]
 }, {
   path: '/jobhunCareerHub',
   name: 'jobhunCareerHub',
@@ -54350,7 +54350,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
