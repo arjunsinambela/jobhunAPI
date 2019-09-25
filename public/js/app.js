@@ -1898,8 +1898,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /***/ }),
 
@@ -37687,7 +37685,7 @@ var staticRenderFns = [
       },
       [
         _c("img", {
-          staticStyle: { width: "100px", height: "50px" },
+          staticStyle: { width: "95px", height: "50px" },
           attrs: { src: "asset/img/jobhun_putih.png", alt: "", srcset: "" }
         })
       ]
