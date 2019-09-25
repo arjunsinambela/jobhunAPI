@@ -26,6 +26,10 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('topbar-component', require('./components/partial/topbar.vue').default);
 Vue.component('sidebar-component', require('./components/partial/sidebar.vue').default);
 Vue.component('footer-component', require('./components/partial/footer.vue').default);
+
+
+//Content
+Vue.component('content-component', require('./components/content.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
