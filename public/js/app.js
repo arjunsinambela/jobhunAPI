@@ -2069,20 +2069,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /***/ }),
 
@@ -37736,7 +37722,7 @@ var staticRenderFns = [
             },
             [
               _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Tentang Jobhun")
+                _vm._v("Jobhun Academy")
               ])
             ]
           ),
@@ -37794,7 +37780,7 @@ var staticRenderFns = [
             },
             [
               _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Tentang Jobhun")
+                _vm._v("Jobhun Career Hub")
               ])
             ]
           ),
@@ -37852,7 +37838,7 @@ var staticRenderFns = [
             },
             [
               _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Tentang Jobhun")
+                _vm._v("Jobhun Media Partner")
               ])
             ]
           ),
@@ -37910,7 +37896,7 @@ var staticRenderFns = [
             },
             [
               _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Tentang Jobhun")
+                _vm._v("Jobhun Talent Pool")
               ])
             ]
           ),
@@ -38122,60 +38108,8 @@ var render = function() {
                       _vm._v("Jobhun Career Hub")
                     ])
                   ]),
-                  _vm._v("\n<<<<<<< HEAD\n\n                        "),
+                  _vm._v(" "),
                   _c("router-link", { attrs: { to: "jonhunAcademy" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Academy")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunMediaPatner" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Media Partner")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunTalentPool" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Talent Pool")]
-                    )
-                  ]),
-                  _vm._v(
-                    "\n                      \n\n=======\n                        "
-                  ),
-                  _c("router-link", { attrs: { to: "jonhunAcademy" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Academy")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunMediaPatner" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Media Partner")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunTalentPool" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Talent Pool")]
-                    )
-                  ]),
-                  _vm._v(
-                    "\n>>>>>>> ee6bbae1be78b1ec55df27ccc843dbd8cd74454f\n\n                        "
-                  ),
-                  _c("router-link", { attrs: { to: "jobhunAcademy" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
