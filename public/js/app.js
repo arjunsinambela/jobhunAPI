@@ -38109,7 +38109,7 @@ var render = function() {
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jonhunAcademy" } }, [
+                  _c("router-link", { attrs: { to: "jobhunAcademy" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -54911,7 +54911,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
