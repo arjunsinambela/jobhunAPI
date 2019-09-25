@@ -4,10 +4,16 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 import VModal from 'vue-js-modal'
+import routes from './routes.js'
+import VueRouter from 'vue-router'
 
 require('./bootstrap');
 
 window.Vue = require('vue');
+Vue.use(VueRouter)
+const router = new VueRouter({
+    routes: routes
+})
 
 /**
  * The following block of code may be used to automatically register your
@@ -29,7 +35,7 @@ Vue.component('footer-component', require('./components/partial/footer.vue').def
 
 
 //Content
-Vue.component('content-component', require('./components/content.vue').default);
+// Vue.component('content-component', require('./components/content.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37,5 +43,6 @@ Vue.component('content-component', require('./components/content.vue').default);
  */
 
 const app = new Vue({
+    router,
     el: '#app'
 });

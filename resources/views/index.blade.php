@@ -59,7 +59,8 @@
                         <div class="row">
 
                             <!-- Area Chart -->
-                            <content-component></content-component>
+                            {{-- <content-component></content-component> --}}
+                            <router-view></router-view>
 
                             <!-- Pie Chart -->
                             
