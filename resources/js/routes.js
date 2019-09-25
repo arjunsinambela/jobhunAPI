@@ -23,7 +23,23 @@ let routes=[
   path: '/jobhunTalentPool',
   name: 'jobhunTalentPool',
   component: require('./components/content/layanan/jobhunTalentPool').default
-}
+},
+//program
+{
+  path: 'johbunIntership',
+  name: 'jobhunIntership',
+  component: require('./components/content/program/jobhunIntership').default
+},
+{
+  path: 'johbunTalk',
+  name: 'jobhunTalk',
+  component: require('./components/content/program/jobhunTalk').default
+},
+{
+  path: 'johbunVisit',
+  name: 'jobhunVisit',
+  component: require('./components/content/program/jobhunVisit').default
+},
 
 ];
 export default routes

@@ -34,9 +34,9 @@
                         <router-link to="jobhunCareerHub">
                             <a class="collapse-item">Jobhun Career Hub</a>
                         </router-link>
-                        <router-link to="jonhunAcademy"> <a class="collapse-item" href="">Jobhun Academy</a></router-link>
+                        <router-link to="jonhunAcademy"><a class="collapse-item" href="">Jobhun Academy</a></router-link>
                         <router-link to="jobhunMediaPatner"><a class="collapse-item" href="">Media Partner</a></router-link>
-                        <router-link to="jobhunTalentPool">  <a class="collapse-item" href="">Jobhun Talent Pool</a></router-link>
+                        <router-link to="jobhunTalentPool"><a class="collapse-item" href="">Jobhun Talent Pool</a></router-link>
                       
                     </div>
                 </div>
@@ -53,11 +53,12 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!-- <h6 class="collapse-header">Custom Utilities:</h6> -->
-                        <a class="collapse-item" href="">Jobhun Internship</a>
-
-                        <a class="collapse-item" href="">Jobhun Talks</a>
-
-                        <a class="collapse-item" href="">Jobhun Visit</a>
+                        <router-link to="jobhunIntership"> <a class="collapse-item" href="">Jobhun Internship</a></router-link>
+                       
+                       <router-link to="jobhunTalk"><a class="collapse-item" href="">Jobhun Talks</a></router-link>
+                     
+                    <router-link to="jobhunVisit"> <a class="collapse-item" href="">Jobhun Visit</a></router-link>
+                       
                     </div>
                 </div>
             </li>
