@@ -54109,7 +54109,7 @@ var routes = [{
   name: 'jobhunCareerHub',
   component: __webpack_require__(/*! ./components/jobhunCareerHub */ "./resources/js/components/jobhunCareerHub.vue")["default"]
 }];
-/* harmony default export */ __webpack_exports__["default"] = (routes);
+/* harmony default export */ __webpack_exports__["default"] = (routes); // Coba
 
 /***/ }),
 
