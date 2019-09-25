@@ -54325,19 +54325,19 @@ var routes = [{
 }, {
   path: '/jobhunCareerHub',
   name: 'jobhunCareerHub',
-  component: __webpack_require__(/*! ./components/content/layanan/jobhunCareerHub */ "./resources/js/components/content/layanan/jobhunCareerHub.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/layanan/jobhunCareerHub.vue */ "./resources/js/components/content/layanan/jobhunCareerHub.vue")["default"]
 }, {
   path: '/jobhunAcademy',
   name: 'jobhunAcademy',
-  component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy.vue */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
 }, {
   path: '/jobhunMediaPatner',
   name: 'jobhunMediaPatner',
-  component: __webpack_require__(/*! ./components/content/layanan/jobhunMediaPatner */ "./resources/js/components/content/layanan/jobhunMediaPatner.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/layanan/jobhunMediaPatner.vue */ "./resources/js/components/content/layanan/jobhunMediaPatner.vue")["default"]
 }, {
   path: '/jobhunTalentPool',
   name: 'jobhunTalentPool',
-  component: __webpack_require__(/*! ./components/content/layanan/jobhunTalentPool */ "./resources/js/components/content/layanan/jobhunTalentPool.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/layanan/jobhunTalentPool.vue */ "./resources/js/components/content/layanan/jobhunTalentPool.vue")["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (routes); // Coba
 
