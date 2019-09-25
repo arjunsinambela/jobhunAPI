@@ -1898,8 +1898,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /***/ }),
 
@@ -37687,7 +37685,7 @@ var staticRenderFns = [
       },
       [
         _c("img", {
-          staticStyle: { width: "100px", height: "50px" },
+          staticStyle: { width: "95px", height: "50px" },
           attrs: { src: "asset/img/jobhun_putih.png", alt: "", srcset: "" }
         })
       ]
@@ -53976,7 +53974,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
