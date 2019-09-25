@@ -34,12 +34,12 @@
                         <router-link to="jobhunCareerHub">
                             <a class="collapse-item">Jobhun Career Hub</a>
                         </router-link>
-<<<<<<< HEAD
+
                         <router-link to="jonhunAcademy"><a class="collapse-item" href="">Jobhun Academy</a></router-link>
                         <router-link to="jobhunMediaPatner"><a class="collapse-item" href="">Media Partner</a></router-link>
                         <router-link to="jobhunTalentPool"><a class="collapse-item" href="">Jobhun Talent Pool</a></router-link>
                       
-=======
+
 
                         <router-link to="jobhunAcademy"> <a class="collapse-item" href="">Jobhun Academy</a></router-link>
 

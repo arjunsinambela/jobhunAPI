@@ -38116,7 +38116,7 @@ var render = function() {
                       _vm._v("Jobhun Career Hub")
                     ])
                   ]),
-                  _vm._v("\n<<<<<<< HEAD\n                        "),
+                  _vm._v(" "),
                   _c("router-link", { attrs: { to: "jonhunAcademy" } }, [
                     _c(
                       "a",
@@ -38140,9 +38140,7 @@ var render = function() {
                       [_vm._v("Jobhun Talent Pool")]
                     )
                   ]),
-                  _vm._v(
-                    "\n                      \n=======\n\n                        "
-                  ),
+                  _vm._v(" "),
                   _c("router-link", { attrs: { to: "jobhunAcademy" } }, [
                     _c(
                       "a",
