@@ -53989,7 +53989,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [{
   path: '/',
   name: '',
-  component: __webpack_require__(/*! ./components//content/Content.vue */ "./resources/js/components/content/Content.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/Content.vue */ "./resources/js/components/content/Content.vue")["default"]
 }, {
   path: '/jobhunCareerHub',
   name: 'jobhunCareerHub',

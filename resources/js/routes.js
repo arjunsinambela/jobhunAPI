@@ -2,7 +2,7 @@ let routes=[
 {
   path: '/',
   name: '',
-  component: require('./components//content/Content.vue').default
+  component: require('./components/content/Content.vue').default
 },
 {
   path: '/jobhunCareerHub',
