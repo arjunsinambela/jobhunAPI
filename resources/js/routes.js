@@ -7,22 +7,22 @@ let routes=[
 {
   path: '/jobhunCareerHub',
   name: 'jobhunCareerHub',
-  component: require('./components/content/layanan/jobhunCareerHub').default
+  component: require('./components/content/layanan/jobhunCareerHub.vue').default
 },
 {
   path: '/jobhunAcademy',
   name: 'jobhunAcademy',
-  component: require('./components/content/layanan/jobhunAcademy').default
+  component: require('./components/content/layanan/jobhunAcademy.vue').default
 },
 {
   path: '/jobhunMediaPatner',
   name: 'jobhunMediaPatner',
-  component: require('./components/content/layanan/jobhunMediaPatner').default
+  component: require('./components/content/layanan/jobhunMediaPatner.vue').default
 },
 {
   path: '/jobhunTalentPool',
   name: 'jobhunTalentPool',
-  component: require('./components/content/layanan/jobhunTalentPool').default
+  component: require('./components/content/layanan/jobhunTalentPool.vue').default
 }
 
 ];
