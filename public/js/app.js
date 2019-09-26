@@ -1817,6 +1817,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37734,7 +37752,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "col-md-auto" }, [
         _c("div", { staticClass: "card shadow mb-4" }, [
           _c(
             "div",
@@ -37750,12 +37768,20 @@ var staticRenderFns = [
           ),
           _vm._v(" "),
           _c("div", { staticClass: "container" }, [
-            _c("h1", [_vm._v("Daffa Akbar")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?"
-              )
+            _c("table", { staticClass: "table" }, [
+              _c("thead", { staticClass: "thead-secondary" }, [
+                _c("tr", [
+                  _c("th", { attrs: { scope: "col" } }, [_vm._v("First")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("tbody", [
+                _c("tr", [_c("td", [_vm._v("Mark")])]),
+                _vm._v(" "),
+                _c("tr", [_c("td", [_vm._v("@fat")])]),
+                _vm._v(" "),
+                _c("tr", [_c("td", [_vm._v("@twitter")])])
+              ])
             ])
           ])
         ])
