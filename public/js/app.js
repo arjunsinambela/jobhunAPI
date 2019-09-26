@@ -38167,13 +38167,13 @@ var render = function() {
                 "div",
                 { staticClass: "bg-white py-2 collapse-inner rounded" },
                 [
-                  _c("router-link", { attrs: { to: "jobhunCareerHub" } }, [
+                  _c("router-link", { attrs: { to: "jobhun-careerHub" } }, [
                     _c("a", { staticClass: "collapse-item" }, [
                       _vm._v("Jobhun Career Hub")
                     ])
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunAcademy" } }, [
+                  _c("router-link", { attrs: { to: "jobhun-academy" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -38181,7 +38181,7 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunMediaPatner" } }, [
+                  _c("router-link", { attrs: { to: "jobhun-mediaPatner" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -38189,7 +38189,7 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunTalentPool" } }, [
+                  _c("router-link", { attrs: { to: "jobhun-talentPool" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -38221,7 +38221,7 @@ var render = function() {
                 "div",
                 { staticClass: "bg-white py-2 collapse-inner rounded" },
                 [
-                  _c("router-link", { attrs: { to: "jobhunIntership" } }, [
+                  _c("router-link", { attrs: { to: "johbun-intership" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -38229,7 +38229,7 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunTalk" } }, [
+                  _c("router-link", { attrs: { to: "johbun-talk" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -38237,7 +38237,7 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhunVisit" } }, [
+                  _c("router-link", { attrs: { to: "johbun-visit" } }, [
                     _c(
                       "a",
                       { staticClass: "collapse-item", attrs: { href: "" } },
@@ -55005,37 +55005,37 @@ var routes = [{
   name: '',
   component: __webpack_require__(/*! ./components/content/tentangJobhun.vue */ "./resources/js/components/content/tentangJobhun.vue")["default"]
 }, {
-  path: '/jobhunCareerHub',
+  path: '/jobhun-careerHub',
   name: 'jobhunCareerHub',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunCareerHub */ "./resources/js/components/content/layanan/jobhunCareerHub.vue")["default"]
 }, {
-  path: '/jobhunAcademy',
+  path: '/jobhun-academy',
   name: 'jobhunAcademy',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
 }, {
-  path: '/jobhunMediaPatner',
+  path: '/jobhun-mediaPatner',
   name: 'jobhunMediaPatner',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunMediaPatner */ "./resources/js/components/content/layanan/jobhunMediaPatner.vue")["default"]
 }, {
-  path: '/jobhunTalentPool',
+  path: '/jobhun-talentPool',
   name: 'jobhunTalentPool',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunTalentPool */ "./resources/js/components/content/layanan/jobhunTalentPool.vue")["default"]
 }, //program
 {
-  path: 'johbunIntership',
+  path: 'johbun-intership',
   name: 'jobhunIntership',
   component: __webpack_require__(/*! ./components/content/program/jobhunIntership */ "./resources/js/components/content/program/jobhunIntership.vue")["default"]
 }, {
-  path: 'johbunTalk',
+  path: 'johbun-talk',
   name: 'jobhunTalk',
   component: __webpack_require__(/*! ./components/content/program/jobhunTalk */ "./resources/js/components/content/program/jobhunTalk.vue")["default"]
 }, {
-  path: 'johbunVisit',
+  path: 'johbun-visit',
   name: 'jobhunVisit',
   component: __webpack_require__(/*! ./components/content/program/jobhunVisit */ "./resources/js/components/content/program/jobhunVisit.vue")["default"]
 }, //pasangLoker
 {
-  path: 'pasangLoker',
+  path: 'pasang-loker',
   name: 'pasangLoker',
   component: __webpack_require__(/*! ./components/content/pasangLoker */ "./resources/js/components/content/pasangLoker.vue")["default"]
 }];
@@ -55050,7 +55050,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunapi\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
