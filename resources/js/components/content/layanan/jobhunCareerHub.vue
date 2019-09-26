@@ -8,8 +8,9 @@
                 </div>
                 <!-- Card Body -->
                 <div class="container">
-                    <h1>Daffa Akbar</h1>
+                    <h1>Jobhun Career Hub</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?</p>
+                    
                 </div>
 
             </div>
