@@ -1781,6 +1781,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37744,7 +37745,7 @@ var staticRenderFns = [
           ),
           _vm._v(" "),
           _c("div", { staticClass: "container" }, [
-            _c("h1", [_vm._v("Daffa Akbar")]),
+            _c("h1", [_vm._v("Jobhun Career Hub")]),
             _vm._v(" "),
             _c("p", [
               _vm._v(
