@@ -58,7 +58,7 @@
 
                        <router-link to="jobhunTalk"><a class="collapse-item" href="">Jobhun Talks</a></router-link>
 
-                    <router-link to="jobhunVisit"> <a class="collapse-item" href="">Jobhun Visit</a></router-link>
+                    <router-link to="johbunVisit"> <a class="collapse-item" href="">Jobhun Visit</a></router-link>
 
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <i class="fas fa-users-cog"></i>
                     <span>Pasang LoKer</span></a>
                 </router-link>
-                
+
             </li>
 
             <!-- Nav Item - Charts -->
