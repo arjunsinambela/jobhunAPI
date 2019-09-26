@@ -10,7 +10,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas  fa-address-card"></i>
                     <span>Tentang Jobhun</span></a>
             </li>
 
@@ -25,7 +25,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
+                    <i class="fas fa-tasks"></i>
                     <span>Layanan</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -47,7 +47,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
+                    <i class="fas fa-handshake"></i>
                     <span>Program</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
@@ -77,7 +77,7 @@
             <li class="nav-item active">
                 <router-link to="pasangLoker">
                     <a class="nav-link" href="">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-users-cog"></i>
                     <span>Pasang LoKer</span></a>
                 </router-link>
                 

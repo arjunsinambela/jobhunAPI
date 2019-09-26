@@ -1721,39 +1721,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/Content.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/Content.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/layanan/jobhunAcademy.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/layanan/jobhunAcademy.vue?vue&type=script&lang=js& ***!
@@ -1949,6 +1916,42 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -37644,74 +37647,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8& ***!
-  \******************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "card shadow mb-4" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("br"),
-          _vm._v(" "),
-          _c(
-            "h3",
-            [
-              _c("center", [
-                _vm._v("Jobhun – Career Development Platform for Millenials")
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              " Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent."
-            )
-          ])
-        ])
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-      },
-      [
-        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-          _vm._v("Tentang Jobhun")
-        ])
-      ]
-    )
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/layanan/jobhunAcademy.vue?vue&type=template&id=14291a74&":
 /*!********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/layanan/jobhunAcademy.vue?vue&type=template&id=14291a74& ***!
@@ -38068,6 +38003,82 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "card shadow mb-4" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "h3",
+            [
+              _c("center", [
+                _vm._v("Jobhun – Career Development Platform for Millenials")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("p", { staticStyle: { "text-align": "justify" } }, [
+            _vm._v(
+              "     Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent."
+            )
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("p", { staticStyle: { "text-align": "justify" } }, [
+            _vm._v(
+              "     Selain itu, Jobhun juga memiliki beragam program pendukung yang bisa mendukung karier dan skill masyarakat, seperti program magang, talks, hingga visitasi ke perusahaan-perusahaan. Seluruh upaya tersebut kami lakukan untuk mencapai sebuah misi, yaitu mengurangi angka pengangguran di Indonesia. Tak hanya itu saja, kami juga menyediakan berbagai artikel, berita, maupun informasi acara yang dapat menunjang karier para Jobhuners (Sebutan untuk followers Jobhun). Penggunaan situs ini juga dibuat sangat sederhana, sehingga pengguna tidak akan kesulitan saat menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’."
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
+      },
+      [
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Tentang Jobhun")
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/partial/footer.vue?vue&type=template&id=60a5dc74&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/partial/footer.vue?vue&type=template&id=60a5dc74& ***!
@@ -38249,7 +38260,7 @@ var render = function() {
           [
             _c("router-link", { attrs: { to: "pasangLoker" } }, [
               _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-                _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
+                _c("i", { staticClass: "fas fa-users-cog" }),
                 _vm._v(" "),
                 _c("span", [_vm._v("Pasang LoKer")])
               ])
@@ -38291,7 +38302,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("li", { staticClass: "nav-item active" }, [
       _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-        _c("i", { staticClass: "fas fa-fw fa-tachometer-alt" }),
+        _c("i", { staticClass: "fas  fa-address-card" }),
         _vm._v(" "),
         _c("span", [_vm._v("Tentang Jobhun")])
       ])
@@ -38314,7 +38325,7 @@ var staticRenderFns = [
         }
       },
       [
-        _c("i", { staticClass: "fas fa-fw fa-cog" }),
+        _c("i", { staticClass: "fas fa-tasks" }),
         _vm._v(" "),
         _c("span", [_vm._v("Layanan")])
       ]
@@ -38337,7 +38348,7 @@ var staticRenderFns = [
         }
       },
       [
-        _c("i", { staticClass: "fas fa-fw fa-wrench" }),
+        _c("i", { staticClass: "fas fa-handshake" }),
         _vm._v(" "),
         _c("span", [_vm._v("Program")])
       ]
@@ -54150,75 +54161,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/content/Content.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/content/Content.vue ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Content.vue?vue&type=template&id=520cdfc8& */ "./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8&");
-/* harmony import */ var _Content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Content.vue?vue&type=script&lang=js& */ "./resources/js/components/content/Content.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/content/Content.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/content/Content.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/content/Content.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Content.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/Content.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Content_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8& ***!
-  \************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Content.vue?vue&type=template&id=520cdfc8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/Content.vue?vue&type=template&id=520cdfc8&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Content_vue_vue_type_template_id_520cdfc8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
 /***/ "./resources/js/components/content/layanan/jobhunAcademy.vue":
 /*!*******************************************************************!*\
   !*** ./resources/js/components/content/layanan/jobhunAcademy.vue ***!
@@ -54771,6 +54713,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/content/tentangJobhun.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/content/tentangJobhun.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tentangJobhun.vue?vue&type=template&id=32a10fb6& */ "./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6&");
+/* harmony import */ var _tentangJobhun_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tentangJobhun.vue?vue&type=script&lang=js& */ "./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _tentangJobhun_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/content/tentangJobhun.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tentangJobhun_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./tentangJobhun.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_tentangJobhun_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./tentangJobhun.vue?vue&type=template&id=32a10fb6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_tentangJobhun_vue_vue_type_template_id_32a10fb6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/partial/footer.vue":
 /*!****************************************************!*\
   !*** ./resources/js/components/partial/footer.vue ***!
@@ -54993,7 +55004,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [{
   path: '/',
   name: '',
-  component: __webpack_require__(/*! ./components/content/Content.vue */ "./resources/js/components/content/Content.vue")["default"]
+  component: __webpack_require__(/*! ./components/content/tentangJobhun.vue */ "./resources/js/components/content/tentangJobhun.vue")["default"]
 }, {
   path: '/jobhunCareerHub',
   name: 'jobhunCareerHub',
