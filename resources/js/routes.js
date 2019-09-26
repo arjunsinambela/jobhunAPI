@@ -26,24 +26,24 @@ let routes=[
 },
 //program
 {
-  path: 'johbun-intership',
+  path: '/johbun-intership',
   name: 'jobhunIntership',
   component: require('./components/content/program/jobhunIntership').default
 },
 {
-  path: 'johbun-talk',
+  path: '/johbun-talk',
   name: 'jobhunTalk',
   component: require('./components/content/program/jobhunTalk').default
 },
 {
-  path: 'johbun-visit',
+  path: '/johbun-visit',
   name: 'jobhunVisit',
   component: require('./components/content/program/jobhunVisit').default
 },
 
 //pasangLoker
 {
-  path: 'pasang-loker',
+  path: '/pasang-loker',
   name: 'pasangLoker',
   component: require('./components/content/pasangLoker').default
 }
