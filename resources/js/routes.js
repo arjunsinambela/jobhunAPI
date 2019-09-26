@@ -25,21 +25,6 @@ let routes=[
   component: require('./components/content/layanan/jobhunTalentPool').default
 },
 //program
-{
-  path: '/johbun-intership',
-  name: 'jobhunIntership',
-  component: require('./components/content/program/jobhunIntership').default
-},
-{
-  path: '/johbun-talk',
-  name: 'jobhunTalk',
-  component: require('./components/content/program/jobhunTalk').default
-},
-{
-  path: 'johbunVisit',
-  name: '',
-  component: require('./components/content/program/jobhunVisit.vue').default
-},
 
 //pasangLoker
 {

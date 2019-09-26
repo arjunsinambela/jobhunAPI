@@ -44,25 +44,7 @@
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-handshake"></i>
-                    <span>Program</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <!-- <h6 class="collapse-header">Custom Utilities:</h6> -->
-                        <router-link to="johbun-intership"> <a class="collapse-item" href="">Jobhun Internship</a></router-link>
-
-                       <router-link to="johbun-talk"><a class="collapse-item" href="">Jobhun Talks</a></router-link>
-
-                    <router-link to="johbun-visit"> <a class="collapse-item" href="">Jobhun Visit</a></router-link>
-
-                    </div>
-                </div>
-            </li>
+        
 
             <!-- Divider -->
             <hr class="sidebar-divider">

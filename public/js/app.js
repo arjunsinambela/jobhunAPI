@@ -1872,77 +1872,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/tentangJobhun.vue?vue&type=script&lang=js& ***!
@@ -2034,24 +1963,6 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -37947,130 +37858,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590&":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590& ***!
-  \**********************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("p", [_vm._v("jobhun Intersiip")])])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288&":
-/*!*****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288& ***!
-  \*****************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("p", [_vm._v("jobhunTalk")])])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a& ***!
-  \******************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "card shadow mb-4" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("br"),
-          _vm._v(" "),
-          _c(
-            "h4",
-            [
-              _c("center", [
-                _vm._v("Jobhun – Career Development Platform for Millenials")
-              ])
-            ],
-            1
-          )
-        ])
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-      },
-      [
-        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-          _vm._v("Tentang Jobhun")
-        ])
-      ]
-    )
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6&":
 /*!************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/tentangJobhun.vue?vue&type=template&id=32a10fb6& ***!
@@ -38380,54 +38167,6 @@ var render = function() {
           )
         ]),
         _vm._v(" "),
-        _c("li", { staticClass: "nav-item" }, [
-          _vm._m(3),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse",
-              attrs: {
-                id: "collapseUtilities",
-                "aria-labelledby": "headingUtilities",
-                "data-parent": "#accordionSidebar"
-              }
-            },
-            [
-              _c(
-                "div",
-                { staticClass: "bg-white py-2 collapse-inner rounded" },
-                [
-                  _c("router-link", { attrs: { to: "johbun-intership" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Internship")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "johbun-talk" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Talks")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "johbun-visit" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Visit")]
-                    )
-                  ])
-                ],
-                1
-              )
-            ]
-          )
-        ]),
-        _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider" }),
         _vm._v(" "),
         _c(
@@ -38447,7 +38186,7 @@ var render = function() {
         _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider d-none d-md-block" }),
         _vm._v(" "),
-        _vm._m(4)
+        _vm._m(3)
       ]
     )
   ])
@@ -38504,29 +38243,6 @@ var staticRenderFns = [
         _c("i", { staticClass: "fas fa-tasks" }),
         _vm._v(" "),
         _c("span", [_vm._v("Layanan")])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      {
-        staticClass: "nav-link collapsed",
-        attrs: {
-          href: "#",
-          "data-toggle": "collapse",
-          "data-target": "#collapseUtilities",
-          "aria-expanded": "true",
-          "aria-controls": "collapseUtilities"
-        }
-      },
-      [
-        _c("i", { staticClass: "fas fa-handshake" }),
-        _vm._v(" "),
-        _c("span", [_vm._v("Program")])
       ]
     )
   },
@@ -54682,213 +54398,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/content/program/jobhunIntership.vue":
-/*!*********************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunIntership.vue ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jobhunIntership.vue?vue&type=template&id=ace4d590& */ "./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590&");
-/* harmony import */ var _jobhunIntership_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jobhunIntership.vue?vue&type=script&lang=js& */ "./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _jobhunIntership_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/content/program/jobhunIntership.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunIntership_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunIntership.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunIntership.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunIntership_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590& ***!
-  \****************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunIntership.vue?vue&type=template&id=ace4d590& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunIntership.vue?vue&type=template&id=ace4d590&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunIntership_vue_vue_type_template_id_ace4d590___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunTalk.vue":
-/*!****************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunTalk.vue ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jobhunTalk.vue?vue&type=template&id=941ac288& */ "./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288&");
-/* harmony import */ var _jobhunTalk_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jobhunTalk.vue?vue&type=script&lang=js& */ "./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _jobhunTalk_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/content/program/jobhunTalk.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalk_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunTalk.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunTalk.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalk_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288& ***!
-  \***********************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunTalk.vue?vue&type=template&id=941ac288& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunTalk.vue?vue&type=template&id=941ac288&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalk_vue_vue_type_template_id_941ac288___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunVisit.vue":
-/*!*****************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunVisit.vue ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./jobhunVisit.vue?vue&type=template&id=3ae1b82a& */ "./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a&");
-/* harmony import */ var _jobhunVisit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./jobhunVisit.vue?vue&type=script&lang=js& */ "./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _jobhunVisit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/content/program/jobhunVisit.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunVisit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunVisit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunVisit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunVisit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a& ***!
-  \************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./jobhunVisit.vue?vue&type=template&id=3ae1b82a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/program/jobhunVisit.vue?vue&type=template&id=3ae1b82a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunVisit_vue_vue_type_template_id_3ae1b82a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
 /***/ "./resources/js/components/content/tentangJobhun.vue":
 /*!***********************************************************!*\
   !*** ./resources/js/components/content/tentangJobhun.vue ***!
@@ -55198,19 +54707,7 @@ var routes = [{
   name: 'jobhunTalentPool',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunTalentPool */ "./resources/js/components/content/layanan/jobhunTalentPool.vue")["default"]
 }, //program
-{
-  path: '/johbun-intership',
-  name: 'jobhunIntership',
-  component: __webpack_require__(/*! ./components/content/program/jobhunIntership */ "./resources/js/components/content/program/jobhunIntership.vue")["default"]
-}, {
-  path: '/johbun-talk',
-  name: 'jobhunTalk',
-  component: __webpack_require__(/*! ./components/content/program/jobhunTalk */ "./resources/js/components/content/program/jobhunTalk.vue")["default"]
-}, {
-  path: 'johbunVisit',
-  name: '',
-  component: __webpack_require__(/*! ./components/content/program/jobhunVisit.vue */ "./resources/js/components/content/program/jobhunVisit.vue")["default"]
-}, //pasangLoker
+//pasangLoker
 {
   path: '/pasang-loker',
   name: 'pasangLoker',
