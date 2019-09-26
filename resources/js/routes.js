@@ -5,33 +5,33 @@ let routes=[
   component: require('./components/content/tentangJobhun.vue').default
 },
 {
-  path: '/jobhunCareerHub',
+  path: '/jobhun-careerHub',
   name: 'jobhunCareerHub',
   component: require('./components/content/layanan/jobhunCareerHub').default
 },
 {
-  path: '/jobhunAcademy',
+  path: '/jobhun-academy',
   name: 'jobhunAcademy',
   component: require('./components/content/layanan/jobhunAcademy').default
 },
 {
-  path: '/jobhunMediaPatner',
+  path: '/jobhun-mediaPatner',
   name: 'jobhunMediaPatner',
   component: require('./components/content/layanan/jobhunMediaPatner').default
 },
 {
-  path: '/jobhunTalentPool',
+  path: '/jobhun-talentPool',
   name: 'jobhunTalentPool',
   component: require('./components/content/layanan/jobhunTalentPool').default
 },
 //program
 {
-  path: 'johbunIntership',
+  path: '/johbun-intership',
   name: 'jobhunIntership',
   component: require('./components/content/program/jobhunIntership').default
 },
 {
-  path: 'johbunTalk',
+  path: '/johbun-talk',
   name: 'jobhunTalk',
   component: require('./components/content/program/jobhunTalk').default
 },
@@ -43,7 +43,7 @@ let routes=[
 
 //pasangLoker
 {
-  path: 'pasangLoker',
+  path: '/pasang-loker',
   name: 'pasangLoker',
   component: require('./components/content/pasangLoker').default
 }
