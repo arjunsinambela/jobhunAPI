@@ -1781,6 +1781,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1934,6 +1935,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -37743,7 +37745,7 @@ var staticRenderFns = [
           ),
           _vm._v(" "),
           _c("div", { staticClass: "container" }, [
-            _c("h1", [_vm._v("Daffa Akbar")]),
+            _c("h1", [_vm._v("Jobhun Career Hub")]),
             _vm._v(" "),
             _c("p", [
               _vm._v(
@@ -38047,7 +38049,11 @@ var render = function() {
             _vm._v(
               "     Selain itu, Jobhun juga memiliki beragam program pendukung yang bisa mendukung karier dan skill masyarakat, seperti program magang, talks, hingga visitasi ke perusahaan-perusahaan. Seluruh upaya tersebut kami lakukan untuk mencapai sebuah misi, yaitu mengurangi angka pengangguran di Indonesia. Tak hanya itu saja, kami juga menyediakan berbagai artikel, berita, maupun informasi acara yang dapat menunjang karier para Jobhuners (Sebutan untuk followers Jobhun). Penggunaan situs ini juga dibuat sangat sederhana, sehingga pengguna tidak akan kesulitan saat menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’."
             )
-          ])
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("h3", [_vm._v("Visi Jobhun")])
         ])
       ])
     ])
