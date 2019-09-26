@@ -1,5 +1,7 @@
 <template>
     <div>
+        <div class="row">
+
         <div class="col-md-12">
             <div class="card shadow mb-4">
                                     <!-- Card Header - Dropdown -->
@@ -9,11 +11,12 @@
                 <!-- Card Body -->
                 <div class="container">
                     <h1>Jobhun Career Hub</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?</p> -->
                     
                 </div>
 
             </div>
+        </div>
         </div>
     </div>
 </template>

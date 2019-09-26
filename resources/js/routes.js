@@ -37,8 +37,8 @@ let routes=[
 },
 {
   path: 'johbunVisit',
-  name: 'jobhunVisit',
-  component: require('./components/content/program/jobhunVisit').default
+  name: '',
+  component: require('./components/content/program/jobhunVisit.vue').default
 },
 
 //pasangLoker
