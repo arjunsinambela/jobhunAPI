@@ -12,7 +12,7 @@
                                 <li>Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun</li>
                                 <li>Berlaku untuk 1 posisi pekerjaan</li>
                             </ol>
-                    <router-link to="formMediaPartner"><button type="button" class="btn btn-secondary btn-lg btn-block">Posting Loker</button></router-link>
+                    <router-link to="carrerHubReg"><button type="button" class="btn btn-secondary btn-lg btn-block">Posting Loker</button></router-link>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                             <li>Perusahaan akan mendapatkan laporan calon pekerja yang telah dipilih oleh tim Jobhun maksimal 2 minggu setelah penayangan lowongan kerja</li>
                             <li>Seleksi yang dilakukan oleh tim Jobhun berdasarkan CV, portfolio, dan dokumen-dokumen lainnya yang dikirimkan oleh para kandidat. Selanjutnya, perusahaan yang akan melakukan interview maupun psikotes kepada calon pekerja.</li>
                         </ol>                        
-                        <router-link to="formMediaPartner"><button type="button" class="btn btn-success btn-lg btn-block">Posting Loker</button></router-link>
+                        <router-link to="carrerHubPrem"><button type="button" class="btn btn-success btn-lg btn-block">Posting Loker</button></router-link>
                     </div>
                 </div>
             </div>

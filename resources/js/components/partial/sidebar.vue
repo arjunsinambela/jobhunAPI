@@ -57,7 +57,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
 
             <li class="nav-item active">
-                <router-link to="pasangLoker">
+                <router-link to="pasang-loker">
                     <a class="nav-link" href="">
                     <i class="fas fa-users-cog"></i>
                     <span>Pasang LoKer</span></a>

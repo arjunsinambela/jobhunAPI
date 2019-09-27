@@ -36,6 +36,16 @@ let routes=[
   path: '/pasang-loker',
   name: 'pasangLoker',
   component: require('./components/content/pasangLoker').default
+},
+{
+  path: '/carrerHubPrem',
+  name: 'Carrerhubpremium',
+  component: require('./components/content/carrerHubPrem').default
+},
+{
+  path: '/carrerHubReg',
+  name: 'carrerHubReg',
+  component: require('./components/content/carrerHubReg').default
 }
 ];
 export default routes
