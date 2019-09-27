@@ -38047,10 +38047,14 @@ var staticRenderFns = [
                     _c(
                       "button",
                       {
-                        staticClass: "btn btn-outline-dark",
+                        staticClass: "btn btn-primary",
                         attrs: { type: "button" }
                       },
-                      [_vm._v("Search")]
+                      [
+                        _c("i", { staticClass: "fa fa-search" }, [
+                          _vm._v(" Search")
+                        ])
+                      ]
                     )
                   ])
                 ])

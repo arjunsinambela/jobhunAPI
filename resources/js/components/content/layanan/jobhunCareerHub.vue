@@ -34,7 +34,7 @@
                             </select>
                         </div>
                         <div class="col-md-3">
-                          <button type="button" class="btn btn-outline-dark">Search</button>
+                          <button type="button" class="btn btn-primary"><i class="fa fa-search"> Search</i></button>
                         </div>
                     </div>
                 </form>
