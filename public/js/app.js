@@ -37752,7 +37752,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("div", { staticClass: "col-md-auto" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "card shadow mb-4" }, [
           _c(
             "div",
