@@ -3,17 +3,16 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="card bg-light mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Media Partner FREE</div>
+                    <div class="card-header">Jobhun Career Hub Regular</div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Rp 0,-</h5>
+                        <h5 class="card-title text-center">Rp 50.000,-</h5>
                         <hr>
                              <ol style="text-align:justify;">
-                                <li>Bersifat full barter</li>
-                                <li>Berkewajiban memasang logo Jobhun di seluruh media promosi acara</li>
-                                <li>Poster acara akan diposting di website, feed Instagram, dan Instagram Story Jobhun sebanyak 1 kali.</li>
-                                <li>Press release sebelum acara akan diposting di website Jobhun</li>
+                                <li>Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)</li>
+                                <li>Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun</li>
+                                <li>Berlaku untuk 1 posisi pekerjaan</li>
                             </ol>
-                    <router-link to="formMediaPartner"><button type="button" class="btn btn-secondary btn-lg btn-block">Daftar</button></router-link>
+                    <router-link to="formMediaPartner"><button type="button" class="btn btn-secondary btn-lg btn-block">Posting Loker</button></router-link>
                     </div>
                 </div>
             </div>
@@ -21,16 +20,17 @@
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                     <div class="card-header bg-primary">Media Partner PREMIUM</div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Rp 100.000,-</h5>
+                        <h5 class="card-title text-center">Rp 200.000,- (PROMO)</h5>
                         <hr class="bg-white">
                         <ol style="text-align:justify;">
-                            <li>Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. Namun hal ini tidak bersifat wajib.</li>
-                            <li>Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun sebanyak 1 kali.</li>
-                            <li>Press release sebelum acara akan diposting di website Jobhun</li>
-                            <li>Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna).</li>
-                            <li>Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun.</li>
+                            <li>Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)</li>
+                            <li>Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun</li>
+                            <li>Berlaku untuk 2 posisi pekerjaan</li>
+                            <li>Tim Jobhun akan menyeleksi secara langsung kandidat yang melamar, sehingga perusahaan bisa menghemat waktu untuk melewati proses seleksi berkas</li>
+                            <li>Perusahaan akan mendapatkan laporan calon pekerja yang telah dipilih oleh tim Jobhun maksimal 2 minggu setelah penayangan lowongan kerja</li>
+                            <li>Seleksi yang dilakukan oleh tim Jobhun berdasarkan CV, portfolio, dan dokumen-dokumen lainnya yang dikirimkan oleh para kandidat. Selanjutnya, perusahaan yang akan melakukan interview maupun psikotes kepada calon pekerja.</li>
                         </ol>                        
-                        <router-link to="formMediaPartner"><button type="button" class="btn btn-success btn-lg btn-block">Daftar</button></router-link>
+                        <router-link to="formMediaPartner"><button type="button" class="btn btn-success btn-lg btn-block">Posting Loker</button></router-link>
                     </div>
                 </div>
             </div>

@@ -38645,7 +38645,7 @@ var render = function() {
           },
           [
             _c("div", { staticClass: "card-header" }, [
-              _vm._v("Media Partner FREE")
+              _vm._v("Jobhun Career Hub Regular")
             ]),
             _vm._v(" "),
             _c(
@@ -38653,7 +38653,7 @@ var render = function() {
               { staticClass: "card-body" },
               [
                 _c("h5", { staticClass: "card-title text-center" }, [
-                  _vm._v("Rp 0,-")
+                  _vm._v("Rp 50.000,-")
                 ]),
                 _vm._v(" "),
                 _c("hr"),
@@ -38667,7 +38667,7 @@ var render = function() {
                       staticClass: "btn btn-secondary btn-lg btn-block",
                       attrs: { type: "button" }
                     },
-                    [_vm._v("Daftar")]
+                    [_vm._v("Posting Loker")]
                   )
                 ])
               ],
@@ -38694,7 +38694,7 @@ var render = function() {
               { staticClass: "card-body" },
               [
                 _c("h5", { staticClass: "card-title text-center" }, [
-                  _vm._v("Rp 100.000,-")
+                  _vm._v("Rp 200.000,- (PROMO)")
                 ]),
                 _vm._v(" "),
                 _c("hr", { staticClass: "bg-white" }),
@@ -38708,7 +38708,7 @@ var render = function() {
                       staticClass: "btn btn-success btn-lg btn-block",
                       attrs: { type: "button" }
                     },
-                    [_vm._v("Daftar")]
+                    [_vm._v("Posting Loker")]
                   )
                 ])
               ],
@@ -38726,23 +38726,19 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("ol", { staticStyle: { "text-align": "justify" } }, [
-      _c("li", [_vm._v("Bersifat full barter")]),
-      _vm._v(" "),
       _c("li", [
         _vm._v(
-          "Berkewajiban memasang logo Jobhun di seluruh media promosi acara"
+          "Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)"
         )
       ]),
       _vm._v(" "),
       _c("li", [
         _vm._v(
-          "Poster acara akan diposting di website, feed Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
+          "Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun"
         )
       ]),
       _vm._v(" "),
-      _c("li", [
-        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
-      ])
+      _c("li", [_vm._v("Berlaku untuk 1 posisi pekerjaan")])
     ])
   },
   function() {
@@ -38752,29 +38748,33 @@ var staticRenderFns = [
     return _c("ol", { staticStyle: { "text-align": "justify" } }, [
       _c("li", [
         _vm._v(
-          "Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. Namun hal ini tidak bersifat wajib."
+          "Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)"
         )
       ]),
       _vm._v(" "),
       _c("li", [
         _vm._v(
-          "Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
+          "Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun"
         )
       ]),
       _vm._v(" "),
-      _c("li", [
-        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
-      ]),
+      _c("li", [_vm._v("Berlaku untuk 2 posisi pekerjaan")]),
       _vm._v(" "),
       _c("li", [
         _vm._v(
-          "Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna)."
+          "Tim Jobhun akan menyeleksi secara langsung kandidat yang melamar, sehingga perusahaan bisa menghemat waktu untuk melewati proses seleksi berkas"
         )
       ]),
       _vm._v(" "),
       _c("li", [
         _vm._v(
-          "Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun."
+          "Perusahaan akan mendapatkan laporan calon pekerja yang telah dipilih oleh tim Jobhun maksimal 2 minggu setelah penayangan lowongan kerja"
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Seleksi yang dilakukan oleh tim Jobhun berdasarkan CV, portfolio, dan dokumen-dokumen lainnya yang dikirimkan oleh para kandidat. Selanjutnya, perusahaan yang akan melakukan interview maupun psikotes kepada calon pekerja."
         )
       ])
     ])
