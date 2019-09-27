@@ -20,6 +20,11 @@ let routes=[
   component: require('./components/content/layanan/jobhunMediaPatner').default
 },
 {
+  path: '/formMediaPartner',
+  name: 'formMediaPatner',
+  component: require('./components/content/layanan/formMediaPartner').default
+},
+{
   path: '/jobhun-talentPool',
   name: 'jobhunTalentPool',
   component: require('./components/content/layanan/jobhunTalentPool').default
