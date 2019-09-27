@@ -3,19 +3,19 @@
         <div class="col-md-12">
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">Formulir Kerja Sama Media Partner</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Jobhun Talent Pool</h6>
                 </div>
                 <div class="container">
                     <br>
                     <form>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nama lengkap</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Fullname">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Alamat email</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Email">
                         </div>
                         <div class="form-group">
@@ -25,12 +25,12 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nomor telepon/HP</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="+63">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Berapa usiamu saat ini?</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder=" ">
                         </div>
                         <div class="form-group">

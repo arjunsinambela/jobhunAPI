@@ -1790,7 +1790,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37839,7 +37838,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "email",
+                    type: "text",
                     id: "exampleFormControlInput1",
                     placeholder: "Startup Indonesia"
                   }
@@ -37849,7 +37848,16 @@ var staticRenderFns = [
               _c("div", { staticClass: "form-group" }, [
                 _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
                   _vm._v("Tanggal pelaksanaan")
-                ])
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "date",
+                    id: "exampleFormControlInput1",
+                    placeholder: "Startup Indonesia"
+                  }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "form-group" }, [
@@ -37860,7 +37868,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "email",
+                    type: "text",
                     id: "exampleFormControlInput1",
                     placeholder: "Penyelenggara"
                   }
@@ -38343,7 +38351,7 @@ var staticRenderFns = [
             },
             [
               _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Formulir Kerja Sama Media Partner")
+                _vm._v("Jobhun Talent Pool")
               ])
             ]
           ),
@@ -38360,7 +38368,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "email",
+                    type: "text",
                     id: "exampleFormControlInput1",
                     placeholder: "Fullname"
                   }
@@ -38375,7 +38383,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "text",
+                    type: "email",
                     id: "exampleFormControlInput1",
                     placeholder: "Email"
                   }
@@ -38405,7 +38413,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "email",
+                    type: "text",
                     id: "exampleFormControlInput1",
                     placeholder: "+63"
                   }
@@ -38420,7 +38428,7 @@ var staticRenderFns = [
                 _c("input", {
                   staticClass: "form-control",
                   attrs: {
-                    type: "email",
+                    type: "text",
                     id: "exampleFormControlInput1",
                     placeholder: " "
                   }

@@ -10,18 +10,17 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nama acara</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Startup Indonesia">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Tanggal pelaksanaan</label>
-
-
-
+                            <input type="date" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Startup Indonesia">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Penyelenggara</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Penyelenggara">
                         </div>
 
