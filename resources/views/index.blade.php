@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jobhun - Mobile</title>
+    <title>Jobhun Mobile</title>
     <link rel="icon" type="image/png" href="asset/img/jobhun_putih.png">
   
     <!-- Custom fonts for this template-->
