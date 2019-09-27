@@ -2057,6 +2057,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -38600,14 +38634,150 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c(
+          "div",
+          {
+            staticClass: "card bg-light mb-3",
+            staticStyle: { "max-width": "18rem" }
+          },
+          [
+            _c("div", { staticClass: "card-header" }, [
+              _vm._v("Media Partner FREE")
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "card-body" },
+              [
+                _c("h5", { staticClass: "card-title text-center" }, [
+                  _vm._v("Rp 0,-")
+                ]),
+                _vm._v(" "),
+                _c("hr"),
+                _vm._v(" "),
+                _vm._m(0),
+                _vm._v(" "),
+                _c("router-link", { attrs: { to: "formMediaPartner" } }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-secondary btn-lg btn-block",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Daftar")]
+                  )
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c(
+          "div",
+          {
+            staticClass: "card text-white bg-primary mb-3",
+            staticStyle: { "max-width": "18rem" }
+          },
+          [
+            _c("div", { staticClass: "card-header bg-primary" }, [
+              _vm._v("Media Partner PREMIUM")
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "card-body" },
+              [
+                _c("h5", { staticClass: "card-title text-center" }, [
+                  _vm._v("Rp 100.000,-")
+                ]),
+                _vm._v(" "),
+                _c("hr", { staticClass: "bg-white" }),
+                _vm._v(" "),
+                _vm._m(1),
+                _vm._v(" "),
+                _c("router-link", { attrs: { to: "formMediaPartner" } }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-success btn-lg btn-block",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Daftar")]
+                  )
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("p", [_vm._v("pasang loker")])])
+    return _c("ol", { staticStyle: { "text-align": "justify" } }, [
+      _c("li", [_vm._v("Bersifat full barter")]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Berkewajiban memasang logo Jobhun di seluruh media promosi acara"
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Poster acara akan diposting di website, feed Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ol", { staticStyle: { "text-align": "justify" } }, [
+      _c("li", [
+        _vm._v(
+          "Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. Namun hal ini tidak bersifat wajib."
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna)."
+        )
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _vm._v(
+          "Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun."
+        )
+      ])
+    ])
   }
 ]
 render._withStripped = true
