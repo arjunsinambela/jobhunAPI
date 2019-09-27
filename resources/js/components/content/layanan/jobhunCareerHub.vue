@@ -10,32 +10,35 @@
                 </div>
                 <!-- Card Body -->
                 <div class="container">
-                 <h1>Jobhun Career Hub</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?</p>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend"></div>
-                        <input type="text" class="form-control">
-                </div>   
-                <div class="input-group mb-3">
-            <div class="input-group-prepend">
-            </div>
-            <select class="custom-select" id="inputGroupSelect01">
-                 <option selected>Choose...</option>
-                 <option value="1">One</option>
-                 <option value="2">Two</option>
-                 <option value="3">Three</option>
-            </select>
-             <select class="custom-select" id="inputGroupSelect01">
-                 <option selected>Choose...</option>
-                 <option value="1">One</option>
-                 <option value="2">Two</option>
-                 <option value="3">Three</option>
-            </select>
-            </div>        
-
-
+                    <br>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <input type="text" class="form-control" id="validationDefauld01" placeholder="keyword">
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <select class="form-control">
+                                <option selected>category</option>
+                                <option>Full Time</option>
+                                <option>Frelance</option>
+                                <option>Internship</option>
+                                <option>Part Time</option>
+                                <option>Volunter</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <select class="form-control">
+                                <option selected>Kota</option>
+                                <option>Surabaya</option>
+                                <option>jakarta </option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                          <button type="button" class="btn btn-outline-dark">Search</button>
+                        </div>
+                    </div>
+                </form>
                 </div>
-
             </div>
         </div>
         </div>

@@ -1880,6 +1880,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37995,63 +37998,62 @@ var staticRenderFns = [
             ),
             _vm._v(" "),
             _c("div", { staticClass: "container" }, [
-              _c("h1", [_vm._v("Jobhun Career Hub")]),
+              _c("br"),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quas sequi quos neque. Laboriosam dolore nemo tenetur commodi, eligendi corporis porro mollitia ex facere voluptas dolorem officiis consequatur, quibusdam maxime?"
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("div", { staticClass: "input-group-prepend" }),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: { type: "text" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "input-group mb-3" }, [
-                _c("div", { staticClass: "input-group-prepend" }),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  {
-                    staticClass: "custom-select",
-                    attrs: { id: "inputGroupSelect01" }
-                  },
-                  [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("Choose...")
-                    ]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "1" } }, [_vm._v("One")]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "2" } }, [_vm._v("Two")]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "3" } }, [_vm._v("Three")])
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "select",
-                  {
-                    staticClass: "custom-select",
-                    attrs: { id: "inputGroupSelect01" }
-                  },
-                  [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("Choose...")
-                    ]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "1" } }, [_vm._v("One")]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "2" } }, [_vm._v("Two")]),
-                    _vm._v(" "),
-                    _c("option", { attrs: { value: "3" } }, [_vm._v("Three")])
-                  ]
-                )
+              _c("form", [
+                _c("div", { staticClass: "form-row" }, [
+                  _c("div", { staticClass: "col-md-12 mb-3" }, [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        id: "validationDefauld01",
+                        placeholder: "keyword"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-5 mb-3" }, [
+                    _c("select", { staticClass: "form-control" }, [
+                      _c("option", { attrs: { selected: "" } }, [
+                        _vm._v("category")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Full Time")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Frelance")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Internship")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Part Time")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Volunter")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-4 mb-3" }, [
+                    _c("select", { staticClass: "form-control" }, [
+                      _c("option", { attrs: { selected: "" } }, [
+                        _vm._v("Kota")
+                      ]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("Surabaya")]),
+                      _vm._v(" "),
+                      _c("option", [_vm._v("jakarta ")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-3" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-outline-dark",
+                        attrs: { type: "button" }
+                      },
+                      [_vm._v("Search")]
+                    )
+                  ])
+                ])
               ])
             ])
           ])
