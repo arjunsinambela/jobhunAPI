@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>Jobhun - Mobile</title>
+    <link rel="icon" type="image/png" href="asset/img/jobhun_putih.png">
   
     <!-- Custom fonts for this template-->
     <link href="asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
