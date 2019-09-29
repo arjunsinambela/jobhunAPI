@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="card bg-light mb-3" style="max-width: 18rem;">
                     <div class="card-header">Media Partner FREE</div>
                     <div class="card-body">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                     <div class="card-header bg-primary">Media Partner PREMIUM</div>
                     <div class="card-body">
