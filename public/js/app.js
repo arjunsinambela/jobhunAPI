@@ -39987,57 +39987,64 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "col-md-12" }, [
-      _c("div", { staticClass: "card shadow mb-4" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "container" }, [
-          _c("br"),
+    _c(
+      "div",
+      {
+        staticClass: "col-md-12 wow fadeIn",
+        attrs: { "data-wow-delay": "1.5s" }
+      },
+      [
+        _c("div", { staticClass: "card shadow mb-4" }, [
+          _vm._m(0),
           _vm._v(" "),
-          _c(
-            "h4",
-            [
-              _c("center", [
-                _vm._v("Jobhun – Career Development Platform for Millenials")
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("p", { staticStyle: { "text-align": "justify" } }, [
-            _vm._v(
-              "     Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent."
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", { staticStyle: { "text-align": "justify" } }, [
-            _vm._v(
-              "     Selain itu, Jobhun juga memiliki beragam program pendukung yang bisa mendukung karier dan skill masyarakat, seperti program magang, talks, hingga visitasi ke perusahaan-perusahaan. Seluruh upaya tersebut kami lakukan untuk mencapai sebuah misi, yaitu mengurangi angka pengangguran di Indonesia. Tak hanya itu saja, kami juga menyediakan berbagai artikel, berita, maupun informasi acara yang dapat menunjang karier para Jobhuners (Sebutan untuk followers Jobhun). Penggunaan situs ini juga dibuat sangat sederhana, sehingga pengguna tidak akan kesulitan saat menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’."
-            )
-          ]),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Visi Jobhun")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Menjadi portal penunjang karier nomor satu di Indonesia. Dikenal dan bisa berdampak nyata bagi karier masyarakat Indonesia."
-            )
-          ]),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Misi Jobhun")]),
-          _vm._v(" "),
-          _vm._m(1),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Layanan Jobhun")]),
-          _vm._v(" "),
-          _vm._m(2),
-          _vm._v(" "),
-          _c("h5", [_vm._v("Program Jobhun")]),
-          _vm._v(" "),
-          _vm._m(3)
+          _c("div", { staticClass: "container" }, [
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "h4",
+              [
+                _c("center", [
+                  _vm._v("Jobhun – Career Development Platform for Millenials")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("p", { staticStyle: { "text-align": "justify" } }, [
+              _vm._v(
+                "     Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent."
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticStyle: { "text-align": "justify" } }, [
+              _vm._v(
+                "     Selain itu, Jobhun juga memiliki beragam program pendukung yang bisa mendukung karier dan skill masyarakat, seperti program magang, talks, hingga visitasi ke perusahaan-perusahaan. Seluruh upaya tersebut kami lakukan untuk mencapai sebuah misi, yaitu mengurangi angka pengangguran di Indonesia. Tak hanya itu saja, kami juga menyediakan berbagai artikel, berita, maupun informasi acara yang dapat menunjang karier para Jobhuners (Sebutan untuk followers Jobhun). Penggunaan situs ini juga dibuat sangat sederhana, sehingga pengguna tidak akan kesulitan saat menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’."
+              )
+            ]),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Visi Jobhun")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Menjadi portal penunjang karier nomor satu di Indonesia. Dikenal dan bisa berdampak nyata bagi karier masyarakat Indonesia."
+              )
+            ]),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Misi Jobhun")]),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Layanan Jobhun")]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("h5", [_vm._v("Program Jobhun")]),
+            _vm._v(" "),
+            _vm._m(3)
+          ])
         ])
-      ])
-    ])
+      ]
+    )
   ])
 }
 var staticRenderFns = [
@@ -40226,65 +40233,75 @@ var render = function() {
         _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider" }),
         _vm._v(" "),
-        _c("li", { staticClass: "nav-item" }, [
-          _vm._m(2),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse",
-              attrs: {
-                id: "collapseTwo",
-                "aria-labelledby": "headingTwo",
-                "data-parent": "#accordionSidebar"
-              }
-            },
-            [
-              _c(
-                "div",
-                { staticClass: "bg-white py-2 collapse-inner rounded" },
-                [
-                  _c("router-link", { attrs: { to: "jobhun-careerHub" } }, [
-                    _c("a", { staticClass: "collapse-item" }, [
-                      _vm._v("Jobhun Career Hub")
+        _c(
+          "li",
+          {
+            staticClass: "nav-item active wow fadeInLeft",
+            attrs: { "data-wow-delay": "0.6s" }
+          },
+          [
+            _vm._m(2),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "collapse",
+                attrs: {
+                  id: "collapseTwo",
+                  "aria-labelledby": "headingTwo",
+                  "data-parent": "#accordionSidebar"
+                }
+              },
+              [
+                _c(
+                  "div",
+                  { staticClass: "bg-white py-2 collapse-inner rounded" },
+                  [
+                    _c("router-link", { attrs: { to: "jobhun-careerHub" } }, [
+                      _c("a", { staticClass: "collapse-item" }, [
+                        _vm._v("Jobhun Career Hub")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("router-link", { attrs: { to: "jobhun-academy" } }, [
+                      _c(
+                        "a",
+                        { staticClass: "collapse-item", attrs: { href: "" } },
+                        [_vm._v("Jobhun Academy")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("router-link", { attrs: { to: "jobhun-mediaPatner" } }, [
+                      _c(
+                        "a",
+                        { staticClass: "collapse-item", attrs: { href: "" } },
+                        [_vm._v("Media Partner")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("router-link", { attrs: { to: "jobhun-talentPool" } }, [
+                      _c(
+                        "a",
+                        { staticClass: "collapse-item", attrs: { href: "" } },
+                        [_vm._v("Jobhun Talent Pool")]
+                      )
                     ])
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhun-academy" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Academy")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhun-mediaPatner" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Media Partner")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("router-link", { attrs: { to: "jobhun-talentPool" } }, [
-                    _c(
-                      "a",
-                      { staticClass: "collapse-item", attrs: { href: "" } },
-                      [_vm._v("Jobhun Talent Pool")]
-                    )
-                  ])
-                ],
-                1
-              )
-            ]
-          )
-        ]),
+                  ],
+                  1
+                )
+              ]
+            )
+          ]
+        ),
         _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider" }),
         _vm._v(" "),
         _c(
           "li",
-          { staticClass: "nav-item active" },
+          {
+            staticClass: "nav-item active wow fadeInLeft",
+            attrs: { "data-wow-delay": "0.8s" }
+          },
           [
             _c("router-link", { attrs: { to: "pasang-loker" } }, [
               _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
@@ -40318,8 +40335,14 @@ var staticRenderFns = [
       },
       [
         _c("img", {
+          staticClass: "wow zoomIn",
           staticStyle: { width: "95px", height: "50px" },
-          attrs: { src: "asset/img/jobhun_putih.png", alt: "", srcset: "" }
+          attrs: {
+            src: "asset/img/jobhun_putih.png",
+            "data-wow-delay": "0.1",
+            alt: "",
+            srcset: ""
+          }
         })
       ]
     )
@@ -40328,13 +40351,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item active" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-        _c("i", { staticClass: "fas  fa-address-card" }),
-        _vm._v(" "),
-        _c("span", [_vm._v("Tentang Jobhun")])
-      ])
-    ])
+    return _c(
+      "li",
+      {
+        staticClass: "nav-item active wow fadeInLeft",
+        attrs: { "data-wow-delay": "0.4s" }
+      },
+      [
+        _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+          _c("i", { staticClass: "fas  fa-address-card" }),
+          _vm._v(" "),
+          _c("span", [_vm._v("Tentang Jobhun")])
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -40363,12 +40393,19 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-center d-none d-md-inline" }, [
-      _c("button", {
-        staticClass: "rounded-circle border-0",
-        attrs: { id: "sidebarToggle" }
-      })
-    ])
+    return _c(
+      "div",
+      {
+        staticClass: "text-center d-none d-md-inline wow fadeInLeft",
+        attrs: { "data-wow-delay": "1s" }
+      },
+      [
+        _c("button", {
+          staticClass: "rounded-circle border-0",
+          attrs: { id: "sidebarToggle" }
+        })
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -57056,7 +57093,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunaPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
