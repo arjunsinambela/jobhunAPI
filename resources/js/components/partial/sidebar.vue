@@ -3,15 +3,17 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
-                <img src="asset/img/jobhun_putih.png" alt="" srcset="" style="width: 95px; height:50px" >
+                <img src="asset/img/jobhun_putih.png" class="wow zoomIn" data-wow-delay="0.1" alt="" srcset="" style="width: 95px; height:50px" >
             </a>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item active wow fadeInLeft" data-wow-delay="0.4s">
+                <router-link to="tentangJobhun">
                 <a class="nav-link" href="">
                     <i class="fas  fa-address-card"></i>
                     <span>Tentang Jobhun</span></a>
+                </router-link>
             </li>
 
             <!-- Divider -->
@@ -22,7 +24,7 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <li class="nav-item active wow fadeInLeft" data-wow-delay="0.6s">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-tasks"></i>
@@ -56,7 +58,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
 
-            <li class="nav-item active">
+            <li class="nav-item active wow fadeInLeft" data-wow-delay="0.8s">
                 <router-link to="pasang-loker">
                     <a class="nav-link" href="">
                     <i class="fas fa-users-cog"></i>
@@ -73,7 +75,7 @@
             <hr class="sidebar-divider d-none d-md-block">
 
             <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
+            <div class="text-center d-none d-md-inline wow fadeInLeft" data-wow-delay="1s">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 

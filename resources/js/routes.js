@@ -2,6 +2,11 @@ let routes=[
 {
   path: '/',
   name: '',
+  component: require('./components/content/indexJobhun.vue').default
+},
+{
+  path: '/tentangJobhun',
+  name: '',
   component: require('./components/content/tentangJobhun.vue').default
 },
 {
