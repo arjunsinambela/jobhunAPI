@@ -62,7 +62,7 @@
                 <router-link to="pasang-loker">
                     <a class="nav-link" href="">
                     <i class="fas fa-users-cog"></i>
-                    <span>Pasang LoKer</span></a>
+                    <span>Pasang Loker</span></a>
                 </router-link>
 
             </li>

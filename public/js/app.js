@@ -40606,7 +40606,7 @@ var render = function() {
               _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
                 _c("i", { staticClass: "fas fa-users-cog" }),
                 _vm._v(" "),
-                _c("span", [_vm._v("Pasang LoKer")])
+                _c("span", [_vm._v("Pasang Loker")])
               ])
             ])
           ],
