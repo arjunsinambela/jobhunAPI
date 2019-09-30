@@ -38,11 +38,11 @@
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+63">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Posisi yang dicari</label>
+                            <label for="exampleFormControlInput1">Posisi - posisi yang dicari</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlFile1">Pilihan Paket Kerjasama</label>
+                            <label for="exampleFormControlFile1">Jenis pekerjaan</label>
                             <div class="form-check ">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                                     value="option1">
@@ -79,7 +79,7 @@ Lokasi kerja:
 Waktu bekerja:</textarea>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Deskripsi Pekerjaan</label>
+                            <label for="exampleFormControlTextarea1">Tentang proses rekrut</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" value="">Cara mengirimkan lamaran:
 Batas waktu melamar:
 Waktu proses rekrut.</textarea>

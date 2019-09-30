@@ -1833,13 +1833,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -38239,7 +38232,7 @@ var staticRenderFns = [
               },
               [
                 _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                  _vm._v("Formulir Jobhun Career Hub Reguler")
+                  _vm._v("Formulir Jobhun Career Hub Premium")
                 ])
               ]
             ),
@@ -38353,7 +38346,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Posisi yang dicari")
+                    _vm._v("Posisi - posisi yang dicari")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -38368,7 +38361,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Pilihan Paket Kerjasama")
+                    _vm._v("Jenis pekerjaan")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "form-check " }, [
@@ -38481,7 +38474,7 @@ var staticRenderFns = [
                   _c(
                     "label",
                     { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Deskripsi Pekerjaan")]
+                    [_vm._v("Deskripsi masing - masing Pekerjaan")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -38506,7 +38499,7 @@ var staticRenderFns = [
                   _c(
                     "label",
                     { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Deskripsi Pekerjaan")]
+                    [_vm._v("Tentang proses rekrut")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -38525,28 +38518,6 @@ var staticRenderFns = [
                       )
                     ]
                   )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Unggah Poster")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "custom-file" }, [
-                    _c("input", {
-                      staticClass: "custom-file-input",
-                      attrs: { type: "file", id: "customFile" }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "custom-file-label",
-                        attrs: { for: "customFile" }
-                      },
-                      [_vm._v("Pilih file")]
-                    )
-                  ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
@@ -38748,7 +38719,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Posisi yang dicari")
+                    _vm._v("Posisi - posisi yang dicari")
                   ]),
                   _vm._v(" "),
                   _c("input", {
@@ -38763,7 +38734,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Pilihan Paket Kerjasama")
+                    _vm._v("Jenis pekerjaan")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "form-check " }, [
@@ -38901,7 +38872,7 @@ var staticRenderFns = [
                   _c(
                     "label",
                     { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Deskripsi Pekerjaan")]
+                    [_vm._v("Tentang proses rekrut")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -57475,7 +57446,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
