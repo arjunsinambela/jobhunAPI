@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="col text-center">
-                <button type="button" class="btn btn-success">Posting Loker</button>
+                <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
             </div>
     <br>
     <br>

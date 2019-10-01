@@ -14,6 +14,13 @@ let routes=[
   name: 'jobhunCareerHub',
   component: require('./components/content/layanan/jobhunCareerHub').default
 },
+//button posting loker
+
+{
+  path: '/pasang-loker',
+  name: 'pasangLoker',
+  component: require ('./components/content/pasangLoker').default
+},
 {
   path: '/jobhun-academy',
   name: 'jobhunAcademy',
