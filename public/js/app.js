@@ -38489,7 +38489,7 @@ var staticRenderFns = [
                     attrs: {
                       type: "text",
                       id: "exampleFormControlInput1",
-                      placeholder: "www."
+                      placeholder: "www.perusahaan.com"
                     }
                   })
                 ]),
@@ -38504,7 +38504,7 @@ var staticRenderFns = [
                     attrs: {
                       type: "text",
                       id: "exampleFormControlInput1",
-                      placeholder: "Email"
+                      placeholder: "perusahaan@gmail.com"
                     }
                   })
                 ]),
@@ -38519,7 +38519,7 @@ var staticRenderFns = [
                     attrs: {
                       type: "text",
                       id: "exampleFormControlInput1",
-                      placeholder: "+63"
+                      placeholder: ""
                     }
                   })
                 ]),
@@ -38892,7 +38892,7 @@ var staticRenderFns = [
                     attrs: {
                       type: "text",
                       id: "exampleFormControlInput1",
-                      placeholder: "+63"
+                      placeholder: ""
                     }
                   })
                 ]),

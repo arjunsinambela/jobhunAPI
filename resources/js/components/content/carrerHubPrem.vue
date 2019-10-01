@@ -27,15 +27,15 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Website perusahaan</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="www.">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="www.perusahaan.com">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Email perusahaan</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="perusahaan@gmail.com">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nomor telepon perusahaan</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+63">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Posisi - posisi yang dicari</label>
