@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="card">
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
                         <div class="card-body">
