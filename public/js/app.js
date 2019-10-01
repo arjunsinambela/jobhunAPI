@@ -2129,6 +2129,59 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -39225,125 +39278,315 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "col-md-12 wow fadeIn",
+        attrs: { "data-wow-delay": "0.2s" }
+      },
+      [
+        _c("div", { staticClass: "card shadow mb-4" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "container" }, [
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "h4",
+              [
+                _c("center", [
+                  _vm._v("Mengasah "),
+                  _c("i", [_vm._v("Skill")]),
+                  _vm._v(" bersama Jobhun ")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("p", { staticStyle: { "text-align": "justify" } }, [
+              _vm._v(
+                "     Jobhun Academy merupakan sebuah program pelatihan\n                    dengan berbagai topik yang dapat menunjang skill para pekerja secara intensif. Melalui program\n                    ini, kamu tidak hanya belajar secara teori saja, namun juga dilakukan secara praktek sehingga\n                    akan menghasilkan portfolio terbaik bagi kariermu. Tak hanya itu saja, para mentee dalam Jobhun\n                    Academy akan dibekali persiapan karier sesuai dengan minatnya. Kamu bisa menambah skill di\n                    berbagai bidang, meningkatkan karier, mengubah karier, atau menjadi seorang entrepreneur."
+              )
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "h4",
+              [
+                _c("center", [
+                  _vm._v("Mengapa harus mengikuti Jobhun Academy ?")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("img", {
+              attrs: { src: "asset/img/ja.jpeg", alt: "", height: "520px" }
+            }),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c(
+              "h4",
+              [
+                _c("center", [
+                  _vm._v(
+                    "Macam - Macam Jobhun Academy yang bisa mengasah skill anda."
+                  )
+                ])
+              ],
+              1
+            )
+          ])
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "card-deck" }, [
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "asset/img/jobhun_putih.png",
-                  alt: "Card image cap"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "card-text" }, [
-                  _vm._v(
-                    "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("Last updated 3 mins ago")
-                ])
-              ])
-            ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
+      },
+      [
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Jobhun Academy")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-deck" }, [
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [_vm._v("Belajar dengan formula khusus untuk persiapan karier")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Di Jobhun Academy, kamu tidak hanya belajar secara teori saja.\n                                    Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang\n                                    karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.\n                                "
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "asset/img/jobhun_putih.png",
-                  alt: "Card image cap"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "card-text" }, [
-                  _vm._v(
-                    "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("Last updated 3 mins ago")
-                ])
-              ])
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
             ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [_vm._v("Berkesempatan untuk mendapatkan pekerjaan")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat terbaik. Apabila kamu berhasil menyelesaikan program di Jobhun Academy dengan baik dan sesuai dengan Kriteria yang sedang dicari oleh perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja di beberapa company partner Jobhun tersebut."
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "asset/img/jobhun_putih.png",
-                  alt: "Card image cap"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "card-text" }, [
-                  _vm._v(
-                    "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("Last updated 3 mins ago")
-                ])
-              ])
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
             ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Dibimbing oleh mentor - mentor berkualitas dan berpengalaman"
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Jobhun selalu berupaya menghadirkan mentor berkualitas dan berpengalaman dibidangnya, serta memiliki prestasi di bidang tersebut."
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  src: "asset/img/jobhun_putih.png",
-                  alt: "Card image cap"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-                _vm._v(" "),
-                _c("p", { staticClass: "card-text" }, [
-                  _vm._v(
-                    "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("Last updated 3 mins ago")
-                ])
-              ])
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-deck" }, [
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [_vm._v("Belajar secara optimal dan kondusif")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Agar belajar bisa lebih optimal dan kondusif, Jobhun Academy hanya bisa diikuti 3 - 5 orang setiap kelas. Kami percaya bahwa kapasitas kelas yang sedikit akan membuat interaksi antara mentor dan mentee menjadi lebih intens."
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [_vm._v("Menghasilkan portfolio yang berguna untuk karier")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Setelah program Jobhun Academy ini berakhir, mentee akan mendapatkan hasil tes, penilaian secara keseluruhan, sertifikat, dan portfolio atau karya di masing - masing bidang yang telah dilakukan selama pembelajaran dilakukan."
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [_vm._v("Biaya terjangkau dan bisa dicicil")]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Kamu tidak perlu pusing masalah biaya. Program - program yang ada di Jobhun Academy dipatok dengan harga yang terjangkau dan bisa kamu cicil dengan skema cicilan yang sangat membantu."
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
             ])
           ])
         ])
@@ -40343,7 +40586,7 @@ var staticRenderFns = [
       },
       [
         _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-          _vm._v("Tentang Jobhun")
+          _vm._v("Tentang Jobhun Sip")
         ])
       ]
     )
@@ -57446,7 +57689,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
