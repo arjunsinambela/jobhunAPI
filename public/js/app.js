@@ -2416,6 +2416,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -40114,7 +40119,13 @@ var staticRenderFns = [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
                   )
-                ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  [_vm._v("Read More")]
+                )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "card-footer" }, [
@@ -40142,7 +40153,13 @@ var staticRenderFns = [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
                   )
-                ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  [_vm._v("Read More")]
+                )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "card-footer" }, [
@@ -40170,7 +40187,13 @@ var staticRenderFns = [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
                   )
-                ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  [_vm._v("Read More")]
+                )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "card-footer" }, [
@@ -40198,7 +40221,13 @@ var staticRenderFns = [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
                   )
-                ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  [_vm._v("Read More")]
+                )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "card-footer" }, [
