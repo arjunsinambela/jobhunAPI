@@ -2421,6 +2421,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -40113,7 +40123,16 @@ var staticRenderFns = [
               }),
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v(
+                    "Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                  _vm._v(" Bali")
+                ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _vm._v(
@@ -40149,6 +40168,11 @@ var staticRenderFns = [
               _c("div", { staticClass: "card-body" }, [
                 _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
                 _vm._v(" "),
+                _c("p", [
+                  _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                  _vm._v(" Surabaya")
+                ]),
+                _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
@@ -40183,6 +40207,11 @@ var staticRenderFns = [
               _c("div", { staticClass: "card-body" }, [
                 _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
                 _vm._v(" "),
+                _c("p", [
+                  _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                  _vm._v(" Jakarta")
+                ]),
+                _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _vm._v(
                     "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
@@ -40216,6 +40245,11 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
                 _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
+                _vm._v(" "),
+                _c("p", [
+                  _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                  _vm._v(" Surabaya")
+                ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
                   _vm._v(
@@ -40237,7 +40271,19 @@ var staticRenderFns = [
               ])
             ])
           ])
-        ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col text-center" }, [
+          _c(
+            "button",
+            { staticClass: "btn btn-success", attrs: { type: "button" } },
+            [_vm._v("Posting Loker")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("br")
       ])
     ])
   }

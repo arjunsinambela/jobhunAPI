@@ -50,7 +50,8 @@
                     <div class="card">
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</h5>
+                             <p><i class="fas fa-map-marker-alt"></i> Bali</p>
                             <p class="card-text">This is a wider card with supporting text below as a
                                 natural lead-in to additional content. This content is a little bit
                                 longer.</p>
@@ -66,6 +67,7 @@
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
+                             <p><i class="fas fa-map-marker-alt"></i> Surabaya</p>
                             <p class="card-text">This is a wider card with supporting text below as a
                                 natural lead-in to additional content. This content is a little bit
                                 longer.</p>
@@ -81,6 +83,7 @@
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
+                             <p><i class="fas fa-map-marker-alt"></i> Jakarta</p>
                             <p class="card-text">This is a wider card with supporting text below as a
                                 natural lead-in to additional content. This content is a little bit
                                 longer.</p>
@@ -96,6 +99,7 @@
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
+                            <p><i class="fas fa-map-marker-alt"></i> Surabaya</p>
                             <p class="card-text">This is a wider card with supporting text below as a
                                 natural lead-in to additional content. This content is a little bit
                                 longer.</p>
@@ -108,6 +112,12 @@
                     </div>
                 </div>
             </div>
+            <div class="col text-center">
+                <button type="button" class="btn btn-success">Posting Loker</button>
+            </div>
+    <br>
+    <br>
+          
         </div>
     </div>
 </template>
