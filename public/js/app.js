@@ -40141,7 +40141,7 @@ var staticRenderFns = [
         attrs: { "data-wow-delay": "0.4s" }
       },
       [
-        _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "col-md-4 " }, [
           _c("div", { staticClass: "card" }, [
             _c("img", {
               staticClass: "card-img-top",
@@ -41057,7 +41057,7 @@ var staticRenderFns = [
       },
       [
         _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-          _vm._v("Tentang Jobhun Sip")
+          _vm._v("Tentang Jobhun")
         ])
       ]
     )
