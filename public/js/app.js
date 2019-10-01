@@ -2281,6 +2281,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -39633,7 +39645,7 @@ var render = function() {
                         _c("img", {
                           staticClass: "card-img-top",
                           attrs: {
-                            src: "asset/img/android.jpeg",
+                            src: "asset/img/public.jpeg",
                             alt: "Card image cap"
                           }
                         })
@@ -39656,7 +39668,34 @@ var render = function() {
                         _c("img", {
                           staticClass: "card-img-top",
                           attrs: {
-                            src: "asset/img/ui.jpeg",
+                            src: "asset/img/social_media.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-deck" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/startup.jpeg",
                             alt: "Card image cap"
                           }
                         })
