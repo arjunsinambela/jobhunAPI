@@ -21,7 +21,7 @@
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Penyelenggara</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Penyelenggara">
+                                placeholder="Nama penyelenggara">
                         </div>
 
                         <div class="form-group">
