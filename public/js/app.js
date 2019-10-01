@@ -2182,6 +2182,105 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -39348,7 +39447,226 @@ var render = function() {
                 ])
               ],
               1
-            )
+            ),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-deck" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/cw.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/desain.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/video.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-deck" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/web.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/android.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/ui.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-deck" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/cw2.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/android.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "div",
+                  { staticClass: "card" },
+                  [
+                    _c(
+                      "router-link",
+                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      [
+                        _c("img", {
+                          staticClass: "card-img-top",
+                          attrs: {
+                            src: "asset/img/ui.jpeg",
+                            alt: "Card image cap"
+                          }
+                        })
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ])
           ])
         ])
       ]
@@ -39387,41 +39705,11 @@ var staticRenderFns = [
                 staticClass: "card-title",
                 staticStyle: { "text-align": "justify" }
               },
-              [_vm._v("Belajar dengan formula khusus untuk persiapan karier")]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
               [
                 _vm._v(
-                  "Di Jobhun Academy, kamu tidak hanya belajar secara teori saja.\n                                    Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang\n                                    karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.\n                                "
+                  "Belajar dengan formula khusus\n                                    untuk persiapan karier"
                 )
               ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [_vm._v("Berkesempatan untuk mendapatkan pekerjaan")]
             ),
             _vm._v(" "),
             _c(
@@ -39432,7 +39720,7 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Jobhun bekerjasama dengan berbagai perusahaan dalam mencari kandidat terbaik. Apabila kamu berhasil menyelesaikan program di Jobhun Academy dengan baik dan sesuai dengan Kriteria yang sedang dicari oleh perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja di beberapa company partner Jobhun tersebut."
+                  "Di Jobhun Academy, kamu tidak hanya\n                                    belajar secara teori saja.\n                                    Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang\n                                    karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.\n                                "
                 )
               ]
             )
@@ -39457,7 +39745,7 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Dibimbing oleh mentor - mentor berkualitas dan berpengalaman"
+                  "Berkesempatan untuk mendapatkan\n                                    pekerjaan"
                 )
               ]
             ),
@@ -39470,7 +39758,45 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Jobhun selalu berupaya menghadirkan mentor berkualitas dan berpengalaman dibidangnya, serta memiliki prestasi di bidang tersebut."
+                  "Jobhun bekerjasama dengan berbagai\n                                    perusahaan dalam mencari kandidat terbaik. Apabila kamu berhasil menyelesaikan\n                                    program di Jobhun Academy dengan baik dan sesuai dengan Kriteria yang sedang\n                                    dicari oleh perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja\n                                    di beberapa company partner Jobhun tersebut."
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-footer" }, [
+            _c("small", { staticClass: "text-muted" }, [
+              _vm._v("Last updated 3 mins ago")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-4" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "h5",
+              {
+                staticClass: "card-title",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Dibimbing oleh mentor - mentor\n                                    berkualitas dan berpengalaman"
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass: "card-text",
+                staticStyle: { "text-align": "justify" }
+              },
+              [
+                _vm._v(
+                  "Jobhun selalu berupaya menghadirkan\n                                    mentor berkualitas dan berpengalaman dibidangnya, serta memiliki prestasi di\n                                    bidang tersebut."
                 )
               ]
             )
@@ -39499,7 +39825,11 @@ var staticRenderFns = [
                 staticClass: "card-title",
                 staticStyle: { "text-align": "justify" }
               },
-              [_vm._v("Belajar secara optimal dan kondusif")]
+              [
+                _vm._v(
+                  "Belajar secara optimal dan\n                                    kondusif"
+                )
+              ]
             ),
             _vm._v(" "),
             _c(
@@ -39510,7 +39840,7 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Agar belajar bisa lebih optimal dan kondusif, Jobhun Academy hanya bisa diikuti 3 - 5 orang setiap kelas. Kami percaya bahwa kapasitas kelas yang sedikit akan membuat interaksi antara mentor dan mentee menjadi lebih intens."
+                  "Agar belajar bisa lebih optimal dan\n                                    kondusif, Jobhun Academy hanya bisa diikuti 3 - 5 orang setiap kelas. Kami\n                                    percaya bahwa kapasitas kelas yang sedikit akan membuat interaksi antara mentor\n                                    dan mentee menjadi lebih intens."
                 )
               ]
             )
@@ -39533,7 +39863,11 @@ var staticRenderFns = [
                 staticClass: "card-title",
                 staticStyle: { "text-align": "justify" }
               },
-              [_vm._v("Menghasilkan portfolio yang berguna untuk karier")]
+              [
+                _vm._v(
+                  "Menghasilkan portfolio yang\n                                    berguna untuk karier"
+                )
+              ]
             ),
             _vm._v(" "),
             _c(
@@ -39544,7 +39878,7 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Setelah program Jobhun Academy ini berakhir, mentee akan mendapatkan hasil tes, penilaian secara keseluruhan, sertifikat, dan portfolio atau karya di masing - masing bidang yang telah dilakukan selama pembelajaran dilakukan."
+                  "Setelah program Jobhun Academy ini\n                                    berakhir, mentee akan mendapatkan hasil tes, penilaian secara keseluruhan,\n                                    sertifikat, dan portfolio atau karya di masing - masing bidang yang telah\n                                    dilakukan selama pembelajaran dilakukan."
                 )
               ]
             )
@@ -39567,7 +39901,11 @@ var staticRenderFns = [
                 staticClass: "card-title",
                 staticStyle: { "text-align": "justify" }
               },
-              [_vm._v("Biaya terjangkau dan bisa dicicil")]
+              [
+                _vm._v(
+                  "Biaya terjangkau dan bisa dicicil\n                                "
+                )
+              ]
             ),
             _vm._v(" "),
             _c(
@@ -39578,7 +39916,7 @@ var staticRenderFns = [
               },
               [
                 _vm._v(
-                  "Kamu tidak perlu pusing masalah biaya. Program - program yang ada di Jobhun Academy dipatok dengan harga yang terjangkau dan bisa kamu cicil dengan skema cicilan yang sangat membantu."
+                  "Kamu tidak perlu pusing masalah\n                                    biaya. Program - program yang ada di Jobhun Academy dipatok dengan harga yang\n                                    terjangkau dan bisa kamu cicil dengan skema cicilan yang sangat membantu."
                 )
               ]
             )
@@ -56933,6 +57271,38 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/content/layanan/contentWriter.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/content/layanan/contentWriter.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/js/components/content/layanan/contentWriter.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/content/layanan/formMediaPartner.vue":
 /*!**********************************************************************!*\
   !*** ./resources/js/components/content/layanan/formMediaPartner.vue ***!
@@ -57651,6 +58021,10 @@ var routes = [{
   path: '/jobhun-academy',
   name: 'jobhunAcademy',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
+}, {
+  path: '/jobhun-academy-content-writer',
+  name: 'jobhun-academy-content-writer',
+  comments: __webpack_require__(/*! ./components/content/layanan/contentWriter */ "./resources/js/components/content/layanan/contentWriter.vue")["default"]
 }, {
   path: '/jobhun-mediaPatner',
   name: 'jobhunMediaPatner',

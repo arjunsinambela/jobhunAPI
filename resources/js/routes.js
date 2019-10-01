@@ -19,6 +19,14 @@ let routes=[
   name: 'jobhunAcademy',
   component: require('./components/content/layanan/jobhunAcademy').default
 },
+
+{
+  path: '/jobhun-academy-content-writer',
+  name: 'jobhun-academy-content-writer',
+  comments: require('./components/content/layanan/contentWriter').default
+},
+
+
 {
   path: '/jobhun-mediaPatner',
   name: 'jobhunMediaPatner',
