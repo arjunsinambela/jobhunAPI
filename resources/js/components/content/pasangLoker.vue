@@ -18,9 +18,9 @@
             </div>
             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header bg-primary">Media Partner PREMIUM</div>
+                    <div class="card-header bg-primary">Jobhun Career Hub <b>PREMIUM</b></div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Rp 200.000,- (PROMO)</h5>
+                        <h5 class="card-title text-center"><b>Rp 200.000,- (PROMO)</b></h5>
                         <hr class="bg-white">
                         <ul class="fa-ul" style="text-align:justify;">
                             <li><span class="fa-li"><i class="fas fa-check" style="color:white;"></i></span>Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)</li>

@@ -20,7 +20,7 @@
             </div>
             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header bg-primary"><b>Media Partner PREMIUM</b></div>
+                    <div class="card-header bg-primary">Media Partner <b>PREMIUM</b></div>
                     <div class="card-body">
                         <h5 class="card-title text-center"><b>100.000,- </b></h5>
                         <hr class="bg-white">

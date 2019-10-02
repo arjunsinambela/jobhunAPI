@@ -40486,7 +40486,8 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-header bg-primary" }, [
-      _c("b", [_vm._v("Media Partner PREMIUM")])
+      _vm._v("Media Partner "),
+      _c("b", [_vm._v("PREMIUM")])
     ])
   },
   function() {
@@ -40947,21 +40948,17 @@ var render = function() {
               staticStyle: { "max-width": "18rem" }
             },
             [
-              _c("div", { staticClass: "card-header bg-primary" }, [
-                _vm._v("Media Partner PREMIUM")
-              ]),
+              _vm._m(1),
               _vm._v(" "),
               _c(
                 "div",
                 { staticClass: "card-body" },
                 [
-                  _c("h5", { staticClass: "card-title text-center" }, [
-                    _vm._v("Rp 200.000,- (PROMO)")
-                  ]),
+                  _vm._m(2),
                   _vm._v(" "),
                   _c("hr", { staticClass: "bg-white" }),
                   _vm._v(" "),
-                  _vm._m(1),
+                  _vm._m(3),
                   _vm._v(" "),
                   _c("router-link", { attrs: { to: "carrerHubPrem" } }, [
                     _c(
@@ -41027,6 +41024,23 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header bg-primary" }, [
+      _vm._v("Jobhun Career Hub "),
+      _c("b", [_vm._v("PREMIUM")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h5", { staticClass: "card-title text-center" }, [
+      _c("b", [_vm._v("Rp 200.000,- (PROMO)")])
+    ])
   },
   function() {
     var _vm = this
