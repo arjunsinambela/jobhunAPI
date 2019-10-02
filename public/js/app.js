@@ -40967,7 +40967,7 @@ var render = function() {
                         staticClass: "btn btn-success btn-lg btn-block",
                         attrs: { type: "button" }
                       },
-                      [_vm._v("Posting Loker")]
+                      [_c("b", [_vm._v("Posting Loker")])]
                     )
                   ])
                 ],

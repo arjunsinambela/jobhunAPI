@@ -30,7 +30,7 @@
                             <li><span class="fa-li"><i class="fas fa-check" style="color:white;"></i></span>Perusahaan akan mendapatkan laporan calon pekerja yang telah dipilih oleh tim Jobhun maksimal 2 minggu setelah penayangan lowongan kerja</li>
                             <li><span class="fa-li"><i class="fas fa-check" style="color:white;"></i></span>Seleksi yang dilakukan oleh tim Jobhun berdasarkan CV, portfolio, dan dokumen-dokumen lainnya yang dikirimkan oleh para kandidat. Selanjutnya, perusahaan yang akan melakukan interview maupun psikotes kepada calon pekerja.</li>
                         </ul>                        
-                        <router-link to="carrerHubPrem"><button type="button" class="btn btn-success btn-lg btn-block">Posting Loker</button></router-link>
+                        <router-link to="carrerHubPrem"><button type="button" class="btn btn-success btn-lg btn-block"><b>Posting Loker</b></button></router-link>
                     </div>
                 </div>
             </div>
