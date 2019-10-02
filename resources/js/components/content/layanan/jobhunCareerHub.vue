@@ -100,9 +100,9 @@
         },
         methods: {
             getData: function(){
-                axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(Response=>{
-                    console.log(Response.data);
-                    this.jobs = Response.data.jobs
+                axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(response=>{
+                    console.log(response.data);
+                    this.jobs = response.data.jobs
                 })
             }
         },

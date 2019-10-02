@@ -2410,9 +2410,9 @@ __webpack_require__.r(__webpack_exports__);
     getData: function getData() {
       var _this = this;
 
-      axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(function (Response) {
-        console.log(Response.data);
-        _this.jobs = Response.data.jobs;
+      axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(function (response) {
+        console.log(response.data);
+        _this.jobs = response.data.jobs;
       });
     }
   }
