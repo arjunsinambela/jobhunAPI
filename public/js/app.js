@@ -40988,21 +40988,45 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ol", { staticStyle: { "text-align": "justify" } }, [
-      _c("li", [
-        _vm._v(
-          "Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)"
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun"
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Berlaku untuk 1 posisi pekerjaan")])
-    ])
+    return _c(
+      "ul",
+      { staticClass: "fa-ul", staticStyle: { "text-align": "justify" } },
+      [
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v(
+            " lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)"
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v(
+            " lowongan kerja akan diposting di feed dan story Instagram Jobhun"
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v(" untuk 1 posisi pekerjaan")
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this

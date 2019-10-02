@@ -7,11 +7,11 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Rp 50.000,-</h5>
                         <hr>
-                             <ol style="text-align:justify;">
-                                <li>Informasi lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)</li>
-                                <li>Informasi lowongan kerja akan diposting di feed dan story Instagram Jobhun</li>
-                                <li>Berlaku untuk 1 posisi pekerjaan</li>
-                            </ol>
+                             <ul class="fa-ul" style="text-align:justify;">
+                                <li><span class="fa-li"><i class="fas fa-check" style="color:#4e73df;"></i></span> lowongan kerja akan terpasang di website Jobhun secara permanen (Dihapus secara berkala, setelah beberapa bulan posting)</li>
+                                <li><span class="fa-li"><i class="fas fa-check" style="color:#4e73df;"></i></span> lowongan kerja akan diposting di feed dan story Instagram Jobhun</li>
+                                <li><span class="fa-li"><i class="fas fa-check" style="color:#4e73df;"></i></span> untuk 1 posisi pekerjaan</li>
+                            </ul>
                     <router-link to="carrerHubReg"><button type="button" class="btn btn-secondary btn-lg btn-block">Posting Loker</button></router-link>
                     </div>
                 </div>
