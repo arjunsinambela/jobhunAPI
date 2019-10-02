@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div> -->
             <table>
                 <thead>
@@ -83,7 +83,7 @@
             </div>
     <br>
     <br>
-          
+
         </div>
     </div>
 </template>
@@ -102,8 +102,8 @@
             getData: function(){
                 axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(response=>{
                     console.log(response.data);
-                    this.jobs = response.data.jobs
-                })
+                    this.jobs = response.data.jobs;
+                });
             }
         },
 
