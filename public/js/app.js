@@ -2397,41 +2397,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      jobs: []
+    };
+  },
+  mounted: function mounted() {
+    this.getData();
+  },
+  methods: {
+    getData: function getData() {
+      var _this = this;
+
+      axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(function (Response) {
+        console.log(Response.data);
+        _this.jobs = Response.data.jobs;
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -40019,7 +40004,21 @@ var render = function() {
     _c("div", { staticClass: "row" }, [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c("table", [
+        _vm._m(1),
+        _vm._v(" "),
+        _c(
+          "tbody",
+          _vm._l(_vm.jobs, function(job) {
+            return _c("tr", { key: job.id }, [
+              _c("td", [_vm._v(_vm._s(job.company_name))]),
+              _vm._v(" "),
+              _c("td", [_vm._v(_vm._s(job.company_address))])
+            ])
+          }),
+          0
+        )
+      ]),
       _vm._v(" "),
       _c(
         "div",
@@ -40139,174 +40138,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "card-deck wow fadeIn",
-        attrs: { "data-wow-delay": "0.4s" }
-      },
-      [
-        _c("div", { staticClass: "col-md-4 " }, [
-          _c("div", { staticClass: "card" }, [
-            _c("img", {
-              staticClass: "card-img-top",
-              attrs: {
-                src: "asset/img/jobhun_putih.png",
-                alt: "Card image cap"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _vm._v(
-                  "Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App"
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Bali")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                { staticClass: "btn btn-success", attrs: { href: "#" } },
-                [_vm._v("Read More")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" }, [
-              _c("small", { staticClass: "text-muted" }, [
-                _vm._v("Last updated 3 mins ago")
-              ])
-            ])
-          ])
-        ]),
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("Perusahaan")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("img", {
-              staticClass: "card-img-top",
-              attrs: {
-                src: "asset/img/jobhun_putih.png",
-                alt: "Card image cap"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-              _vm._v(" "),
-              _c("p", [
-                _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Surabaya")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                { staticClass: "btn btn-success", attrs: { href: "#" } },
-                [_vm._v("Read More")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" }, [
-              _c("small", { staticClass: "text-muted" }, [
-                _vm._v("Last updated 3 mins ago")
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("img", {
-              staticClass: "card-img-top",
-              attrs: {
-                src: "asset/img/jobhun_putih.png",
-                alt: "Card image cap"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-              _vm._v(" "),
-              _c("p", [
-                _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Jakarta")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                { staticClass: "btn btn-success", attrs: { href: "#" } },
-                [_vm._v("Read More")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" }, [
-              _c("small", { staticClass: "text-muted" }, [
-                _vm._v("Last updated 3 mins ago")
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("img", {
-              staticClass: "card-img-top",
-              attrs: {
-                src: "asset/img/jobhun_putih.png",
-                alt: "Card image cap"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [_vm._v("Card title")]),
-              _vm._v(" "),
-              _c("p", [
-                _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Surabaya")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                { staticClass: "btn btn-success", attrs: { href: "#" } },
-                [_vm._v("Read More")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" }, [
-              _c("small", { staticClass: "text-muted" }, [
-                _vm._v("Last updated 3 mins ago")
-              ])
-            ])
-          ])
-        ])
-      ]
-    )
+        _c("th", [_vm._v("Lokasi")])
+      ])
+    ])
   }
 ]
 render._withStripped = true

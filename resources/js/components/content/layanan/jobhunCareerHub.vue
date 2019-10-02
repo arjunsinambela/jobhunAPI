@@ -45,7 +45,7 @@
 
                 </div>
             </div>
-            <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
+            <!-- <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
                 <div class="col-md-4 ">
                     <div class="card">
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
@@ -62,56 +62,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                             <p><i class="fas fa-map-marker-alt"></i> Surabaya</p>
-                            <p class="card-text">This is a wider card with supporting text below as a
-                                natural lead-in to additional content. This content is a little bit
-                                longer.</p>
-                                <a href="#" class="btn btn-success">Read More</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                             <p><i class="fas fa-map-marker-alt"></i> Jakarta</p>
-                            <p class="card-text">This is a wider card with supporting text below as a
-                                natural lead-in to additional content. This content is a little bit
-                                longer.</p>
-                                <a href="#" class="btn btn-success">Read More</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p><i class="fas fa-map-marker-alt"></i> Surabaya</p>
-                            <p class="card-text">This is a wider card with supporting text below as a
-                                natural lead-in to additional content. This content is a little bit
-                                longer.</p>
-
-                                 <a href="#" class="btn btn-success">Read More</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                
+            </div> -->
+            <table>
+                <thead>
+                <tr>
+                    <th>Perusahaan</th>
+                    <th>Lokasi</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr v-for="job in jobs" :key="job.id">
+                    <td>{{job.company_name}}</td>
+                    <td>{{job.company_address}}</td>
+                </tr>
+                </tbody>
+            </table>
             <div class="col text-center">
                 <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
             </div>
@@ -124,6 +90,22 @@
 
 <script>
     export default {
+        data(){
+            return{
+                jobs: []
+            }
+        },
+        mounted() {
+            this.getData();
+        },
+        methods: {
+            getData: function(){
+                axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(Response=>{
+                    console.log(Response.data);
+                    this.jobs = Response.data.jobs
+                })
+            }
+        },
 
     }
 
