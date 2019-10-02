@@ -2484,6 +2484,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -40389,21 +40394,17 @@ var render = function() {
               staticStyle: { "max-width": "18rem" }
             },
             [
-              _c("div", { staticClass: "card-header bg-primary" }, [
-                _vm._v("Media Partner PREMIUM")
-              ]),
+              _vm._m(1),
               _vm._v(" "),
               _c(
                 "div",
                 { staticClass: "card-body" },
                 [
-                  _c("h5", { staticClass: "card-title text-center" }, [
-                    _vm._v("Rp 100.000,-")
-                  ]),
+                  _vm._m(2),
                   _vm._v(" "),
                   _c("hr", { staticClass: "bg-white" }),
                   _vm._v(" "),
-                  _vm._m(1),
+                  _vm._m(3),
                   _vm._v(" "),
                   _c("router-link", { attrs: { to: "formMediaPartner" } }, [
                     _c(
@@ -40430,59 +40431,139 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ol", { staticStyle: { "text-align": "justify" } }, [
-      _c("li", [_vm._v("Bersifat full barter")]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Berkewajiban memasang logo Jobhun di seluruh media promosi acara"
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Poster acara akan diposting di website, feed Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
-      ])
+    return _c(
+      "ul",
+      { staticClass: "fa-ul", staticStyle: { "text-align": "justify" } },
+      [
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v("Bersifat full barter")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v(
+            "Berkewajiban memasang logo Jobhun di seluruh media promosi acara"
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v(
+            "Poster acara akan diposting di website, feed Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "#4e73df" }
+            })
+          ]),
+          _vm._v("Press release sebelum acara akan diposting di website Jobhun")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header bg-primary" }, [
+      _c("b", [_vm._v("Media Partner PREMIUM")])
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ol", { staticStyle: { "text-align": "justify" } }, [
-      _c("li", [
-        _vm._v(
-          "Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. Namun hal ini tidak bersifat wajib."
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun sebanyak 1 kali."
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v("Press release sebelum acara akan diposting di website Jobhun")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna)."
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan Instagram Jobhun."
-        )
-      ])
+    return _c("h5", { staticClass: "card-title text-center" }, [
+      _c("b", [_vm._v("100.000,- ")])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "ul",
+      { staticClass: "fa-ul", staticStyle: { "text-align": "justify" } },
+      [
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "white" }
+            })
+          ]),
+          _vm._v(
+            "Pemasangan logo Jobhun di seluruh media promosi acara diperbolehkan. Namun hal ini tidak\n                            bersifat wajib."
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "white" }
+            })
+          ]),
+          _vm._v(
+            "Poster acara akan diposting di website, feed akun Instagram, dan Instagram Story Jobhun\n                            sebanyak 1 kali."
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "white" }
+            })
+          ]),
+          _vm._v("Press release sebelum acara akan diposting di website Jobhun")
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "white" }
+            })
+          ]),
+          _vm._v(
+            "Blasting poster acara melalui newsletter Jobhun (Kurang lebih ribuan pengguna)."
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("span", { staticClass: "fa-li" }, [
+            _c("i", {
+              staticClass: "fas fa-check",
+              staticStyle: { color: "white" }
+            })
+          ]),
+          _vm._v(
+            "Peliputan acara dalam bentuk artikel premium yang akan diposting di website dan\n                            Instagram Jobhun."
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
