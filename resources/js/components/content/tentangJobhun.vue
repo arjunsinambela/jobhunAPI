@@ -32,14 +32,7 @@
                         <p>Jobhun menerima kerja sama media partner untuk acara-acara yang berhubungan dengan karier maupun penunjang skill dalam berkarier.</p>
                     </ol>
                     <h5>Program Jobhun</h5>
-                    <ol>
-                        <li>Jobhun Internship</li>
-                        <p>Sebuah program magang dari Jobhun yang ditujukan bagi para pelajar atau mahasiswa, dengan rentang usia 15-22 tahun. Posisi magang yang dibuka biasanya menyesuaikan kebutuhan proyek Jobhun. Dalam program ini, mereka akan mendapatkan pelatihan atau mentoring beberapa topik dan berkesempatan untuk membantu tim inti Jobhun mengerjakan beberapa proyek dan pekerjaan rutin.</p>
-                        <li>Jobhun Talks</li>
-                        <p>Jobhun Talks merupakan sebuah sharing session yang ditujukan untuk umum, biasanya mengambil topik yang berkaitan dengan dunia kerja maupun pengembangan skill. Topik dibawakan oleh orang yang ahli dalam bidangnya, sesuai dengan topik. Inti pembicaraan kegiatan lebih kepada motivasi, tips dan trik, atau gambaran umum sebuah profesi atau hal-hal yang berkaitan dengan dunia karier.</p>
-                        <li>Jobhun Visit</li>
-                        <p>Jobhun Visit merupakan sebuah program kunjungan ke kantor-kantor atau instansi yang dilakukan oleh tim inti Jobhun, para intern, maupun pengguna yang beruntung. Program ini dibuat untuk memperkenalkan dunia kerja yang sesungguhnya kepada para pencari kerja. Mereka akan diajak melihat secara langsung suasana kerja yang ada di perusahaan-perusahaan, kemudian menggali lebih jauh tentang profesi-profesi yang ada pada perusahaan tersebut.</p>
-                    </ol>
+                    
                 </div>
             </div>
         </div>
