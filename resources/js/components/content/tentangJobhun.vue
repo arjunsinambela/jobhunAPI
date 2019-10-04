@@ -11,9 +11,6 @@
                     <br>
                     <h4><center>Jobhun – Career Development Platform for Millenials</center></h4>
 
-                    <p style="text-align:justify;"> &nbsp;&nbsp;&nbsp; Jobhun merupakan startup pendukung perkembangan karier masyarakat Indonesia. Kami memiliki layanan utama berupa Jobhun Career Hub dan Jobhun Academy. Melalui platform ini, kami akan mempertemukan pencari kerja dan pemberi kerja dengan cara yang cepat dan mudah. Pencari kerja dapat melamar kerja dengan mudah, sedangkan perusahaan dapat menemukan kandidat yang tepat. Sedangkan Jobhun Academy dibuat guna membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent.</p>
-                    <p style="text-align:justify;"> &nbsp; &nbsp; Selain itu, Jobhun juga memiliki beragam program pendukung yang bisa mendukung karier dan skill masyarakat, seperti program magang, talks, hingga visitasi ke perusahaan-perusahaan. Seluruh upaya tersebut kami lakukan untuk mencapai sebuah misi, yaitu mengurangi angka pengangguran di Indonesia. Tak hanya itu saja, kami juga menyediakan berbagai artikel, berita, maupun informasi acara yang dapat menunjang karier para Jobhuners (Sebutan untuk followers Jobhun). Penggunaan situs ini juga dibuat sangat sederhana, sehingga pengguna tidak akan kesulitan saat menggunakannya. Tidak muluk-muluk, bagi kami ‘sharing is caring’.</p>
-                    <h5>Visi Jobhun</h5>
                     
                 </div>
             </div>
