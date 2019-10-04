@@ -32,6 +32,8 @@
                                         <option selected>Kota</option>
                                         <option>Surabaya</option>
                                         <option>jakarta </option>
+                                        <option>semarang </option>
+                                        <option>bali</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
