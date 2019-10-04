@@ -10,8 +10,6 @@
                 <div class="container">
                     <br>
                     <h4><center>Jobhun – Career Development Platform for Millenials</center></h4>
-
-                    
                 </div>
             </div>
         </div>
