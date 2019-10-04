@@ -22,16 +22,6 @@
                         <li>Mendukung peningkatan dan pengembangan kemampuan masyarakat Indonesia sebagai bekal dalam berkarier.</li>
                         <li>Membantu masyarakat Indonesia yang masih merasa bingung dalam memilih karier yang tepat bagi mereka dengan menjadi wadah yang mampu memberikan solusi.</li>
                     </ol>
-                    <h5>Layanan Jobhun</h5>
-                    <ol>
-                        <li>Jobhun Career Hub</li>
-                        <p>Sebuah platform yang bisa disebut sebagai talent pool, dimana Jobhun akan mempertemukan calon pekerja atau pekerja dengan perusahaan yang sedang mencari kandidat. Melalui Jobhun Career Hub, pekerja dengan perusahaan yang sedang membuka lowongan kerja akan dipertemukan dengan mudah dan cepat.</p>
-                        <li>Jobhun Academy</li>
-                        <p>Jobhun Academy merupakan sebuah program pelatihan yang bertujuan untuk membekali para calon pekerja dan pekerja dengan berbagai skill yang saat ini sedang dibutuhkan di dunia kerja. Nantinya mereka akan disalurkan oleh Jobhun pada beberapa perusahaan partner Jobhun yang sedang mencari tenaga kerja atau talent melalui Jobhun Career Hub.</p>
-                        <li>Media partner</li>
-                        <p>Jobhun menerima kerja sama media partner untuk acara-acara yang berhubungan dengan karier maupun penunjang skill dalam berkarier.</p>
-                    </ol>
-                    <h5>Program Jobhun</h5>
                     
                 </div>
             </div>
