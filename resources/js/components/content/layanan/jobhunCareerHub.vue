@@ -32,6 +32,8 @@
                                         <option selected>Kota</option>
                                         <option>Surabaya</option>
                                         <option>jakarta </option>
+                                        <option>semarang </option>
+                                        <option>bali</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -45,7 +47,7 @@
 
                 </div>
             </div>
-            <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
+            <!-- <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
                 <div class="col-md-4 ">
                     <div class="card">
                         <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
@@ -63,6 +65,9 @@
                     </div>
                 </div>
 
+            </div> -->
+            <div>
+                <pagination :data="jobs" @pagination-change-page="getData"></pagination>
             </div>
             <table>
                 <thead>
@@ -72,7 +77,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr v-for="job in jobs" :key="job.id">
+                <tr v-for="job in jobs.data" :key="job.id">
                     <td>{{job.company_name}}</td>
                     <td>{{job.company_address}}</td>
                 </tr>
@@ -92,15 +97,16 @@
     export default {
         data(){
             return{
-                jobs: []
+                jobs: {},
+                perpage: 2
             }
         },
         mounted() {
             this.getData();
         },
         methods: {
-            getData: function(){
-                axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(response=>{
+            getData: function(page=1){
+                axios.get('http://192.168.11.29/jobhun/public/api/job/filter/'+ this.perpage +'?page='+page).then(response=>{
                     console.log(response.data);
                     this.jobs = response.data.jobs;
                 });

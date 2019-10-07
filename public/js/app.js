@@ -2397,10 +2397,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      jobs: []
+      jobs: {},
+      perpage: 2
     };
   },
   mounted: function mounted() {
@@ -2410,7 +2416,8 @@ __webpack_require__.r(__webpack_exports__);
     getData: function getData() {
       var _this = this;
 
-      axios.get('http://192.168.11.12/github/jobhun/public/api/job/filter').then(function (response) {
+      var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+      axios.get('http://192.168.11.29/jobhun/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
         console.log(response.data);
         _this.jobs = response.data.jobs;
       });
@@ -40567,14 +40574,23 @@ var render = function() {
     _c("div", { staticClass: "row" }, [
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c(
+        "div",
+        [
+          _c("pagination", {
+            attrs: { data: _vm.jobs },
+            on: { "pagination-change-page": _vm.getData }
+          })
+        ],
+        1
+      ),
       _vm._v(" "),
       _c("table", [
-        _vm._m(2),
+        _vm._m(1),
         _vm._v(" "),
         _c(
           "tbody",
-          _vm._l(_vm.jobs, function(job) {
+          _vm._l(_vm.jobs.data, function(job) {
             return _c("tr", { key: job.id }, [
               _c("td", [_vm._v(_vm._s(job.company_name))]),
               _vm._v(" "),
@@ -40672,7 +40688,11 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("option", [_vm._v("Surabaya")]),
                     _vm._v(" "),
-                    _c("option", [_vm._v("jakarta ")])
+                    _c("option", [_vm._v("jakarta ")]),
+                    _vm._v(" "),
+                    _c("option", [_vm._v("semarang ")]),
+                    _vm._v(" "),
+                    _c("option", [_vm._v("bali")])
                   ])
                 ]),
                 _vm._v(" "),
@@ -40692,62 +40712,6 @@ var staticRenderFns = [
                     ]
                   )
                 ])
-              ])
-            ])
-          ])
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "card-deck wow fadeIn",
-        attrs: { "data-wow-delay": "0.4s" }
-      },
-      [
-        _c("div", { staticClass: "col-md-4 " }, [
-          _c("div", { staticClass: "card" }, [
-            _c("img", {
-              staticClass: "card-img-top",
-              attrs: {
-                src: "asset/img/jobhun_putih.png",
-                alt: "Card image cap"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _vm._v(
-                  "Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App"
-                )
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Bali")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "This is a wider card with supporting text below as a\n                            natural lead-in to additional content. This content is a little bit\n                            longer."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "a",
-                { staticClass: "btn btn-success", attrs: { href: "#" } },
-                [_vm._v("Read More")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-footer" }, [
-              _c("small", { staticClass: "text-muted" }, [
-                _vm._v("Last updated 3 mins ago")
               ])
             ])
           ])
@@ -58650,11 +58614,12 @@ var routes = [{
   name: 'jobhunCareerHub',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunCareerHub */ "./resources/js/components/content/layanan/jobhunCareerHub.vue")["default"]
 }, //button posting loker
+// {
+//   path: '/pasang-loker',
+//   name: 'pasangLoker',
+//   component: require ('./components/content/pasangLoker').default
+// },
 {
-  path: '/pasang-loker',
-  name: 'pasangLoker',
-  component: __webpack_require__(/*! ./components/content/pasangLoker */ "./resources/js/components/content/pasangLoker.vue")["default"]
-}, {
   path: '/jobhun-academy',
   name: 'jobhunAcademy',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
