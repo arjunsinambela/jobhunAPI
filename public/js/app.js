@@ -2303,130 +2303,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/layanan/jobhunCareerHub.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      jobs: {},
-      perpage: 1
-    };
-  },
-  mounted: function mounted() {
-    this.getData();
-  },
-  methods: {
-    getData: function getData() {
-      var _this = this;
-
-      var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-      axios.get('http://localhost/jobhun2/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
-        console.log(response.data);
-        _this.jobs = response.data.jobs;
-      });
-    }
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\xampp\\htdocs\\jobhunapi\\resources\\js\\components\\content\\layanan\\jobhunCareerHub.vue: Unexpected token, expected \";\" (110:14)\n\n\u001b[0m \u001b[90m 108 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 109 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 | \u001b[39m    mounted() {\u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 111 | \u001b[39m        \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetData()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 112 | \u001b[39m        \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minit()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 113 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n    at Parser.raise (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:6387:17)\n    at Parser.unexpected (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:7704:16)\n    at Parser.semicolon (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:7686:40)\n    at Parser.parseReturnStatement (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10270:12)\n    at Parser.parseStatementContent (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9948:21)\n    at Parser.parseStatement (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9900:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10476:25)\n    at Parser.parseBlockBody (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10463:10)\n    at Parser.parseBlock (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10447:10)\n    at Parser.parseFunctionBody (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9495:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9465:10)\n    at Parser.parseMethod (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9419:10)\n    at Parser.parseObjectMethod (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9335:19)\n    at Parser.parseObjPropValue (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9377:23)\n    at Parser.parseObjectMember (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9301:10)\n    at Parser.parseObj (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9225:25)\n    at Parser.parseExprAtom (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8855:28)\n    at Parser.parseExprSubscripts (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8483:23)\n    at Parser.parseMaybeUnary (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8463:21)\n    at Parser.parseExprOps (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8329:23)\n    at Parser.parseMaybeConditional (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8302:23)\n    at Parser.parseMaybeAssign (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:8249:21)\n    at Parser.parseExportDefaultExpression (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:11081:24)\n    at Parser.parseExport (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10976:31)\n    at Parser.parseStatementContent (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10004:27)\n    at Parser.parseStatement (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9900:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10476:25)\n    at Parser.parseBlockBody (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:10463:10)\n    at Parser.parseTopLevel (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:9829:10)\n    at Parser.parse (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:11341:17)\n    at parse (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\parser\\lib\\index.js:11377:38)\n    at parser (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:166:34)\n    at normalizeFile (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:100:11)\n    at runSync (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\core\\lib\\transformation\\index.js:44:43)\n    at runAsync (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\core\\lib\\transformation\\index.js:35:14)\n    at process.nextTick (C:\\xampp\\htdocs\\jobhunapi\\node_modules\\@babel\\core\\lib\\transform.js:34:34)");
 
 /***/ }),
 
@@ -40578,10 +40457,92 @@ var render = function() {
       "div",
       { staticClass: "row" },
       [
-        _vm._m(0),
+        _c(
+          "div",
+          {
+            staticClass: "col-md-12 wow fadeIn",
+            attrs: { "data-wow-delay": "0.2s" }
+          },
+          [
+            _c("div", { staticClass: "card shadow mb-4" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("br"),
+                _vm._v(" "),
+                _c("h1", [_vm._v(_vm._s(_vm.heading))]),
+                _vm._v(" "),
+                _c("form", [
+                  _c("div", { staticClass: "form-row" }, [
+                    _vm._m(1),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-5 mb-3" }, [
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.make,
+                              expression: "make"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { name: "make", id: "make" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.make = $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "option",
+                            {
+                              attrs: {
+                                value: "null",
+                                disabled: "",
+                                selected: ""
+                              }
+                            },
+                            [_vm._v("selected make")]
+                          ),
+                          _vm._v(" "),
+                          _vm._l(_vm.makes_options, function(opt) {
+                            return _c(
+                              "option",
+                              { key: opt.id, domProps: { value: opt.id } },
+                              [_vm._v(_vm._s(opt.text))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _vm._m(3)
+                  ])
+                ])
+              ])
+            ])
+          ]
+        ),
         _vm._v(" "),
         _c("table", [
-          _vm._m(1),
+          _vm._m(4),
           _vm._v(" "),
           _c(
             "tbody",
@@ -40619,94 +40580,60 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass: "col-md-12 wow fadeIn",
-        attrs: { "data-wow-delay": "0.2s" }
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
       },
       [
-        _c("div", { staticClass: "card shadow mb-4" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-            },
-            [
-              _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Jobhun Career Hub")
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "container" }, [
-            _c("br"),
-            _vm._v(" "),
-            _c("form", [
-              _c("div", { staticClass: "form-row" }, [
-                _c("div", { staticClass: "col-md-12 mb-3" }, [
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "validationDefauld01",
-                      placeholder: "keyword"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-5 mb-3" }, [
-                  _c("select", { staticClass: "form-control" }, [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("category")
-                    ]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Full Time")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Frelance")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Internship")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Part Time")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Volunter")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-4 mb-3" }, [
-                  _c("select", { staticClass: "form-control" }, [
-                    _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Surabaya")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("jakarta ")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("semarang ")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("bali")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-3" }, [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "button" }
-                    },
-                    [
-                      _c("i", { staticClass: "fa fa-search" }, [
-                        _vm._v(
-                          "\n                                        Search"
-                        )
-                      ])
-                    ]
-                  )
-                ])
-              ])
-            ])
-          ])
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Jobhun Career Hub")
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-12 mb-3" }, [
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "text",
+          id: "validationDefauld01",
+          placeholder: "keyword"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-3" }, [
+      _c("select", { staticClass: "form-control" }, [
+        _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("Surabaya")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("jakarta ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [
+          _c("i", { staticClass: "fa fa-search" }, [
+            _vm._v("\n                                        Search")
+          ])
+        ]
+      )
+    ])
   },
   function() {
     var _vm = this

@@ -11,6 +11,7 @@
                     <!-- Card Body -->
                     <div class="container">
                         <br>
+                        <h1>{{heading}}</h1>
                         <form>
                             <div class="form-row">
                                 <div class="col-md-12 mb-3">
@@ -18,13 +19,15 @@
                                         placeholder="keyword">
                                 </div>
                                 <div class="col-md-5 mb-3">
-                                    <select class="form-control">
-                                        <option selected>category</option>
+                                    <select class="form-control" name="make" id="make" v-model="make" >
+                                        <option value="null" disabled selected>selected make</option>
+                                        <option v-for="opt in makes_options" :key="opt.id" :value="opt.id">{{opt.text}}</option>
+                                        <!-- <option selected>category</option> 
                                         <option>Full Time</option>
                                         <option>Frelance</option>
                                         <option>Internship</option>
                                         <option>Part Time</option>
-                                        <option>Volunter</option>
+                                        <option>Volunter</option> -->
                                     </select>
                                 </div>
                                 <div class="col-md-4 mb-3">
@@ -32,8 +35,7 @@
                                         <option selected>Kota</option>
                                         <option>Surabaya</option>
                                         <option>jakarta </option>
-                                        <option>semarang </option>
-                                        <option>bali</option>
+                                       
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -64,9 +66,9 @@
                         </div>
                     </div>
                 </div>
-
+               
             </div> -->
-            
+
             <table>
                 <thead>
                 <tr>
@@ -82,9 +84,11 @@
                 </tbody>
                  
             </table>
+
             <pagination :data="jobs" @pagination-change-page="getData"></pagination>
             <div>
                
+
             </div>
             <!-- <div class="col text-center">
                 <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
@@ -101,20 +105,30 @@
         data(){
             return{
                 jobs: {},
-                perpage: 1
-            }   
+
         },
         mounted() {
             this.getData();
+            this.init();
         },
         methods: {
             getData: function(page=1){
-                axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage +'?page='+page).then(response=>{
-                    console.log(response.data);
+
                     this.jobs = response.data.jobs;
                 });
-            }
-        },
+            },
+
+            //dropdown
+            init : function(){
+                 
+                this.makes_options = [
+                    {text: 'fultime', id: 1},
+                    {text: 'freelance', id: 2},
+                    {text: 'volunter', id: 3},
+                    {text: 'intership', id: 4}
+                ]
+            },
+        }
 
     }
 
