@@ -69,7 +69,6 @@
                 </div>
                
             </div> -->
-
             <table>
                 <thead>
                 <tr>
@@ -83,22 +82,13 @@
                     <td>{{job.company_address}}</td>
                 </tr>
                 </tbody>
-                 
             </table>
-
-            <pagination :data="jobs" @pagination-change-page="getData"></pagination>
-            <div>
-               
              <div>
                     <pagination :data="jobs" @pagination-change-page="getData"></pagination>
                 </div>
             <div class="col text-center">
                 <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
-
             </div>
-            <!-- <div class="col text-center">
-                <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
-            </div> -->
     <br>
     <br>
 
@@ -111,7 +101,6 @@
         data(){
             return{
                 jobs: {},
-
                 perpage: 1,
                 
 
@@ -136,9 +125,8 @@
         },
         methods: {
             getData: function(page=1){
-                axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage +'?page='+page).then(response=>{
-                    console.log(response.data);
-
+                axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage + '?page=' + page).then(response=>{
+                    console.log(response.data); 
                     this.jobs = response.data.jobs;
                 });
             },
