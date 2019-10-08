@@ -137,7 +137,7 @@
                     <div class="card-deck">
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy/Content-writer">
+                                <router-link to="jobhun-academy-content-writer">
                                     <img class="card-img-top" src="asset/img/cw.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
