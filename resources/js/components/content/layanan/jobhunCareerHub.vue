@@ -88,6 +88,11 @@
             <pagination :data="jobs" @pagination-change-page="getData"></pagination>
             <div>
                
+             <div>
+                    <pagination :data="jobs" @pagination-change-page="getData"></pagination>
+                </div>
+            <div class="col text-center">
+                <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
 
             </div>
             <!-- <div class="col text-center">
@@ -106,6 +111,17 @@
             return{
                 jobs: {},
 
+                perpage: 1,
+                
+
+                //dropdown category
+                heading: 'coba Vue',
+                make: null,
+                makes_options: []
+
+              
+
+            }
         },
         mounted() {
             this.getData();
@@ -113,6 +129,8 @@
         },
         methods: {
             getData: function(page=1){
+                axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage +'?page='+page).then(response=>{
+                    console.log(response.data);
 
                     this.jobs = response.data.jobs;
                 });
