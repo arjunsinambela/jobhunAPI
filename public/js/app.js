@@ -1822,18 +1822,58 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      company_name: "Club",
+      company_tagline: "Air minum dalam gelas",
+      description_company: " perusahaan air minum sehat",
+      company_address: "Surabaya",
+      company_website: "www.club.com",
+      company_email: "club@gmail.com",
+      company_phone: "081234556",
+      position_sought: "Web development",
+      type_work: "Full time",
+      description_job: "yang bisa ngoding",
+      recruit_process: "wawancara",
+      logo_url: null,
+      evidence_transfer: null
+    };
+  },
+  methods: {
+    addloker: function addloker() {
+      var formData = new FormData();
+      formData.append('commpany_name', this.company_name);
+      formData.append('company_tagline', this.company_tagline);
+      formData.append('description_company', this.description_company);
+      formData.append('company_address', this.company_address);
+      formData.append('company_website', this.company_website);
+      formData.append('company_email', this.company_email);
+      formData.append('company_phone', this.company_phone);
+      formData.append('position_sought', this.position_sought);
+      formData.append('type_work', this.type_work);
+      formData.append('description_job', this.description_job);
+      formData.append('recruit_process', this.recruit_process);
+      formData.append('logo_url', this.logo_url);
+      formData.append('evidence_transfer', this.evidence_transfer);
+      axios.post('https://192.168.11.3/jobhun/public/api/post/job/premium', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }).then(function (response) {
+        console.log(response.data);
+      })["catch"](function (error) {
+        console.log(error.response);
+      });
+    },
+    addLogo: function addLogo() {
+      this.logo_url = this.$refs.inputLogo.files[0];
+    },
+    addTransfer: function addTransfer() {
+      this.evidence_transfer = this.$refs.inputTransfer.files[0];
+    }
+  }
+});
 
 /***/ }),
 
@@ -2307,6 +2347,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -38981,356 +39022,475 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "col-md-12 wow fadeIn",
+        attrs: { "data-wow-delay": "0.2s" }
+      },
+      [
+        _c("div", { staticClass: "card shadow mb-4" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "container" }, [
+            _c("br"),
+            _vm._v(" "),
+            _c("form", [
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Nama perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_name,
+                      expression: "company_name"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "nama perusahaan"
+                  },
+                  domProps: { value: _vm.company_name },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_name = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Tagline perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_tagline,
+                      expression: "company_tagline"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "tagline"
+                  },
+                  domProps: { value: _vm.company_tagline },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_tagline = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Informasi tentang perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("textarea", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.description_company,
+                      expression: "description_company"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                  domProps: { value: _vm.description_company },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.description_company = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Alamat perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_address,
+                      expression: "company_address"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "Jl."
+                  },
+                  domProps: { value: _vm.company_address },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_address = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Website perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_website,
+                      expression: "company_website"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "www.perusahaan.com"
+                  },
+                  domProps: { value: _vm.company_website },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_website = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Email perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_email,
+                      expression: "company_email"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "perusahaan@gmail.com"
+                  },
+                  domProps: { value: _vm.company_email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_email = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Nomor telepon perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_phone,
+                      expression: "company_phone"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.company_phone },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_phone = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Posisi - posisi yang dicari")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.position_sought,
+                      expression: "position_sought"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.position_sought },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.position_sought = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Jenis pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "select",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.type_work,
+                        expression: "type_work"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    on: {
+                      change: function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.type_work = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      }
+                    }
+                  },
+                  [
+                    _c("option", { attrs: { value: "Full time" } }, [
+                      _vm._v("Full time")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Part time" } }, [
+                      _vm._v("Part time")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Freelance" } }, [
+                      _vm._v("Freelance")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Internship" } }, [
+                      _vm._v("Internship")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Volunteer" } }, [
+                      _vm._v("Volunteer")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Deskripsi masing - masing Pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "textarea",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.description_job,
+                        expression: "description_job"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                    domProps: { value: _vm.description_job },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.description_job = $event.target.value
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "Pekerjaan yang akan dilakukan:\nSyarat dan kualifikasi:\nKemampuan dan kompetensi yang harus dimiliki:\nLokasi kerja:\nWaktu bekerja:"
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Tentang proses rekrut")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "textarea",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.recruit_process,
+                        expression: "recruit_process"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                    domProps: { value: _vm.recruit_process },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.recruit_process = $event.target.value
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "Cara mengirimkan lamaran:\nBatas waktu melamar:\nWaktu proses rekrut."
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Logo Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "custom-file" }, [
+                  _c("input", {
+                    ref: "inputLogo",
+                    staticClass: "custom-file-input",
+                    attrs: { type: "file", id: "customFile" },
+                    on: { change: _vm.addLogo }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "custom-file-label" }, [
+                    _vm._v("Pilih file")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Bukti Transfer")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "custom-file" }, [
+                  _c("input", {
+                    ref: "inputTransfer",
+                    staticClass: "custom-file-input",
+                    attrs: { type: "file", id: "customFile" },
+                    on: { change: _vm.addTransfer }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "custom-file-label" }, [
+                    _vm._v("Pilih file")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary btn-lg btn-block",
+                  attrs: { type: "button" },
+                  on: { click: _vm.addloker }
+                },
+                [_vm._v("Kirim")]
+              ),
+              _vm._v(" "),
+              _c("br")
+            ])
+          ])
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "col-md-12 wow fadeIn",
-          attrs: { "data-wow-delay": "0.2s" }
-        },
-        [
-          _c("div", { staticClass: "card shadow mb-4" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-              },
-              [
-                _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                  _vm._v("Formulir Jobhun Career Hub Premium")
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "container" }, [
-              _c("br"),
-              _vm._v(" "),
-              _c("form", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Nama perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "nama perusahaan"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Tagline perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "tagline"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Informasi tentang perusahaan")]
-                  ),
-                  _vm._v(" "),
-                  _c("textarea", {
-                    staticClass: "form-control",
-                    attrs: { id: "exampleFormControlTextarea1", rows: "3" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Alamat perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "Jl."
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Website perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "www.perusahaan.com"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Email perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "perusahaan@gmail.com"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Nomor telepon perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Posisi - posisi yang dicari")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Jenis pekerjaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio1",
-                        value: "option1"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio1" }
-                      },
-                      [_vm._v("Full time")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Part time")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Freelance")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Internship")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Volunteer")]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Deskripsi masing - masing Pekerjaan")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "textarea",
-                    {
-                      staticClass: "form-control",
-                      attrs: {
-                        id: "exampleFormControlTextarea1",
-                        rows: "3",
-                        value: ""
-                      }
-                    },
-                    [
-                      _vm._v(
-                        "Pekerjaan yang akan dilakukan:\nSyarat dan kualifikasi:\nKemampuan dan kompetensi yang harus dimiliki:\nLokasi kerja:\nWaktu bekerja:"
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Tentang proses rekrut")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "textarea",
-                    {
-                      staticClass: "form-control",
-                      attrs: {
-                        id: "exampleFormControlTextarea1",
-                        rows: "3",
-                        value: ""
-                      }
-                    },
-                    [
-                      _vm._v(
-                        "Cara mengirimkan lamaran:\nBatas waktu melamar:\nWaktu proses rekrut."
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Bukti Transfer")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "custom-file" }, [
-                    _c("input", {
-                      staticClass: "custom-file-input",
-                      attrs: { type: "file", id: "customFile" }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "custom-file-label",
-                        attrs: { for: "customFile" }
-                      },
-                      [_vm._v("Pilih file")]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-primary btn-lg btn-block",
-                    attrs: { type: "button" }
-                  },
-                  [_vm._v("Kirim")]
-                ),
-                _vm._v(" "),
-                _c("br")
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
+      },
+      [
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Formulir Jobhun Career Hub Premium")
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -40599,8 +40759,233 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "div",
+      { staticClass: "row" },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "col-md-12 wow fadeIn",
+            attrs: { "data-wow-delay": "0.2s" }
+          },
+          [
+            _c("div", { staticClass: "card shadow mb-4" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", { staticClass: "container" }, [
+                _c("br"),
+                _vm._v(" "),
+                _c("h1", [_vm._v(_vm._s(_vm.heading))]),
+                _vm._v(" "),
+                _c("form", [
+                  _c("div", { staticClass: "form-row" }, [
+                    _vm._m(1),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-5 mb-3" }, [
+                      _c(
+                        "select",
+                        {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.make,
+                              expression: "make"
+                            }
+                          ],
+                          staticClass: "form-control",
+                          attrs: { name: "make", id: "make" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.make = $event.target.multiple
+                                ? $$selectedVal
+                                : $$selectedVal[0]
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "option",
+                            {
+                              attrs: {
+                                value: "null",
+                                disabled: "",
+                                selected: ""
+                              }
+                            },
+                            [_vm._v("selected make")]
+                          ),
+                          _vm._v(" "),
+                          _vm._l(_vm.makes_options, function(opt) {
+                            return _c(
+                              "option",
+                              { key: opt.id, domProps: { value: opt.id } },
+                              [_vm._v(_vm._s(opt.text))]
+                            )
+                          })
+                        ],
+                        2
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _vm._m(3)
+                  ])
+                ])
+              ])
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("table", [
+          _vm._m(4),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.jobs.data, function(job) {
+              return _c("tr", { key: job.id }, [
+                _c("td", [_vm._v(_vm._s(job.company_name))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(job.company_address))])
+              ])
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("pagination", {
+          attrs: { data: _vm.jobs },
+          on: { "pagination-change-page": _vm.getData }
+        }),
+        _vm._v(" "),
+        _c("div", [
+          _c(
+            "div",
+            [
+              _c("pagination", {
+                attrs: { data: _vm.jobs },
+                on: { "pagination-change-page": _vm.getData }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col text-center" },
+            [
+              _c("router-link", { attrs: { to: "pasang-loker" } }, [
+                _c(
+                  "button",
+                  { staticClass: "btn btn-success", attrs: { type: "button" } },
+                  [_vm._v("Posting Loker")]
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br")
+        ])
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
+      },
+      [
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Jobhun Career Hub")
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-12 mb-3" }, [
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "text",
+          id: "validationDefauld01",
+          placeholder: "keyword"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-3" }, [
+      _c("select", { staticClass: "form-control" }, [
+        _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("Surabaya")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("jakarta ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [
+          _c("i", { staticClass: "fa fa-search" }, [
+            _vm._v("\n                                        Search")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("Perusahaan")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Lokasi")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
 
 
 
