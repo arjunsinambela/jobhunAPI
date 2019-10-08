@@ -2835,6 +2835,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -40115,19 +40123,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/desain.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/desain.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40138,19 +40142,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/video.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/video.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40165,19 +40165,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/web.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/web.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40188,19 +40184,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/android.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/android.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40211,19 +40203,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/ui.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/ui.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40238,19 +40226,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/cw2.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/cw2.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40261,19 +40245,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/public.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/public.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40284,19 +40264,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/social_media.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/social_media.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -40311,19 +40287,15 @@ var render = function() {
                   "div",
                   { staticClass: "card" },
                   [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/startup.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
+                    _c("router-link", { attrs: { to: "" } }, [
+                      _c("img", {
+                        staticClass: "card-img-top",
+                        attrs: {
+                          src: "asset/img/startup.jpeg",
+                          alt: "Card image cap"
+                        }
+                      })
+                    ])
                   ],
                   1
                 )
@@ -41400,6 +41372,37 @@ var staticRenderFns = [
         ]
       )
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("Content Writer")])])
   }
 ]
 render._withStripped = true
@@ -58337,17 +58340,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
+/* harmony import */ var _contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contentWriter.vue?vue&type=template&id=aa13233a& */ "./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
   script,
-  render,
-  staticRenderFns,
+  _contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -58355,8 +58359,28 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   
 )
 
+/* hot reload */
+if (false) { var api; }
 component.options.__file = "resources/js/components/content/layanan/jobhunacademy/contentWriter.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a& ***!
+  \****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./contentWriter.vue?vue&type=template&id=aa13233a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue?vue&type=template&id=aa13233a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_contentWriter_vue_vue_type_template_id_aa13233a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
