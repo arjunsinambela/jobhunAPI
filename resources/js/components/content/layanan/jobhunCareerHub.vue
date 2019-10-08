@@ -31,11 +31,12 @@
                                     </select>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <select class="form-control">
-                                        <option selected>Kota</option>
+                                    <select class="form-control" name="city" id="city" v-model="city">
+                                        <option v-for="citys in citys_options" :key="citys.id" :value="citys.id">{{citys.text}}</option>
+                                        <!-- <option selected>Kota</option>
                                         <option>Surabaya</option>
                                         <option>jakarta </option>
-                                       
+                                        -->
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -106,7 +107,12 @@
                 //dropdown category
                 heading: 'coba Vue',
                 make: null,
-                makes_options: []
+                makes_options: [],
+
+                //dropdown kota
+
+                city: null,
+                citys_options: [],
 
               
 
@@ -115,6 +121,7 @@
         mounted() {
             this.getData();
             this.init();
+          
         },
         methods: {
             getData: function(page=1){
@@ -124,7 +131,7 @@
                 });
             },
 
-            //dropdown
+            //dropdown category
             init : function(){
                  
                 this.makes_options = [
@@ -132,8 +139,25 @@
                     {text: 'freelance', id: 2},
                     {text: 'volunter', id: 3},
                     {text: 'intership', id: 4}
+                ];
+
+                    this.citys_options = [
+                    {text : 'surabaya', id: 1},
+                    {text : 'jakarta', id: 2},
+                    {text : 'bali', id: 3},
+                    {text : 'mojokerto', id: 4},
+                    {text : 'gresik', id: 5},
+                    {text : 'madura', id: 6},
+                    
+                    
                 ]
+
             },
+
+            //dropdown city
+         
+
+
         }
 
     }

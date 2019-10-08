@@ -2404,6 +2404,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2412,7 +2413,10 @@ __webpack_require__.r(__webpack_exports__);
       //dropdown category
       heading: 'coba Vue',
       make: null,
-      makes_options: []
+      makes_options: [],
+      //dropdown kota
+      city: null,
+      citys_options: []
     };
   },
   mounted: function mounted() {
@@ -2429,7 +2433,7 @@ __webpack_require__.r(__webpack_exports__);
         _this.jobs = response.data.jobs;
       });
     },
-    //dropdown
+    //dropdown category
     init: function init() {
       this.makes_options = [{
         text: 'fultime',
@@ -2444,7 +2448,27 @@ __webpack_require__.r(__webpack_exports__);
         text: 'intership',
         id: 4
       }];
-    }
+      this.citys_options = [{
+        text: 'surabaya',
+        id: 1
+      }, {
+        text: 'jakarta',
+        id: 2
+      }, {
+        text: 'bali',
+        id: 3
+      }, {
+        text: 'mojokerto',
+        id: 4
+      }, {
+        text: 'gresik',
+        id: 5
+      }, {
+        text: 'madura',
+        id: 6
+      }];
+    } //dropdown city
+
   }
 });
 
@@ -40665,9 +40689,48 @@ var render = function() {
                     )
                   ]),
                   _vm._v(" "),
-                  _vm._m(2),
+                  _c("div", { staticClass: "col-md-4 mb-3" }, [
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.city,
+                            expression: "city"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { name: "city", id: "city" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.city = $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          }
+                        }
+                      },
+                      _vm._l(_vm.citys_options, function(citys) {
+                        return _c(
+                          "option",
+                          { key: citys.id, domProps: { value: citys.id } },
+                          [_vm._v(_vm._s(citys.text))]
+                        )
+                      }),
+                      0
+                    )
+                  ]),
                   _vm._v(" "),
-                  _vm._m(3)
+                  _vm._m(2)
                 ])
               ])
             ])
@@ -40676,7 +40739,7 @@ var render = function() {
       ),
       _vm._v(" "),
       _c("table", [
-        _vm._m(4),
+        _vm._m(3),
         _vm._v(" "),
         _c(
           "tbody",
@@ -40754,20 +40817,6 @@ var staticRenderFns = [
           placeholder: "keyword"
         }
       })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-4 mb-3" }, [
-      _c("select", { staticClass: "form-control" }, [
-        _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
-        _vm._v(" "),
-        _c("option", [_vm._v("Surabaya")]),
-        _vm._v(" "),
-        _c("option", [_vm._v("jakarta ")])
-      ])
     ])
   },
   function() {
