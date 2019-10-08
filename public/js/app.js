@@ -2402,11 +2402,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       jobs: {},
-      perpage: 2
+      perpage: 1
     };
   },
   mounted: function mounted() {
@@ -2417,7 +2420,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-      axios.get('http://192.168.11.29/jobhun/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
+      axios.get('http://localhost/jobhun2/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
         console.log(response.data);
         _this.jobs = response.data.jobs;
       });
@@ -40571,55 +40574,41 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "row" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c("pagination", {
-            attrs: { data: _vm.jobs },
-            on: { "pagination-change-page": _vm.getData }
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("table", [
-        _vm._m(1),
+    _c(
+      "div",
+      { staticClass: "row" },
+      [
+        _vm._m(0),
         _vm._v(" "),
-        _c(
-          "tbody",
-          _vm._l(_vm.jobs.data, function(job) {
-            return _c("tr", { key: job.id }, [
-              _c("td", [_vm._v(_vm._s(job.company_name))]),
-              _vm._v(" "),
-              _c("td", [_vm._v(_vm._s(job.company_address))])
-            ])
-          }),
-          0
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col text-center" },
-        [
-          _c("router-link", { attrs: { to: "pasang-loker" } }, [
-            _c(
-              "button",
-              { staticClass: "btn btn-success", attrs: { type: "button" } },
-              [_vm._v("Posting Loker")]
-            )
-          ])
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br")
-    ])
+        _c("table", [
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "tbody",
+            _vm._l(_vm.jobs.data, function(job) {
+              return _c("tr", { key: job.id }, [
+                _c("td", [_vm._v(_vm._s(job.company_name))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(job.company_address))])
+              ])
+            }),
+            0
+          )
+        ]),
+        _vm._v(" "),
+        _c("pagination", {
+          attrs: { data: _vm.jobs },
+          on: { "pagination-change-page": _vm.getData }
+        }),
+        _vm._v(" "),
+        _c("div"),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("br")
+      ],
+      1
+    )
   ])
 }
 var staticRenderFns = [
