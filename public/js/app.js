@@ -57983,38 +57983,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/content/layanan/contentWriter.vue":
-/*!*******************************************************************!*\
-  !*** ./resources/js/components/content/layanan/contentWriter.vue ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
-  script,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-component.options.__file = "resources/js/components/content/layanan/contentWriter.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
 /***/ "./resources/js/components/content/layanan/formMediaPartner.vue":
 /*!**********************************************************************!*\
   !*** ./resources/js/components/content/layanan/formMediaPartner.vue ***!
@@ -58357,6 +58325,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_jobhunTalentPool_vue_vue_type_template_id_25a8ef3e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+  script,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+component.options.__file = "resources/js/components/content/layanan/jobhunacademy/contentWriter.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
@@ -58739,10 +58739,11 @@ var routes = [{
   path: '/jobhun-academy',
   name: 'jobhunAcademy',
   component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
-}, {
+}, // DetailJobhun Academy
+{
   path: '/jobhun-academy-content-writer',
   name: 'jobhun-academy-content-writer',
-  comments: __webpack_require__(/*! ./components/content/layanan/contentWriter */ "./resources/js/components/content/layanan/contentWriter.vue")["default"]
+  comments: __webpack_require__(/*! ./components/content/layanan/jobhunacademy/contentWriter */ "./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue")["default"]
 }, {
   path: '/jobhun-mediaPatner',
   name: 'jobhunMediaPatner',
@@ -58781,7 +58782,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
