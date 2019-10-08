@@ -29,8 +29,8 @@ let routes=[
 
 // DetailJobhun Academy
 {
-  path: '/jobhun-academy-content-writer',
-  name: 'jobhun-academy-content-writer',
+  path: '/jobhun-academy/Content-writer',
+  name: 'jobhun-academy/Content-writer',
   comments: require('./components/content/layanan/jobhunacademy/contentWriter').default
 },
 

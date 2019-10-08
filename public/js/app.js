@@ -40102,7 +40102,7 @@ var render = function() {
                   [
                     _c(
                       "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
+                      { attrs: { to: "jobhun-academy/Content-writer" } },
                       [
                         _c("img", {
                           staticClass: "card-img-top",
@@ -58765,8 +58765,8 @@ var routes = [{
   component: __webpack_require__(/*! ./components/content/layanan/jobhunAcademy */ "./resources/js/components/content/layanan/jobhunAcademy.vue")["default"]
 }, // DetailJobhun Academy
 {
-  path: '/jobhun-academy-content-writer',
-  name: 'jobhun-academy-content-writer',
+  path: '/jobhun-academy/Content-writer',
+  name: 'jobhun-academy/Content-writer',
   comments: __webpack_require__(/*! ./components/content/layanan/jobhunacademy/contentWriter */ "./resources/js/components/content/layanan/jobhunacademy/contentWriter.vue")["default"]
 }, {
   path: '/jobhun-mediaPatner',
