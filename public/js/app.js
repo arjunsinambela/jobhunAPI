@@ -2402,25 +2402,48 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       jobs: {},
-      perpage: 2
+      perpage: 1,
+      //dropdown category
+      heading: 'coba Vue',
+      make: null,
+      makes_options: []
     };
   },
   mounted: function mounted() {
     this.getData();
+    this.init();
   },
   methods: {
     getData: function getData() {
       var _this = this;
 
       var page = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-      axios.get('http://192.168.11.29/jobhun/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
+      axios.get('http://localhost/jobhun2/public/api/job/filter/' + this.perpage + '?page=' + page).then(function (response) {
         console.log(response.data);
         _this.jobs = response.data.jobs;
       });
+    },
+    //dropdown
+    init: function init() {
+      this.makes_options = [{
+        text: 'fultime',
+        id: 1
+      }, {
+        text: 'freelance',
+        id: 2
+      }, {
+        text: 'volunter',
+        id: 3
+      }, {
+        text: 'intership',
+        id: 4
+      }];
     }
   }
 });
@@ -40572,21 +40595,88 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "row" }, [
-      _vm._m(0),
-      _vm._v(" "),
       _c(
         "div",
+        {
+          staticClass: "col-md-12 wow fadeIn",
+          attrs: { "data-wow-delay": "0.2s" }
+        },
         [
-          _c("pagination", {
-            attrs: { data: _vm.jobs },
-            on: { "pagination-change-page": _vm.getData }
-          })
-        ],
-        1
+          _c("div", { staticClass: "card shadow mb-4" }, [
+            _vm._m(0),
+            _vm._v(" "),
+            _c("div", { staticClass: "container" }, [
+              _c("br"),
+              _vm._v(" "),
+              _c("h1", [_vm._v(_vm._s(_vm.heading))]),
+              _vm._v(" "),
+              _c("form", [
+                _c("div", { staticClass: "form-row" }, [
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-5 mb-3" }, [
+                    _c(
+                      "select",
+                      {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.make,
+                            expression: "make"
+                          }
+                        ],
+                        staticClass: "form-control",
+                        attrs: { name: "make", id: "make" },
+                        on: {
+                          change: function($event) {
+                            var $$selectedVal = Array.prototype.filter
+                              .call($event.target.options, function(o) {
+                                return o.selected
+                              })
+                              .map(function(o) {
+                                var val = "_value" in o ? o._value : o.value
+                                return val
+                              })
+                            _vm.make = $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          }
+                        }
+                      },
+                      [
+                        _c(
+                          "option",
+                          {
+                            attrs: { value: "null", disabled: "", selected: "" }
+                          },
+                          [_vm._v("selected make")]
+                        ),
+                        _vm._v(" "),
+                        _vm._l(_vm.makes_options, function(opt) {
+                          return _c(
+                            "option",
+                            { key: opt.id, domProps: { value: opt.id } },
+                            [_vm._v(_vm._s(opt.text))]
+                          )
+                        })
+                      ],
+                      2
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3)
+                ])
+              ])
+            ])
+          ])
+        ]
       ),
       _vm._v(" "),
       _c("table", [
-        _vm._m(1),
+        _vm._m(4),
         _vm._v(" "),
         _c(
           "tbody",
@@ -40600,6 +40690,17 @@ var render = function() {
           0
         )
       ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        [
+          _c("pagination", {
+            attrs: { data: _vm.jobs },
+            on: { "pagination-change-page": _vm.getData }
+          })
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
         "div",
@@ -40630,94 +40731,60 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass: "col-md-12 wow fadeIn",
-        attrs: { "data-wow-delay": "0.2s" }
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
       },
       [
-        _c("div", { staticClass: "card shadow mb-4" }, [
-          _c(
-            "div",
-            {
-              staticClass:
-                "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-            },
-            [
-              _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                _vm._v("Jobhun Career Hub")
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "container" }, [
-            _c("br"),
-            _vm._v(" "),
-            _c("form", [
-              _c("div", { staticClass: "form-row" }, [
-                _c("div", { staticClass: "col-md-12 mb-3" }, [
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "validationDefauld01",
-                      placeholder: "keyword"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-5 mb-3" }, [
-                  _c("select", { staticClass: "form-control" }, [
-                    _c("option", { attrs: { selected: "" } }, [
-                      _vm._v("category")
-                    ]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Full Time")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Frelance")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Internship")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Part Time")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Volunter")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-4 mb-3" }, [
-                  _c("select", { staticClass: "form-control" }, [
-                    _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("Surabaya")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("jakarta ")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("semarang ")]),
-                    _vm._v(" "),
-                    _c("option", [_vm._v("bali")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-3" }, [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "button" }
-                    },
-                    [
-                      _c("i", { staticClass: "fa fa-search" }, [
-                        _vm._v(
-                          "\n                                        Search"
-                        )
-                      ])
-                    ]
-                  )
-                ])
-              ])
-            ])
-          ])
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Jobhun Career Hub")
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-12 mb-3" }, [
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "text",
+          id: "validationDefauld01",
+          placeholder: "keyword"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-4 mb-3" }, [
+      _c("select", { staticClass: "form-control" }, [
+        _c("option", { attrs: { selected: "" } }, [_vm._v("Kota")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("Surabaya")]),
+        _vm._v(" "),
+        _c("option", [_vm._v("jakarta ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [
+          _c("i", { staticClass: "fa fa-search" }, [
+            _vm._v("\n                                        Search")
+          ])
+        ]
+      )
+    ])
   },
   function() {
     var _vm = this
@@ -58665,7 +58732,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunapi\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
