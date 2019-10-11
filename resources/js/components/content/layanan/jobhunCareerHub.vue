@@ -94,7 +94,7 @@
 
         </div>
         </div>
-    </div>
+    
 </template>
 
 <script>
@@ -124,7 +124,7 @@
             this.init();
 
         },
-        methods: {
+        methods: {  
             getData: function(page=1){
                 axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage + '?page=' + page).then(response=>{
                     console.log(response.data);
