@@ -94,7 +94,7 @@
 
         </div>
         </div>
-    
+
 </template>
 
 <script>
@@ -106,7 +106,7 @@
 
 
                 //dropdown category
-                heading: 'coba Vue',
+                heading: '',
                 make: null,
                 makes_options: [],
 
@@ -124,7 +124,7 @@
             this.init();
 
         },
-        methods: {  
+        methods: {
             getData: function(page=1){
                 axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage + '?page=' + page).then(response=>{
                     console.log(response.data);
