@@ -2405,11 +2405,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       jobs: {},
-      perpage: 1,
+      perpage: 9,
       //dropdown category
       heading: 'coba Vue',
       make: null,
@@ -2467,8 +2469,7 @@ __webpack_require__.r(__webpack_exports__);
         text: 'madura',
         id: 6
       }];
-    } //dropdown city
-
+    }
   }
 });
 
@@ -40738,8 +40739,47 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "card-deck wow fadeIn",
+          attrs: { "data-wow-delay": "0.4s" }
+        },
+        _vm._l(_vm.jobs.data, function(job) {
+          return _c("div", { key: job.id, staticClass: "col-md-4 " }, [
+            _c("div", { staticClass: "card" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: {
+                  height: "70px",
+                  src: "asset/img/logo_perusahaan/" + job.logo_url,
+                  alt: "Card image cap"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("h5", { staticClass: "card-title" }, [
+                  _vm._v(_vm._s(job.company_name))
+                ]),
+                _vm._v(" "),
+                _vm._m(3, true),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  [_vm._v(_vm._s(job.type_work))]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(4, true)
+            ])
+          ])
+        }),
+        0
+      ),
+      _vm._v(" "),
       _c("table", [
-        _vm._m(3),
+        _vm._m(5),
         _vm._v(" "),
         _c(
           "tbody",
@@ -40833,6 +40873,25 @@ var staticRenderFns = [
           ])
         ]
       )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _c("i", { staticClass: "fas fa-map-marker-alt" }),
+      _vm._v(" Bali")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v("Last updated 3 mins ago")
+      ])
     ])
   },
   function() {

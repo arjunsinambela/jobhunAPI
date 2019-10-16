@@ -50,30 +50,32 @@
 
                 </div>
             </div>
-            <!-- <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
-                <div class="col-md-4 ">
+            <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
+               
+                <div v-for="job in jobs.data" :key="job.id" class="col-md-4 " >
                     <div class="card">
-                        <img class="card-img-top" src="asset/img/jobhun_putih.png" alt="Card image cap">
+                        <img class="card-img-top" height="70px" :src="'asset/img/logo_perusahaan/' + job.logo_url" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Magang di Tuupai | PT Ilios Studio Teknologi - Tuupai App</h5>
+                            <h5 class="card-title">{{job.company_name}}</h5>
                              <p><i class="fas fa-map-marker-alt"></i> Bali</p>
-                            <p class="card-text">This is a wider card with supporting text below as a
-                                natural lead-in to additional content. This content is a little bit
-                                longer.</p>
-                                <a href="#" class="btn btn-success">Read More</a>
+                            <!-- <p class="card-text">{{job.description_job}}</p> -->
+                            <a href="#" class="btn btn-success">{{job.type_work}}</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
                 </div>
+
                
-            </div> -->
+               
+            </div>
             <table>
                 <thead>
                 <tr>
                     <th>Perusahaan</th>
                     <th>Lokasi</th>
+                    
                 </tr>
                 </thead>
                 <tbody>
@@ -101,7 +103,7 @@
         data(){
             return{
                 jobs: {},
-                perpage: 1,
+                perpage: 9,
                 
 
                 //dropdown category
@@ -153,11 +155,6 @@
                 ]
 
             },
-
-            //dropdown city
-         
-
-
         }
 
     }
