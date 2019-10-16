@@ -37,16 +37,24 @@
                             <a class="collapse-item">Jobhun Career Hub</a>
                         </router-link>
 
-                        <router-link to="jobhun-academy"><a class="collapse-item" href="">Jobhun Academy</a></router-link>
-                        <router-link to="jobhun-mediaPatner"><a class="collapse-item" href="">Media Partner</a></router-link>
-                        <router-link to="jobhun-talentPool"><a class="collapse-item" href="">Jobhun Talent Pool</a></router-link>
+                        <router-link to="jobhun-academy">
+                            <a class="collapse-item" href="">Jobhun Academy</a>
+                        </router-link>
+
+                        <router-link to="jobhun-mediaPatner">
+                            <a class="collapse-item" href="">Media Partner</a>
+                        </router-link>
+                        
+                        <router-link to="jobhun-talentPool">
+                            <a class="collapse-item" href="">Jobhun Talent Pool</a>
+                        </router-link>
 
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-        
+
 
             <!-- Divider -->
             <hr class="sidebar-divider">

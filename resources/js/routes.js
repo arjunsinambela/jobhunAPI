@@ -27,10 +27,11 @@ let routes=[
   component: require('./components/content/layanan/jobhunAcademy').default
 },
 
+// DetailJobhun Academy
 {
-  path: '/jobhun-academy-content-writer',
-  name: 'jobhun-academy-content-writer',
-  comments: require('./components/content/layanan/contentWriter').default
+  path: '/jacw',
+  name: 'jacw',
+  comments: require('./components/content/layanan/jobhunacademy/contentWriter').default
 },
 
 

@@ -144,14 +144,14 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/desain.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/video.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
@@ -163,21 +163,21 @@
                     <div class="card-deck">
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/web.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/android.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/ui.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
@@ -189,21 +189,21 @@
                     <div class="card-deck">
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/cw2.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/public.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/social_media.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
@@ -215,7 +215,7 @@
                     <div class="card-deck">
                         <div class="col-md-4">
                             <div class="card">
-                                <router-link to="jobhun-academy-content-writer">
+                                <router-link to="">
                                     <img class="card-img-top" src="asset/img/startup.jpeg" alt="Card image cap">
                                 </router-link>
                             </div>
