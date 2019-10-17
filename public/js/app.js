@@ -40339,87 +40339,108 @@ var staticRenderFns = [
               _c("br"),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-sm-6" }, [
-                  _c("div", { staticClass: "card" }, [
-                    _c("div", { staticClass: "card-body" }, [
-                      _c("h5", { staticClass: "card-title" }, [
-                        _vm._v("Jobhun Academy : "),
-                        _c("b", [_vm._v("Content Writer")])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "card-text" }, [
-                        _vm._v(
-                          "With supporting text below as a natural lead-in to additional content."
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-sm-6 wow fadeIn",
+                    attrs: { "data-wow-delay": "0.5s" }
+                  },
+                  [
+                    _c("div", { staticClass: "card" }, [
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("h5", { staticClass: "card-title" }, [
+                          _vm._v("Jobhun Academy : "),
+                          _c("b", [_vm._v("Content Writer")])
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "card-text" }, [
+                          _vm._v(
+                            "With supporting text below as a natural lead-in to additional content."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-primary",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Read more")]
                         )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-primary",
-                          attrs: { href: "#" }
-                        },
-                        [_vm._v("Go somewhere")]
-                      )
+                      ])
                     ])
-                  ])
-                ]),
+                  ]
+                ),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-sm-6" }, [
-                  _c("div", { staticClass: "card" }, [
-                    _c("div", { staticClass: "card-body" }, [
-                      _c("h5", { staticClass: "card-title" }, [
-                        _vm._v("Jobhun Academy : "),
-                        _c("b", [_vm._v("Graphic Designer")])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "card-text" }, [
-                        _vm._v(
-                          "With supporting text below as a natural lead-in to additional content."
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-sm-6 wow fadeIn",
+                    attrs: { "data-wow-delay": "0.7s" }
+                  },
+                  [
+                    _c("div", { staticClass: "card" }, [
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("h5", { staticClass: "card-title" }, [
+                          _vm._v("Jobhun Academy : "),
+                          _c("b", [_vm._v("Graphic Designer")])
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "card-text" }, [
+                          _vm._v(
+                            "With supporting text below as a natural lead-in to additional content."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-primary",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Read more")]
                         )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-primary",
-                          attrs: { href: "#" }
-                        },
-                        [_vm._v("Go somewhere")]
-                      )
+                      ])
                     ])
-                  ])
-                ])
+                  ]
+                )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-sm-6" }, [
-                  _c("div", { staticClass: "card" }, [
-                    _c("div", { staticClass: "card-body" }, [
-                      _c("h5", { staticClass: "card-title" }, [
-                        _vm._v("Jobhun Academy : "),
-                        _c("b", [_vm._v("Videographer")])
-                      ]),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "card-text" }, [
-                        _vm._v(
-                          "With supporting text below as a natural lead-in to additional content."
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-sm-6 wow fadeIn",
+                    attrs: { "data-wow-delay": "0.9s" }
+                  },
+                  [
+                    _c("div", { staticClass: "card" }, [
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("h5", { staticClass: "card-title" }, [
+                          _vm._v("Jobhun Academy : "),
+                          _c("b", [_vm._v("Videographer")])
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "card-text" }, [
+                          _vm._v(
+                            "With supporting text below as a natural lead-in to additional content."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "btn btn-primary",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Read more")]
                         )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "btn btn-primary",
-                          attrs: { href: "#" }
-                        },
-                        [_vm._v("Go somewhere")]
-                      )
+                      ])
                     ])
-                  ])
-                ]),
+                  ]
+                ),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-sm-6" }, [
+                _c("div", { staticClass: "col-sm-6 wow fadeIn" }, [
                   _c("div", { staticClass: "card" }, [
                     _c("div", { staticClass: "card-body" }, [
                       _c("h5", { staticClass: "card-title" }, [
@@ -40439,7 +40460,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40467,7 +40488,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40493,7 +40514,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40521,7 +40542,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40547,7 +40568,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40575,7 +40596,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])
@@ -40601,7 +40622,7 @@ var staticRenderFns = [
                           staticClass: "btn btn-primary",
                           attrs: { href: "#" }
                         },
-                        [_vm._v("Go somewhere")]
+                        [_vm._v("Read more")]
                       )
                     ])
                   ])

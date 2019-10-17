@@ -134,41 +134,41 @@
 
                     <br>
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Content Writer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Graphic Designer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.9s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Videographer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Web Developer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Android Developer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>UI/UX Designer</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Copywriter</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Public Speaker</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Social Media Specialist</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Startup Founder</b></h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Read more</a>
                         </div>
                         </div>
                     </div>
