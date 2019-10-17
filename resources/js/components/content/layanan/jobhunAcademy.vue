@@ -163,7 +163,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.11s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Web Developer</b></h5>
@@ -174,7 +174,7 @@
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.13s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Android Developer</b></h5>
@@ -183,7 +183,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.15s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>UI/UX Designer</b></h5>
@@ -194,7 +194,7 @@
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.17s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Copywriter</b></h5>
@@ -203,7 +203,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.19s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Public Speaker</b></h5>
@@ -214,7 +214,7 @@
                     </div>
                     </div>
                     <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.21s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Social Media Specialist</b></h5>
@@ -223,7 +223,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.23s">
                         <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Jobhun Academy : <b>Startup Founder</b></h5>

@@ -3,7 +3,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Jobhun 2019</span>
+                    <span>&copy;Copyright 2019 Jobhun. All Rights Reserved </span>
                 </div>
             </div>
         </footer>    
