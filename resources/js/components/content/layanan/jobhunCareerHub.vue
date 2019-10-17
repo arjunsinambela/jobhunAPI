@@ -16,11 +16,11 @@
                             <div class="form-row">
                                 <div class="col-md-12 mb-3">
                                     <input type="text" class="form-control" id="validationDefauld01"
-                                        placeholder="keyword">
+                                        placeholder="Posisi yang dicari...">
                                 </div>
                                 <div class="col-md-5 mb-3">
                                     <select class="form-control" name="make" id="make" v-model="make">
-                                        <option value="null" disabled selected>selected make</option>
+                                        <option value="null" disabled selected>Kategori pekerjaan</option>
                                         <option v-for="opt in makes_options" :key="opt.id" :value="opt.id">{{opt.text}}
                                         </option>
                                         <!-- <option selected>category</option> 
@@ -33,6 +33,7 @@
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <select class="form-control" name="city" id="city" v-model="city">
+                                        <option value="null" disabled selected>Kota</option>
                                         <option v-for="citys in citys_options" :key="citys.id" :value="citys.id">
                                             {{citys.text}}</option>
                                         <!-- <option selected>Kota</option>
@@ -44,6 +45,7 @@
                                 <div class="col-md-3">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-search">
                                             Search</i></button>
+                                            <p></p>
                                 </div>
                             </div>
 
@@ -76,9 +78,10 @@
                     <img :src="'asset/img/logo_perusahaan/' + job.logo_url" style="width:100px;height:100px" alt="">
                 </div>
                 <div class="card-block px-2">
-                    <h4 class="card-title">{{job.company_name}}</h4>
+                    <h4 class="card-title"><b>{{job.company_name}}</b></h4>
                     <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.position_sought}}</p>
-                    <a href="#" class="btn btn-primary">{{job.type_work}}</a>
+                    <a href="#" class="btn btn-primary btn-sm">{{job.type_work}}</a>
+                    <p></p>
                 </div>
                 <div class="w-100"></div>
                 <div class="card-footer w-100 text-muted">
@@ -128,7 +131,7 @@
 
 
                 //dropdown category
-                heading: 'coba Vue',
+                heading: '',
                 make: null,
                 makes_options: [],
 
@@ -159,19 +162,19 @@
             init: function () {
 
                 this.makes_options = [{
-                        text: 'fultime',
+                        text: 'Fulltime',
                         id: 1
                     },
                     {
-                        text: 'freelance',
+                        text: 'Freelance',
                         id: 2
                     },
                     {
-                        text: 'volunter',
+                        text: 'Volunteer',
                         id: 3
                     },
                     {
-                        text: 'intership',
+                        text: 'Internship',
                         id: 4
                     }
                 ];
@@ -181,23 +184,23 @@
                         id: 1
                     },
                     {
-                        text: 'jakarta',
+                        text: 'Jakarta',
                         id: 2
                     },
                     {
-                        text: 'bali',
+                        text: 'Bali',
                         id: 3
                     },
                     {
-                        text: 'mojokerto',
+                        text: 'Mojokerto',
                         id: 4
                     },
                     {
-                        text: 'gresik',
+                        text: 'Gresik',
                         id: 5
                     },
                     {
-                        text: 'madura',
+                        text: 'Madura',
                         id: 6
                     },
 

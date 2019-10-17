@@ -2569,13 +2569,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       jobs: {},
       perpage: 9,
       //dropdown category
-      heading: 'coba Vue',
+      heading: '',
       make: null,
       makes_options: [],
       //dropdown kota
@@ -2600,35 +2603,35 @@ __webpack_require__.r(__webpack_exports__);
     //dropdown category
     init: function init() {
       this.makes_options = [{
-        text: 'fultime',
+        text: 'Fulltime',
         id: 1
       }, {
-        text: 'freelance',
+        text: 'Freelance',
         id: 2
       }, {
-        text: 'volunter',
+        text: 'Volunteer',
         id: 3
       }, {
-        text: 'intership',
+        text: 'Internship',
         id: 4
       }];
       this.citys_options = [{
         text: 'surabaya',
         id: 1
       }, {
-        text: 'jakarta',
+        text: 'Jakarta',
         id: 2
       }, {
-        text: 'bali',
+        text: 'Bali',
         id: 3
       }, {
-        text: 'mojokerto',
+        text: 'Mojokerto',
         id: 4
       }, {
-        text: 'gresik',
+        text: 'Gresik',
         id: 5
       }, {
-        text: 'madura',
+        text: 'Madura',
         id: 6
       }];
     }
@@ -40785,7 +40788,7 @@ var render = function() {
                           {
                             attrs: { value: "null", disabled: "", selected: "" }
                           },
-                          [_vm._v("selected make")]
+                          [_vm._v("Kategori pekerjaan")]
                         ),
                         _vm._v(" "),
                         _vm._l(_vm.makes_options, function(opt) {
@@ -40835,19 +40838,29 @@ var render = function() {
                           }
                         }
                       },
-                      _vm._l(_vm.citys_options, function(citys) {
-                        return _c(
+                      [
+                        _c(
                           "option",
-                          { key: citys.id, domProps: { value: citys.id } },
-                          [
-                            _vm._v(
-                              "\n                                        " +
-                                _vm._s(citys.text)
-                            )
-                          ]
-                        )
-                      }),
-                      0
+                          {
+                            attrs: { value: "null", disabled: "", selected: "" }
+                          },
+                          [_vm._v("Kota")]
+                        ),
+                        _vm._v(" "),
+                        _vm._l(_vm.citys_options, function(citys) {
+                          return _c(
+                            "option",
+                            { key: citys.id, domProps: { value: citys.id } },
+                            [
+                              _vm._v(
+                                "\n                                        " +
+                                  _vm._s(citys.text)
+                              )
+                            ]
+                          )
+                        })
+                      ],
+                      2
                     )
                   ]),
                   _vm._v(" "),
@@ -40879,7 +40892,7 @@ var render = function() {
               _vm._v(" "),
               _c("div", { staticClass: "card-block px-2" }, [
                 _c("h4", { staticClass: "card-title" }, [
-                  _vm._v(_vm._s(job.company_name))
+                  _c("b", [_vm._v(_vm._s(job.company_name))])
                 ]),
                 _vm._v(" "),
                 _c("p", { staticClass: "card-text" }, [
@@ -40891,9 +40904,14 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "a",
-                  { staticClass: "btn btn-primary", attrs: { href: "#" } },
+                  {
+                    staticClass: "btn btn-primary btn-sm",
+                    attrs: { href: "#" }
+                  },
                   [_vm._v(_vm._s(job.type_work))]
-                )
+                ),
+                _vm._v(" "),
+                _c("p")
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "w-100" }),
@@ -40954,7 +40972,7 @@ var staticRenderFns = [
         attrs: {
           type: "text",
           id: "validationDefauld01",
-          placeholder: "keyword"
+          placeholder: "Posisi yang dicari..."
         }
       })
     ])
@@ -40972,7 +40990,9 @@ var staticRenderFns = [
             _vm._v("\n                                        Search")
           ])
         ]
-      )
+      ),
+      _vm._v(" "),
+      _c("p")
     ])
   }
 ]
