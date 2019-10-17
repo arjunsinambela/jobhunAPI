@@ -8,13 +8,13 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active wow fadeInLeft" data-wow-delay="0.4s">
+            <!-- <li class="nav-item active wow fadeInLeft" data-wow-delay="0.4s">
                 <router-link to="tentangJobhun">
                 <a class="nav-link" href="">
                     <i class="fas  fa-address-card"></i>
                     <span>Tentang Jobhun</span></a>
                 </router-link>
-            </li>
+            </li> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider">

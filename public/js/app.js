@@ -1822,18 +1822,58 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      company_name: "Club",
+      company_tagline: "Air minum dalam gelas",
+      description_company: " perusahaan air minum sehat",
+      company_address: "Surabaya",
+      company_website: "www.club.com",
+      company_email: "club@gmail.com",
+      company_phone: "081234556",
+      position_sought: "Web development",
+      type_work: "Full time",
+      description_job: "yang bisa ngoding",
+      recruit_process: "wawancara",
+      logo_url: null,
+      evidence_transfer: null
+    };
+  },
+  methods: {
+    addloker: function addloker() {
+      var formData = new FormData();
+      formData.append('commpany_name', this.company_name);
+      formData.append('company_tagline', this.company_tagline);
+      formData.append('description_company', this.description_company);
+      formData.append('company_address', this.company_address);
+      formData.append('company_website', this.company_website);
+      formData.append('company_email', this.company_email);
+      formData.append('company_phone', this.company_phone);
+      formData.append('position_sought', this.position_sought);
+      formData.append('type_work', this.type_work);
+      formData.append('description_job', this.description_job);
+      formData.append('recruit_process', this.recruit_process);
+      formData.append('logo_url', this.logo_url);
+      formData.append('evidence_transfer', this.evidence_transfer);
+      axios.post('https://192.168.11.3/jobhun/public/api/post/job/premium', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }).then(function (response) {
+        console.log(response.data);
+      })["catch"](function (error) {
+        console.log(error.response);
+      });
+    },
+    addLogo: function addLogo() {
+      this.logo_url = this.$refs.inputLogo.files[0];
+    },
+    addTransfer: function addTransfer() {
+      this.evidence_transfer = this.$refs.inputTransfer.files[0];
+    }
+  }
+});
 
 /***/ }),
 
@@ -2064,6 +2104,107 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -39029,356 +39170,475 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c(
+      "div",
+      {
+        staticClass: "col-md-12 wow fadeIn",
+        attrs: { "data-wow-delay": "0.2s" }
+      },
+      [
+        _c("div", { staticClass: "card shadow mb-4" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "container" }, [
+            _c("br"),
+            _vm._v(" "),
+            _c("form", [
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Nama perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_name,
+                      expression: "company_name"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "nama perusahaan"
+                  },
+                  domProps: { value: _vm.company_name },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_name = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Tagline perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_tagline,
+                      expression: "company_tagline"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "tagline"
+                  },
+                  domProps: { value: _vm.company_tagline },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_tagline = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Informasi tentang perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("textarea", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.description_company,
+                      expression: "description_company"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                  domProps: { value: _vm.description_company },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.description_company = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Alamat perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_address,
+                      expression: "company_address"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "Jl."
+                  },
+                  domProps: { value: _vm.company_address },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_address = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Website perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_website,
+                      expression: "company_website"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "www.perusahaan.com"
+                  },
+                  domProps: { value: _vm.company_website },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_website = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Email perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_email,
+                      expression: "company_email"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: "perusahaan@gmail.com"
+                  },
+                  domProps: { value: _vm.company_email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_email = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Nomor telepon perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.company_phone,
+                      expression: "company_phone"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.company_phone },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.company_phone = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
+                  _vm._v("Posisi - posisi yang dicari")
+                ]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.position_sought,
+                      expression: "position_sought"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "exampleFormControlInput1",
+                    placeholder: ""
+                  },
+                  domProps: { value: _vm.position_sought },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.position_sought = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Jenis pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "select",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.type_work,
+                        expression: "type_work"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    on: {
+                      change: function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.type_work = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      }
+                    }
+                  },
+                  [
+                    _c("option", { attrs: { value: "Full time" } }, [
+                      _vm._v("Full time")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Part time" } }, [
+                      _vm._v("Part time")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Freelance" } }, [
+                      _vm._v("Freelance")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Internship" } }, [
+                      _vm._v("Internship")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "Volunteer" } }, [
+                      _vm._v("Volunteer")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Deskripsi masing - masing Pekerjaan")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "textarea",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.description_job,
+                        expression: "description_job"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                    domProps: { value: _vm.description_job },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.description_job = $event.target.value
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "Pekerjaan yang akan dilakukan:\nSyarat dan kualifikasi:\nKemampuan dan kompetensi yang harus dimiliki:\nLokasi kerja:\nWaktu bekerja:"
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlTextarea1" } }, [
+                  _vm._v("Tentang proses rekrut")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "textarea",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.recruit_process,
+                        expression: "recruit_process"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { id: "exampleFormControlTextarea1", rows: "3" },
+                    domProps: { value: _vm.recruit_process },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.recruit_process = $event.target.value
+                      }
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "Cara mengirimkan lamaran:\nBatas waktu melamar:\nWaktu proses rekrut."
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Logo Perusahaan")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "custom-file" }, [
+                  _c("input", {
+                    ref: "inputLogo",
+                    staticClass: "custom-file-input",
+                    attrs: { type: "file", id: "customFile" },
+                    on: { change: _vm.addLogo }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "custom-file-label" }, [
+                    _vm._v("Pilih file")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
+                  _vm._v("Bukti Transfer")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "custom-file" }, [
+                  _c("input", {
+                    ref: "inputTransfer",
+                    staticClass: "custom-file-input",
+                    attrs: { type: "file", id: "customFile" },
+                    on: { change: _vm.addTransfer }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "custom-file-label" }, [
+                    _vm._v("Pilih file")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary btn-lg btn-block",
+                  attrs: { type: "button" },
+                  on: { click: _vm.addloker }
+                },
+                [_vm._v("Kirim")]
+              ),
+              _vm._v(" "),
+              _c("br")
+            ])
+          ])
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "div",
-        {
-          staticClass: "col-md-12 wow fadeIn",
-          attrs: { "data-wow-delay": "0.2s" }
-        },
-        [
-          _c("div", { staticClass: "card shadow mb-4" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-              },
-              [
-                _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-                  _vm._v("Formulir Jobhun Career Hub Premium")
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "container" }, [
-              _c("br"),
-              _vm._v(" "),
-              _c("form", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Nama perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "nama perusahaan"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Tagline perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "tagline"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Informasi tentang perusahaan")]
-                  ),
-                  _vm._v(" "),
-                  _c("textarea", {
-                    staticClass: "form-control",
-                    attrs: { id: "exampleFormControlTextarea1", rows: "3" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Alamat perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "Jl."
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Website perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "www.perusahaan.com"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Email perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: "perusahaan@gmail.com"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Nomor telepon perusahaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlInput1" } }, [
-                    _vm._v("Posisi - posisi yang dicari")
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "exampleFormControlInput1",
-                      placeholder: ""
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Jenis pekerjaan")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio1",
-                        value: "option1"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio1" }
-                      },
-                      [_vm._v("Full time")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Part time")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Freelance")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Internship")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-check " }, [
-                    _c("input", {
-                      staticClass: "form-check-input",
-                      attrs: {
-                        type: "radio",
-                        name: "inlineRadioOptions",
-                        id: "inlineRadio2",
-                        value: "option2"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "form-check-label",
-                        attrs: { for: "inlineRadio2" }
-                      },
-                      [_vm._v("Volunteer")]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Deskripsi masing - masing Pekerjaan")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "textarea",
-                    {
-                      staticClass: "form-control",
-                      attrs: {
-                        id: "exampleFormControlTextarea1",
-                        rows: "3",
-                        value: ""
-                      }
-                    },
-                    [
-                      _vm._v(
-                        "Pekerjaan yang akan dilakukan:\nSyarat dan kualifikasi:\nKemampuan dan kompetensi yang harus dimiliki:\nLokasi kerja:\nWaktu bekerja:"
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c(
-                    "label",
-                    { attrs: { for: "exampleFormControlTextarea1" } },
-                    [_vm._v("Tentang proses rekrut")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "textarea",
-                    {
-                      staticClass: "form-control",
-                      attrs: {
-                        id: "exampleFormControlTextarea1",
-                        rows: "3",
-                        value: ""
-                      }
-                    },
-                    [
-                      _vm._v(
-                        "Cara mengirimkan lamaran:\nBatas waktu melamar:\nWaktu proses rekrut."
-                      )
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "exampleFormControlFile1" } }, [
-                    _vm._v("Bukti Transfer")
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "custom-file" }, [
-                    _c("input", {
-                      staticClass: "custom-file-input",
-                      attrs: { type: "file", id: "customFile" }
-                    }),
-                    _vm._v(" "),
-                    _c(
-                      "label",
-                      {
-                        staticClass: "custom-file-label",
-                        attrs: { for: "customFile" }
-                      },
-                      [_vm._v("Pilih file")]
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-primary btn-lg btn-block",
-                    attrs: { type: "button" }
-                  },
-                  [_vm._v("Kirim")]
-                ),
-                _vm._v(" "),
-                _c("br")
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
+      },
+      [
+        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+          _vm._v("Formulir Jobhun Career Hub Premium")
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -40046,551 +40306,313 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      {
-        staticClass: "col-md-12 wow fadeIn",
-        attrs: { "data-wow-delay": "0.2s" }
-      },
-      [
-        _c("div", { staticClass: "card shadow mb-4" }, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("div", { staticClass: "container" }, [
-            _c("br"),
-            _vm._v(" "),
-            _c(
-              "h4",
-              [
-                _c("center", [
-                  _vm._v("Mengasah "),
-                  _c("i", [_vm._v("Skill")]),
-                  _vm._v(" bersama Jobhun ")
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("p", { staticStyle: { "text-align": "justify" } }, [
-              _vm._v(
-                "     Jobhun Academy merupakan sebuah program pelatihan\n                    dengan berbagai topik yang dapat menunjang skill para pekerja secara intensif. Melalui program\n                    ini, kamu tidak hanya belajar secara teori saja, namun juga dilakukan secara praktek sehingga\n                    akan menghasilkan portfolio terbaik bagi kariermu. Tak hanya itu saja, para mentee dalam Jobhun\n                    Academy akan dibekali persiapan karier sesuai dengan minatnya. Kamu bisa menambah skill di\n                    berbagai bidang, meningkatkan karier, mengubah karier, atau menjadi seorang entrepreneur."
-              )
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c(
-              "h4",
-              [
-                _c("center", [
-                  _vm._v("Mengapa harus mengikuti Jobhun Academy ?")
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("img", {
-              attrs: { src: "asset/img/ja.jpeg", alt: "", height: "520px" }
-            }),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c(
-              "h4",
-              [
-                _c("center", [
-                  _vm._v(
-                    "Macam - Macam Jobhun Academy yang bisa mengasah skill anda."
-                  )
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-deck" }, [
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c(
-                      "router-link",
-                      { attrs: { to: "jobhun-academy-content-writer" } },
-                      [
-                        _c("img", {
-                          staticClass: "card-img-top",
-                          attrs: {
-                            src: "asset/img/cw.jpeg",
-                            alt: "Card image cap"
-                          }
-                        })
-                      ]
-                    )
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/desain.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/video.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-deck" }, [
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/web.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/android.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/ui.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-deck" }, [
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/cw2.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/public.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/social_media.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-deck" }, [
-              _c("div", { staticClass: "col-md-4" }, [
-                _c(
-                  "div",
-                  { staticClass: "card" },
-                  [
-                    _c("router-link", { attrs: { to: "" } }, [
-                      _c("img", {
-                        staticClass: "card-img-top",
-                        attrs: {
-                          src: "asset/img/startup.jpeg",
-                          alt: "Card image cap"
-                        }
-                      })
-                    ])
-                  ],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("br")
-          ])
-        ])
-      ]
-    )
-  ])
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "card-header py-3 d-flex flex-row align-items-center justify-content-between"
-      },
-      [
-        _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
-          _vm._v("Jobhun Academy")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-deck" }, [
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
+    return _c("div", [
+      _c(
+        "div",
+        {
+          staticClass: "col-md-12 wow fadeIn",
+          attrs: { "data-wow-delay": "0.2s" }
+        },
+        [
+          _c("div", { staticClass: "card shadow mb-4" }, [
             _c(
-              "h5",
+              "div",
               {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
+                staticClass:
+                  "card-header py-3 d-flex flex-row align-items-center justify-content-between"
               },
               [
-                _vm._v(
-                  "Belajar dengan formula khusus\n                                    untuk persiapan karier"
-                )
+                _c("h6", { staticClass: "m-0 font-weight-bold text-primary" }, [
+                  _vm._v("Jobhun Academy")
+                ])
               ]
             ),
             _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Di Jobhun Academy, kamu tidak hanya\n                                    belajar secara teori saja.\n                                    Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang\n                                    karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.\n                                "
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
+            _c("div", { staticClass: "container" }, [
+              _c("br"),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Content Writer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Graphic Designer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Videographer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Web Developer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Android Developer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("UI/UX Designer")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Copywriter")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Public Speaker")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Social Media Specialist")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-sm-6" }, [
+                  _c("div", { staticClass: "card" }, [
+                    _c("div", { staticClass: "card-body" }, [
+                      _c("h5", { staticClass: "card-title" }, [
+                        _vm._v("Jobhun Academy : "),
+                        _c("b", [_vm._v("Startup Founder")])
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "card-text" }, [
+                        _vm._v(
+                          "With supporting text below as a natural lead-in to additional content."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "btn btn-primary",
+                          attrs: { href: "#" }
+                        },
+                        [_vm._v("Go somewhere")]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("br")
             ])
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Berkesempatan untuk mendapatkan\n                                    pekerjaan"
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Jobhun bekerjasama dengan berbagai\n                                    perusahaan dalam mencari kandidat terbaik. Apabila kamu berhasil menyelesaikan\n                                    program di Jobhun Academy dengan baik dan sesuai dengan Kriteria yang sedang\n                                    dicari oleh perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja\n                                    di beberapa company partner Jobhun tersebut."
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Dibimbing oleh mentor - mentor\n                                    berkualitas dan berpengalaman"
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Jobhun selalu berupaya menghadirkan\n                                    mentor berkualitas dan berpengalaman dibidangnya, serta memiliki prestasi di\n                                    bidang tersebut."
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-deck" }, [
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Belajar secara optimal dan\n                                    kondusif"
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Agar belajar bisa lebih optimal dan\n                                    kondusif, Jobhun Academy hanya bisa diikuti 3 - 5 orang setiap kelas. Kami\n                                    percaya bahwa kapasitas kelas yang sedikit akan membuat interaksi antara mentor\n                                    dan mentee menjadi lebih intens."
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Menghasilkan portfolio yang\n                                    berguna untuk karier"
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Setelah program Jobhun Academy ini\n                                    berakhir, mentee akan mendapatkan hasil tes, penilaian secara keseluruhan,\n                                    sertifikat, dan portfolio atau karya di masing - masing bidang yang telah\n                                    dilakukan selama pembelajaran dilakukan."
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-4" }, [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "card-title",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Biaya terjangkau dan bisa dicicil\n                                "
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass: "card-text",
-                staticStyle: { "text-align": "justify" }
-              },
-              [
-                _vm._v(
-                  "Kamu tidak perlu pusing masalah\n                                    biaya. Program - program yang ada di Jobhun Academy dipatok dengan harga yang\n                                    terjangkau dan bisa kamu cicil dengan skema cicilan yang sangat membantu."
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card-footer" }, [
-            _c("small", { staticClass: "text-muted" }, [
-              _vm._v("Last updated 3 mins ago")
-            ])
-          ])
-        ])
-      ])
+        ]
+      )
     ])
   }
 ]
@@ -41915,24 +41937,6 @@ var render = function() {
         _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider my-0" }),
         _vm._v(" "),
-        _c(
-          "li",
-          {
-            staticClass: "nav-item active wow fadeInLeft",
-            attrs: { "data-wow-delay": "0.4s" }
-          },
-          [
-            _c("router-link", { attrs: { to: "tentangJobhun" } }, [
-              _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-                _c("i", { staticClass: "fas  fa-address-card" }),
-                _vm._v(" "),
-                _c("span", [_vm._v("Tentang Jobhun")])
-              ])
-            ])
-          ],
-          1
-        ),
-        _vm._v(" "),
         _c("hr", { staticClass: "sidebar-divider" }),
         _vm._v(" "),
         _c(
@@ -42186,476 +42190,7 @@ var staticRenderFns = [
                 [_c("i", { staticClass: "fas fa-search fa-fw" })]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in",
-                  attrs: { "aria-labelledby": "searchDropdown" }
-                },
-                [
-                  _c(
-                    "form",
-                    { staticClass: "form-inline mr-auto w-100 navbar-search" },
-                    [
-                      _c("div", { staticClass: "input-group" }, [
-                        _c("input", {
-                          staticClass: "form-control bg-light border-0 small",
-                          attrs: {
-                            type: "text",
-                            placeholder: "Search for...",
-                            "aria-label": "Search",
-                            "aria-describedby": "basic-addon2"
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "input-group-append" }, [
-                          _c(
-                            "button",
-                            {
-                              staticClass: "btn btn-primary",
-                              attrs: { type: "button" }
-                            },
-                            [_c("i", { staticClass: "fas fa-search fa-sm" })]
-                          )
-                        ])
-                      ])
-                    ]
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "nav-item dropdown no-arrow mx-1" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "nav-link dropdown-toggle",
-                  attrs: {
-                    href: "#",
-                    id: "alertsDropdown",
-                    role: "button",
-                    "data-toggle": "dropdown",
-                    "aria-haspopup": "true",
-                    "aria-expanded": "false"
-                  }
-                },
-                [
-                  _c("i", { staticClass: "fas fa-bell fa-fw" }),
-                  _vm._v(" "),
-                  _c(
-                    "span",
-                    { staticClass: "badge badge-danger badge-counter" },
-                    [_vm._v("3+")]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in",
-                  attrs: { "aria-labelledby": "alertsDropdown" }
-                },
-                [
-                  _c("h6", { staticClass: "dropdown-header" }, [
-                    _vm._v(
-                      "\n                        Alerts Center\n                    "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "mr-3" }, [
-                        _c("div", { staticClass: "icon-circle bg-primary" }, [
-                          _c("i", { staticClass: "fas fa-file-alt text-white" })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("December 12, 2019")
-                        ]),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "font-weight-bold" }, [
-                          _vm._v("A new monthly report is ready to download!")
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "mr-3" }, [
-                        _c("div", { staticClass: "icon-circle bg-success" }, [
-                          _c("i", { staticClass: "fas fa-donate text-white" })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("December 7, 2019")
-                        ]),
-                        _vm._v(
-                          "\n                            $290.29 has been deposited into your account!\n                        "
-                        )
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "mr-3" }, [
-                        _c("div", { staticClass: "icon-circle bg-warning" }, [
-                          _c("i", {
-                            staticClass:
-                              "fas fa-exclamation-triangle text-white"
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("December 2, 2019")
-                        ]),
-                        _vm._v(
-                          "\n                            Spending Alert: We've noticed unusually high spending for your account.\n                        "
-                        )
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "dropdown-item text-center small text-gray-500",
-                      attrs: { href: "#" }
-                    },
-                    [_vm._v("Show All Alerts")]
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "nav-item dropdown no-arrow mx-1" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "nav-link dropdown-toggle",
-                  attrs: {
-                    href: "#",
-                    id: "messagesDropdown",
-                    role: "button",
-                    "data-toggle": "dropdown",
-                    "aria-haspopup": "true",
-                    "aria-expanded": "false"
-                  }
-                },
-                [
-                  _c("i", { staticClass: "fas fa-envelope fa-fw" }),
-                  _vm._v(" "),
-                  _c(
-                    "span",
-                    { staticClass: "badge badge-danger badge-counter" },
-                    [_vm._v("7")]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in",
-                  attrs: { "aria-labelledby": "messagesDropdown" }
-                },
-                [
-                  _c("h6", { staticClass: "dropdown-header" }, [
-                    _vm._v(
-                      "\n                        Message Center\n                    "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "dropdown-list-image mr-3" }, [
-                        _c("img", {
-                          staticClass: "rounded-circle",
-                          attrs: {
-                            src:
-                              "https://source.unsplash.com/fn_BT9fwg_E/60x60",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("div", {
-                          staticClass: "status-indicator bg-success"
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "font-weight-bold" }, [
-                        _c("div", { staticClass: "text-truncate" }, [
-                          _vm._v(
-                            "Hi there! I am wondering if you can help me with a problem\n                                I've been having."
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("Emily Fowler · 58m")
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "dropdown-list-image mr-3" }, [
-                        _c("img", {
-                          staticClass: "rounded-circle",
-                          attrs: {
-                            src:
-                              "https://source.unsplash.com/AU4VPcFN4LE/60x60",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "status-indicator" })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "text-truncate" }, [
-                          _vm._v(
-                            "I have the photos that you ordered last month, how would you\n                                like them sent to you?"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("Jae Chun · 1d")
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "dropdown-list-image mr-3" }, [
-                        _c("img", {
-                          staticClass: "rounded-circle",
-                          attrs: {
-                            src:
-                              "https://source.unsplash.com/CS2uCrpNzJY/60x60",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("div", {
-                          staticClass: "status-indicator bg-warning"
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "text-truncate" }, [
-                          _vm._v(
-                            "Last month's report looks great, I am very happy with the\n                                progress so far, keep up the good work!"
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("Morgan Alvarez · 2d")
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item d-flex align-items-center",
-                      attrs: { href: "#" }
-                    },
-                    [
-                      _c("div", { staticClass: "dropdown-list-image mr-3" }, [
-                        _c("img", {
-                          staticClass: "rounded-circle",
-                          attrs: {
-                            src:
-                              "https://source.unsplash.com/Mv9hjnEUHR4/60x60",
-                            alt: ""
-                          }
-                        }),
-                        _vm._v(" "),
-                        _c("div", {
-                          staticClass: "status-indicator bg-success"
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", [
-                        _c("div", { staticClass: "text-truncate" }, [
-                          _vm._v(
-                            "Am I a good boy? The reason I ask is because someone told me\n                                that people say this to all dogs, even if they aren't good..."
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "small text-gray-500" }, [
-                          _vm._v("Chicken the Dog · 2w")
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass:
-                        "dropdown-item text-center small text-gray-500",
-                      attrs: { href: "#" }
-                    },
-                    [_vm._v("Read More Messages")]
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "topbar-divider d-none d-sm-block" }),
-            _vm._v(" "),
-            _c("li", { staticClass: "nav-item dropdown no-arrow" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "nav-link dropdown-toggle",
-                  attrs: {
-                    href: "#",
-                    id: "userDropdown",
-                    role: "button",
-                    "data-toggle": "dropdown",
-                    "aria-haspopup": "true",
-                    "aria-expanded": "false"
-                  }
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass: "mr-2 d-none d-lg-inline text-gray-600 small"
-                    },
-                    [_vm._v("Valerie Luna")]
-                  ),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "img-profile rounded-circle",
-                    attrs: {
-                      src: "https://source.unsplash.com/QAB-WJcbgJk/60x60"
-                    }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "dropdown-menu dropdown-menu-right shadow animated--grow-in",
-                  attrs: { "aria-labelledby": "userDropdown" }
-                },
-                [
-                  _c(
-                    "a",
-                    { staticClass: "dropdown-item", attrs: { href: "#" } },
-                    [
-                      _c("i", {
-                        staticClass:
-                          "fas fa-user fa-sm fa-fw mr-2 text-gray-400"
-                      }),
-                      _vm._v(
-                        "\n                        Profile\n                    "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    { staticClass: "dropdown-item", attrs: { href: "#" } },
-                    [
-                      _c("i", {
-                        staticClass:
-                          "fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"
-                      }),
-                      _vm._v(
-                        "\n                        Settings\n                    "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    { staticClass: "dropdown-item", attrs: { href: "#" } },
-                    [
-                      _c("i", {
-                        staticClass:
-                          "fas fa-list fa-sm fa-fw mr-2 text-gray-400"
-                      }),
-                      _vm._v(
-                        "\n                        Activity Log\n                    "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "dropdown-divider" }),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-item",
-                      attrs: {
-                        href: "#",
-                        "data-toggle": "modal",
-                        "data-target": "#logoutModal"
-                      }
-                    },
-                    [
-                      _c("i", {
-                        staticClass:
-                          "fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
-                      }),
-                      _vm._v(
-                        "\n                        Logout\n                    "
-                      )
-                    ]
-                  )
-                ]
-              )
+              _c("div", { staticClass: "topbar-divider d-none d-sm-block" })
             ])
           ])
         ]
@@ -58930,7 +58465,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Github\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\JobhunApi\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
