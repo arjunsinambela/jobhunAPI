@@ -19,9 +19,10 @@
                                         placeholder="keyword">
                                 </div>
                                 <div class="col-md-5 mb-3">
-                                    <select class="form-control" name="make" id="make" v-model="make" >
+                                    <select class="form-control" name="make" id="make" v-model="make">
                                         <option value="null" disabled selected>selected make</option>
-                                        <option v-for="opt in makes_options" :key="opt.id" :value="opt.id">{{opt.text}}</option>
+                                        <option v-for="opt in makes_options" :key="opt.id" :value="opt.id">{{opt.text}}
+                                        </option>
                                         <!-- <option selected>category</option> 
                                         <option>Full Time</option>
                                         <option>Frelance</option>
@@ -32,7 +33,8 @@
                                 </div>
                                 <div class="col-md-4 mb-3">
                                     <select class="form-control" name="city" id="city" v-model="city">
-                                        <option v-for="citys in citys_options" :key="citys.id" :value="citys.id">{{citys.text}}</option>
+                                        <option v-for="citys in citys_options" :key="citys.id" :value="citys.id">
+                                            {{citys.text}}</option>
                                         <!-- <option selected>Kota</option>
                                         <option>Surabaya</option>
                                         <option>jakarta </option>
@@ -50,49 +52,68 @@
 
                 </div>
             </div>
-            <div class="card-deck wow fadeIn" data-wow-delay="0.4s">
-               
-                <div v-for="job in jobs.data" :key="job.id" class="col-md-4 " >
+            <!-- <div class="card-deck wow fadeIn" data-wow-delay="0.4s"> -->
+
+                <!-- <div v-for="job in jobs.data" :key="job.id" class="col-md-4 ">
                     <div class="card">
-                        <img class="card-img-top" height="70px" :src="'asset/img/logo_perusahaan/' + job.logo_url" alt="Card image cap">
+                        <img class="card-img-top" height="70px" :src="'asset/img/logo_perusahaan/' + job.logo_url"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">{{job.company_name}}</h5>
-                             <p><i class="fas fa-map-marker-alt"></i> Bali</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Bali</p> -->
                             <!-- <p class="card-text">{{job.description_job}}</p> -->
-                            <a href="#" class="btn btn-success">{{job.type_work}}</a>
+                            <!-- <a href="#" class="btn btn-success">{{job.type_work}}</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
                 </div>
-
-               
-               
-            </div>
-            <table>
-                <thead>
-                <tr>
-                    <th>Perusahaan</th>
-                    <th>Lokasi</th>
+            </div> -->
+            <div class="container">
+                <div v-for="job in jobs.data" :key="job.id" class="card flex-row flex-wrap">
+                <div class="card-header border-0">
+                    <img :src="'asset/img/logo_perusahaan/' + job.logo_url" style="width:100px;height:100px" alt="">
+                </div>
+                <div class="card-block px-2">
+                    <h4 class="card-title">{{job.company_name}}</h4>
+                    <p class="card-text"><i class="fas fa-map-marker-alt"></i> Surabaya<br>Posisi: {{job.position_sought}}</p>
+                    <a href="#" class="btn btn-primary">{{job.type_work}}</a>
+                </div>
+                <div class="w-100"></div>
+                <div class="card-footer w-100 text-muted">
                     
-                </tr>
+                </div>
+            </div>
+
+            </div>
+            
+            
+
+            <!-- <table>
+                <thead>
+                    <tr>
+                        <th>Perusahaan</th>
+                        <th>Lokasi</th>
+
+                    </tr>
                 </thead>
                 <tbody>
-                <tr v-for="job in jobs.data" :key="job.id">
-                    <td>{{job.company_name}}</td>
-                    <td>{{job.company_address}}</td>
-                </tr>
+                    <tr v-for="job in jobs.data" :key="job.id">
+                        <td>{{job.company_name}}</td>
+                        <td>{{job.company_address}}</td>
+                    </tr>
                 </tbody>
-            </table>
-             <div>
-                    <pagination :data="jobs" @pagination-change-page="getData"></pagination>
-                </div>
+            </table> -->
+            <!-- <div>
+                <pagination :data="jobs" @pagination-change-page="getData"></pagination>
+            </div> -->
             <div class="col text-center">
-                <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button></router-link>
+                <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button>
+                </router-link>
             </div>
-    <br>
-    <br>
+            <br>
+            <br>
 
         </div>
     </div>
@@ -100,11 +121,11 @@
 
 <script>
     export default {
-        data(){
-            return{
+        data() {
+            return {
                 jobs: {},
                 perpage: 9,
-                
+
 
                 //dropdown category
                 heading: 'coba Vue',
@@ -116,47 +137,75 @@
                 city: null,
                 citys_options: [],
 
-              
+
 
             }
         },
         mounted() {
             this.getData();
             this.init();
-          
+
         },
         methods: {
-            getData: function(page=1){
-                axios.get('http://localhost/jobhun2/public/api/job/filter/'+ this.perpage + '?page=' + page).then(response=>{
-                    console.log(response.data); 
-                    this.jobs = response.data.jobs;
-                });
+            getData: function (page = 1) {
+                axios.get('http://localhost/jobhun2/public/api/job/filter/' + this.perpage + '?page=' + page).then(
+                    response => {
+                        console.log(response.data);
+                        this.jobs = response.data.jobs;
+                    });
             },
 
             //dropdown category
-            init : function(){
-                 
-                this.makes_options = [
-                    {text: 'fultime', id: 1},
-                    {text: 'freelance', id: 2},
-                    {text: 'volunter', id: 3},
-                    {text: 'intership', id: 4}
+            init: function () {
+
+                this.makes_options = [{
+                        text: 'fultime',
+                        id: 1
+                    },
+                    {
+                        text: 'freelance',
+                        id: 2
+                    },
+                    {
+                        text: 'volunter',
+                        id: 3
+                    },
+                    {
+                        text: 'intership',
+                        id: 4
+                    }
                 ];
 
-                    this.citys_options = [
-                    {text : 'surabaya', id: 1},
-                    {text : 'jakarta', id: 2},
-                    {text : 'bali', id: 3},
-                    {text : 'mojokerto', id: 4},
-                    {text : 'gresik', id: 5},
-                    {text : 'madura', id: 6},
-                    
-                    
+                this.citys_options = [{
+                        text: 'surabaya',
+                        id: 1
+                    },
+                    {
+                        text: 'jakarta',
+                        id: 2
+                    },
+                    {
+                        text: 'bali',
+                        id: 3
+                    },
+                    {
+                        text: 'mojokerto',
+                        id: 4
+                    },
+                    {
+                        text: 'gresik',
+                        id: 5
+                    },
+                    {
+                        text: 'madura',
+                        id: 6
+                    },
+
+
                 ]
 
             },
         }
 
     }
-
 </script>

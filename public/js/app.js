@@ -2548,6 +2548,27 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -40771,7 +40792,12 @@ var render = function() {
                           return _c(
                             "option",
                             { key: opt.id, domProps: { value: opt.id } },
-                            [_vm._v(_vm._s(opt.text))]
+                            [
+                              _vm._v(
+                                _vm._s(opt.text) +
+                                  "\n                                    "
+                              )
+                            ]
                           )
                         })
                       ],
@@ -40813,7 +40839,12 @@ var render = function() {
                         return _c(
                           "option",
                           { key: citys.id, domProps: { value: citys.id } },
-                          [_vm._v(_vm._s(citys.text))]
+                          [
+                            _vm._v(
+                              "\n                                        " +
+                                _vm._s(citys.text)
+                            )
+                          ]
                         )
                       }),
                       0
@@ -40830,68 +40861,48 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        {
-          staticClass: "card-deck wow fadeIn",
-          attrs: { "data-wow-delay": "0.4s" }
-        },
+        { staticClass: "container" },
         _vm._l(_vm.jobs.data, function(job) {
-          return _c("div", { key: job.id, staticClass: "col-md-4 " }, [
-            _c("div", { staticClass: "card" }, [
-              _c("img", {
-                staticClass: "card-img-top",
-                attrs: {
-                  height: "70px",
-                  src: "asset/img/logo_perusahaan/" + job.logo_url,
-                  alt: "Card image cap"
-                }
-              }),
+          return _c(
+            "div",
+            { key: job.id, staticClass: "card flex-row flex-wrap" },
+            [
+              _c("div", { staticClass: "card-header border-0" }, [
+                _c("img", {
+                  staticStyle: { width: "100px", height: "100px" },
+                  attrs: {
+                    src: "asset/img/logo_perusahaan/" + job.logo_url,
+                    alt: ""
+                  }
+                })
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h5", { staticClass: "card-title" }, [
+              _c("div", { staticClass: "card-block px-2" }, [
+                _c("h4", { staticClass: "card-title" }, [
                   _vm._v(_vm._s(job.company_name))
                 ]),
                 _vm._v(" "),
-                _vm._m(3, true),
+                _c("p", { staticClass: "card-text" }, [
+                  _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                  _vm._v(" Surabaya"),
+                  _c("br"),
+                  _vm._v("Posisi: " + _vm._s(job.position_sought))
+                ]),
                 _vm._v(" "),
                 _c(
                   "a",
-                  { staticClass: "btn btn-success", attrs: { href: "#" } },
+                  { staticClass: "btn btn-primary", attrs: { href: "#" } },
                   [_vm._v(_vm._s(job.type_work))]
                 )
               ]),
               _vm._v(" "),
-              _vm._m(4, true)
-            ])
-          ])
+              _c("div", { staticClass: "w-100" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-footer w-100 text-muted" })
+            ]
+          )
         }),
         0
-      ),
-      _vm._v(" "),
-      _c("table", [
-        _vm._m(5),
-        _vm._v(" "),
-        _c(
-          "tbody",
-          _vm._l(_vm.jobs.data, function(job) {
-            return _c("tr", { key: job.id }, [
-              _c("td", [_vm._v(_vm._s(job.company_name))]),
-              _vm._v(" "),
-              _c("td", [_vm._v(_vm._s(job.company_address))])
-            ])
-          }),
-          0
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c("pagination", {
-            attrs: { data: _vm.jobs },
-            on: { "pagination-change-page": _vm.getData }
-          })
-        ],
-        1
       ),
       _vm._v(" "),
       _c(
@@ -40962,37 +40973,6 @@ var staticRenderFns = [
           ])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("p", [
-      _c("i", { staticClass: "fas fa-map-marker-alt" }),
-      _vm._v(" Bali")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-footer" }, [
-      _c("small", { staticClass: "text-muted" }, [
-        _vm._v("Last updated 3 mins ago")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", [_vm._v("Perusahaan")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Lokasi")])
-      ])
     ])
   }
 ]
