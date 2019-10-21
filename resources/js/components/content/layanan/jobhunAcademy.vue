@@ -1,241 +1,92 @@
 <template>
     <div>
-        <div class="col-md-12 wow fadeIn" data-wow-delay="0.2s">
-            <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">Jobhun Academy</h6>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="card">
+                        <router-link to="content-writer">
+                        <div class="card-body" >
+                            <h5 class="card-title"><i class="fas fa-feather-alt"></i><b> Content Writer</b></h5>
+                        </div>
+                        </router-link>
+                    </div>
                 </div>
-                <!-- Card Body -->
-                <div class="container">
-                    <!-- <br>
-                    <h4>
-                        <center>Mengasah <i>Skill</i> bersama Jobhun </center>
-                    </h4>
-
-                    <p style="text-align:justify;"> &nbsp;&nbsp;&nbsp; Jobhun Academy merupakan sebuah program pelatihan
-                        dengan berbagai topik yang dapat menunjang skill para pekerja secara intensif. Melalui program
-                        ini, kamu tidak hanya belajar secara teori saja, namun juga dilakukan secara praktek sehingga
-                        akan menghasilkan portfolio terbaik bagi kariermu. Tak hanya itu saja, para mentee dalam Jobhun
-                        Academy akan dibekali persiapan karier sesuai dengan minatnya. Kamu bisa menambah skill di
-                        berbagai bidang, meningkatkan karier, mengubah karier, atau menjadi seorang entrepreneur.</p>
-                    <br>
-                    <h4>
-                        <center>Mengapa harus mengikuti Jobhun Academy ?</center>
-                    </h4>
-
-
-                    <div class="card-deck">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Belajar dengan formula khusus
-                                        untuk persiapan karier</h5>
-                                    <p class="card-text" style="text-align:justify">Di Jobhun Academy, kamu tidak hanya
-                                        belajar secara teori saja.
-                                        Namun juga akan praktek secara langsung untuk menghasilkan portfolio penunjang
-                                        karier. Kamu juga bisa sharing bersama mentor untuk membahas persiapan karier.
-                                    </p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Berkesempatan untuk mendapatkan
-                                        pekerjaan</h5>
-                                    <p class="card-text" style="text-align:justify">Jobhun bekerjasama dengan berbagai
-                                        perusahaan dalam mencari kandidat terbaik. Apabila kamu berhasil menyelesaikan
-                                        program di Jobhun Academy dengan baik dan sesuai dengan Kriteria yang sedang
-                                        dicari oleh perusahaan, maka Jobhun akan merekomendasikan kamu agar bisa bekerja
-                                        di beberapa company partner Jobhun tersebut.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Dibimbing oleh mentor - mentor
-                                        berkualitas dan berpengalaman</h5>
-                                    <p class="card-text" style="text-align:justify">Jobhun selalu berupaya menghadirkan
-                                        mentor berkualitas dan berpengalaman dibidangnya, serta memiliki prestasi di
-                                        bidang tersebut.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="card-deck">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Belajar secara optimal dan
-                                        kondusif</h5>
-                                    <p class="card-text" style="text-align:justify">Agar belajar bisa lebih optimal dan
-                                        kondusif, Jobhun Academy hanya bisa diikuti 3 - 5 orang setiap kelas. Kami
-                                        percaya bahwa kapasitas kelas yang sedikit akan membuat interaksi antara mentor
-                                        dan mentee menjadi lebih intens.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Menghasilkan portfolio yang
-                                        berguna untuk karier</h5>
-                                    <p class="card-text" style="text-align:justify">Setelah program Jobhun Academy ini
-                                        berakhir, mentee akan mendapatkan hasil tes, penilaian secara keseluruhan,
-                                        sertifikat, dan portfolio atau karya di masing - masing bidang yang telah
-                                        dilakukan selama pembelajaran dilakukan.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align:justify">Biaya terjangkau dan bisa dicicil
-                                    </h5>
-                                    <p class="card-text" style="text-align:justify">Kamu tidak perlu pusing masalah
-                                        biaya. Program - program yang ada di Jobhun Academy dipatok dengan harga yang
-                                        terjangkau dan bisa kamu cicil dengan skema cicilan yang sangat membantu.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-                    <img src="asset/img/ja.jpeg" alt="" height="520px">
-                    <br> <br> -->
-
-                    <!-- <h4>
-                        <center>Macam - Macam Jobhun Academy yang bisa mengasah skill anda.</center>
-                    </h4> -->
-
-                    <br>
-                    <div class="row">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="card">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Content Writer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-paint-brush"></i><b> Graphic Designer</b></h5>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="card">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Graphic Designer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-video"></i><b> Videographer</b></h5>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.9s">
-                        <div class="card">
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Videographer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-laptop-code"></i><b> Web Developer</b></h5>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.11s">
-                        <div class="card">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Web Developer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fab fa-android"></i><b> Android Developer</b></h5>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.13s">
-                        <div class="card">
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Android Developer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-palette"></i><b> UI/UX Designer</b></h5>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.15s">
-                        <div class="card">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>UI/UX Designer</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-pen-nib"></i><b> Copywriter</b></h5>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.17s">
-                        <div class="card">
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.8s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Copywriter</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-bullhorn"></i><b> Public Speaker</b></h5>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.19s">
-                        <div class="card">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Public Speaker</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-users"></i><b> Social media Specialist</b></h5>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.21s">
-                        <div class="card">
+                </div>
+                <div class="col-sm-6 wow fadeIn" data-wow-delay="1s">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Social Media Specialist</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
+                            <h5 class="card-title"><i class="fas fa-lightbulb"></i><b> Startup Founder</b></h5>
                         </div>
                     </div>
-                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.23s">
-                        <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Jobhun Academy : <b>Startup Founder</b></h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    
+                </div>
+            </div>
 
-                    <!-- <div class="card-deck">
+
+            <!-- <div class="card-deck">
                         <div class="col-md-4">
                             <div class="card">
                                 <router-link to="jobhun-academy-content-writer">
@@ -322,9 +173,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <br>
-                </div>
-            </div>
+            <br>
         </div>
     </div>
 </template>
@@ -333,5 +182,4 @@
     export default {
 
     }
-
 </script>
