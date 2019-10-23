@@ -14,34 +14,42 @@
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-paint-brush"></i><b> Graphic Designer</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-video"></i><b> Videographer</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-laptop-code"></i><b> Web Developer</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fab fa-android"></i><b> Android Developer</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
