@@ -85,16 +85,20 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.9s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-users"></i><b> Social media Specialist</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="1s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-lightbulb"></i><b> Startup Founder</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
