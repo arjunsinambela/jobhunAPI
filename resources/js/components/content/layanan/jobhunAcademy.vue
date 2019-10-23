@@ -74,9 +74,11 @@
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.8s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-bullhorn"></i><b> Public Speaker</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
