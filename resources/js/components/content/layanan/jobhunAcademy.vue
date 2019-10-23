@@ -54,18 +54,22 @@
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-palette"></i><b> UI/UX Designer</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
                     <div class="card">
+                        <router-link to="content-writer">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fas fa-pen-nib"></i><b> Copywriter</b></h5>
                         </div>
+                        </router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 wow fadeIn" data-wow-delay="0.8s">
