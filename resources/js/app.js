@@ -7,7 +7,6 @@ import VModal from 'vue-js-modal'
 import routes from './routes.js'
 import VueRouter from 'vue-router'
 import Vue from 'vue'
-import quickMenu from 'vue-quick-menu'
 
 require('./bootstrap');
 
