@@ -2292,6 +2292,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -40301,213 +40319,245 @@ var render = function() {
           ]
         ),
         _vm._v(" "),
-        _vm._m(0)
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.2s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-paint-brush" }),
+                      _c("b", [_vm._v(" Graphic Designer")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        )
       ]),
       _vm._v(" "),
-      _vm._m(1),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.3s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-video" }),
+                      _c("b", [_vm._v(" Videographer")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.4s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-laptop-code" }),
+                      _c("b", [_vm._v(" Web Developer")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ]),
       _vm._v(" "),
-      _vm._m(2),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.5s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fab fa-android" }),
+                      _c("b", [_vm._v(" Android Developer")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.6s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-palette" }),
+                      _c("b", [_vm._v(" UI/UX Designer")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ]),
       _vm._v(" "),
-      _vm._m(3),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.7s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-pen-nib" }),
+                      _c("b", [_vm._v(" Copywriter")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.8s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-bullhorn" }),
+                      _c("b", [_vm._v(" Public Speaker")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ]),
       _vm._v(" "),
-      _vm._m(4),
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "0.9s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-users" }),
+                      _c("b", [_vm._v(" Social media Specialist")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "col-sm-6 wow fadeIn",
+            attrs: { "data-wow-delay": "1s" }
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "card" },
+              [
+                _c("router-link", { attrs: { to: "content-writer" } }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h5", { staticClass: "card-title" }, [
+                      _c("i", { staticClass: "fas fa-lightbulb" }),
+                      _c("b", [_vm._v(" Startup Founder")])
+                    ])
+                  ])
+                ])
+              ],
+              1
+            )
+          ]
+        )
+      ]),
       _vm._v(" "),
       _c("br")
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "col-sm-6 wow fadeIn",
-        attrs: { "data-wow-delay": "0.2s" }
-      },
-      [
-        _c("div", { staticClass: "card" }, [
-          _c("div", { staticClass: "card-body" }, [
-            _c("h5", { staticClass: "card-title" }, [
-              _c("i", { staticClass: "fas fa-paint-brush" }),
-              _c("b", [_vm._v(" Graphic Designer")])
-            ])
-          ])
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.3s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-video" }),
-                _c("b", [_vm._v(" Videographer")])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.4s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-laptop-code" }),
-                _c("b", [_vm._v(" Web Developer")])
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.5s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fab fa-android" }),
-                _c("b", [_vm._v(" Android Developer")])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.6s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-palette" }),
-                _c("b", [_vm._v(" UI/UX Designer")])
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.7s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-pen-nib" }),
-                _c("b", [_vm._v(" Copywriter")])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.8s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-bullhorn" }),
-                _c("b", [_vm._v(" Public Speaker")])
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "0.9s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-users" }),
-                _c("b", [_vm._v(" Social media Specialist")])
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-sm-6 wow fadeIn",
-          attrs: { "data-wow-delay": "1s" }
-        },
-        [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-body" }, [
-              _c("h5", { staticClass: "card-title" }, [
-                _c("i", { staticClass: "fas fa-lightbulb" }),
-                _c("b", [_vm._v(" Startup Founder")])
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
