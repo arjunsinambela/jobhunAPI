@@ -108,9 +108,9 @@
                     </tr>
                 </tbody>
             </table> -->
-            <!-- <div>
+            <div>
                 <pagination :data="jobs" @pagination-change-page="getData"></pagination>
-            </div> -->
+            </div>
             <div class="col text-center">
                 <router-link to="pasang-loker"><button type="button" class="btn btn-success">Posting Loker</button>
                 </router-link>
@@ -127,7 +127,7 @@
         data() {
             return {
                 jobs: {},
-                perpage: 9,
+                perpage: 1,
 
 
                 //dropdown category

@@ -2445,7 +2445,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       jobs: {},
-      perpage: 9,
+      perpage: 1,
       //dropdown category
       heading: '',
       make: null,
@@ -40767,6 +40767,17 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
+        [
+          _c("pagination", {
+            attrs: { data: _vm.jobs },
+            on: { "pagination-change-page": _vm.getData }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
         { staticClass: "col text-center" },
         [
           _c("router-link", { attrs: { to: "pasang-loker" } }, [
@@ -58698,7 +58709,7 @@ var routes = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPI\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\jobhunAPi\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
