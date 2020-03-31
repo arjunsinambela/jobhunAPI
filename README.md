@@ -1,6 +1,6 @@
 # Lumen PHP Framework
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/daffakbar"><img src="https://avatars2.githubusercontent.com/u/36661135?v=4" width="100px;" alt=""/><br /><sub><b>daffakbar</b></sub></a><br /><a href="https://github.com/arjunsinambela/jobhunAPI/commits?author=daffakbar" title="Code">💻</a> <a href="https://github.com/arjunsinambela/jobhunAPI/commits?author=daffakbar" title="Documentation">📖</a> <a href="#design-daffakbar" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/arjunsinambela"><img src="https://avatars0.githubusercontent.com/u/42605944?v=4" width="100px;" alt=""/><br /><sub><b>arjun_sinambela1</b></sub></a><br /><a href="https://github.com/arjunsinambela/jobhunAPI/commits?author=arjunsinambela" title="Code">💻</a> <a href="https://github.com/arjunsinambela/jobhunAPI/commits?author=arjunsinambela" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/yunuswidodo"><img src="https://avatars3.githubusercontent.com/u/36204996?v=4" width="100px;" alt=""/><br /><sub><b>yunuswidodo</b></sub></a><br /><a href="https://github.com/arjunsinambela/jobhunAPI/commits?author=yunuswidodo" title="Code">💻</a> <a href="https://github.com/arjunsinambela/jobhunAPI/issues?q=author%3Ayunuswidodo" title="Bug reports">🐛</a> <a href="#ideas-yunuswidodo" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

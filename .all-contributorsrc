@@ -25,6 +25,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "yunuswidodo",
+      "name": "yunuswidodo",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/36204996?v=4",
+      "profile": "https://github.com/yunuswidodo",
+      "contributions": [
+        "code",
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
